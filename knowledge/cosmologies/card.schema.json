@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cosmology-lens.local/schemas/cosmology-card.json",
+  "title": "Cosmology card",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "label", "version", "scope", "claims", "sources", "review"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "label": {"type": "string", "minLength": 3},
+    "version": {"type": "string"},
+    "scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["tradition", "school", "period", "region", "limitations"],
+      "properties": {
+        "tradition": {"type": "string"},
+        "school": {"type": ["string", "null"]},
+        "period": {"type": "string"},
+        "region": {"type": "string"},
+        "limitations": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "claims": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["primitive", "claim", "source_ids", "contested", "confidence"],
+        "properties": {
+          "primitive": {"enum": ["ultimate_reality", "constituents", "origin", "causality_and_agency", "cosmic_structure", "time", "human_place", "self_and_consciousness", "fundamental_problem", "transformation", "destiny", "epistemic_access"]},
+          "claim": {"type": "string", "minLength": 10},
+          "source_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+          "contested": {"type": "boolean"},
+          "confidence": {"enum": ["high", "medium", "low"]},
+          "notes": {"type": "string"}
+        }
+      }
+    },
+    "distinguishing_claims": {"type": "array", "items": {"type": "string"}},
+    "common_confusions": {"type": "array", "items": {"type": "string"}},
+    "related_cards": {"type": "array", "items": {"type": "string"}},
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "url", "source_type", "accessed_at"],
+        "properties": {
+          "id": {"type": "string"},
+          "title": {"type": "string"},
+          "author": {"type": ["string", "null"]},
+          "url": {"type": "string", "format": "uri"},
+          "source_type": {"enum": ["primary_text", "peer_reviewed", "scholarly_reference", "expert_database", "other"]},
+          "accessed_at": {"type": "string", "format": "date"},
+          "passage": {"type": ["string", "null"]}
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "required": ["status", "reviewer", "reviewed_at"],
+      "properties": {
+        "status": {"enum": ["draft", "source_checked", "domain_reviewed"]},
+        "reviewer": {"type": ["string", "null"]},
+        "reviewed_at": {"type": ["string", "null"], "format": "date"},
+        "notes": {"type": "string"}
+      }
+    }
+  }
+}

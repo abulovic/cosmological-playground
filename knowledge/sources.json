@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-07-06",
+  "description": "Canonical public source registry for research provenance and website citations.",
+  "sources": [
+    {
+      "id": "aerts-apostel-1994-worldviews",
+      "title": "World Views: From Fragmentation to Integration",
+      "creators": [
+        "Diederik Aerts",
+        "Leo Apostel",
+        "Bart De Moor",
+        "Staf Hellemans",
+        "Edel Maex",
+        "Hubert Van Belle",
+        "Jan Van der Veken"
+      ],
+      "year": 1994,
+      "source_type": "scholarly_book",
+      "publisher": "VUB Press",
+      "url": "https://pespmc1.vub.ac.be/CLEA/Reports/WorldviewsBook.html",
+      "alternate_urls": [
+        "https://researchportal.vub.be/en/publications/worldviews-from-fragmentation-towards-integration/"
+      ],
+      "accessed_at": "2026-07-06",
+      "relevant_locators": [
+        "Part I, section 2: The Seven Components of a World View"
+      ],
+      "used_in": [
+        {
+          "artifact": "docs/COSMOLOGY_PRIMITIVES.md",
+          "section": "Comparison with scholarly frameworks",
+          "purpose": "Coverage and cosmology-values boundary stress test"
+        }
+      ],
+      "review": {
+        "status": "source_checked",
+        "notes": "Full research text and VUB publication record checked; use does not imply endorsement of universal categories."
+      },
+      "website": {
+        "display": true,
+        "citation": "Aerts, D., Apostel, L., et al. (1994). World Views: From Fragmentation to Integration. VUB Press.",
+        "link_label": "Read the VUB research text"
+      }
+    },
+    {
+      "id": "kearney-1984-world-view",
+      "title": "World View",
+      "creators": [
+        "Michael Kearney"
+      ],
+      "year": 1984,
+      "source_type": "scholarly_book",
+      "publisher": "Chandler & Sharp",
+      "identifiers": {
+        "isbn": "0-88316-550-3",
+        "oclc": "10023003"
+      },
+      "url": "https://search.worldcat.org/title/world-view/oclc/10023003",
+      "alternate_urls": [],
+      "accessed_at": "2026-07-06",
+      "relevant_locators": [
+        "Logico-structural model of worldview categories; category summary cross-checked through Schafer 2004"
+      ],
+      "used_in": [
+        {
+          "artifact": "docs/COSMOLOGY_PRIMITIVES.md",
+          "section": "Comparison with scholarly frameworks",
+          "purpose": "Anthropological comparison of self, other, relations, causality, space, and time"
+        }
+      ],
+      "review": {
+        "status": "bibliographic_only",
+        "notes": "The linked WorldCat record establishes publication metadata, not the substantive category summary; pair with schafer-2004-world-view-theory."
+      },
+      "website": {
+        "display": true,
+        "citation": "Kearney, M. (1984). World View. Chandler & Sharp.",
+        "link_label": "View the WorldCat record"
+      }
+    },
+    {
+      "id": "schafer-2004-world-view-theory",
+      "title": "World view theory and the conceptualisation of space in mathematics education",
+      "creators": [
+        "Marc Schafer"
+      ],
+      "year": 2004,
+      "source_type": "peer_reviewed_article",
+      "publisher": "Pythagoras",
+      "identifiers": {
+        "doi": "10.4102/pythagoras.v0i59.127"
+      },
+      "url": "https://doi.org/10.4102/pythagoras.v0i59.127",
+      "alternate_urls": [],
+      "accessed_at": "2026-07-06",
+      "relevant_locators": [
+        "Issue 59, pages 8-10: summary and application of Kearney's seven worldview categories"
+      ],
+      "used_in": [
+        {
+          "artifact": "docs/COSMOLOGY_PRIMITIVES.md",
+          "section": "Comparison with scholarly frameworks",
+          "purpose": "Accessible scholarly support for the Kearney category summary"
+        }
+      ],
+      "review": {
+        "status": "source_checked",
+        "notes": "Secondary account of Kearney's framework; do not present it as the original formulation."
+      },
+      "website": {
+        "display": true,
+        "citation": "Schafer, M. (2004). World view theory and the conceptualisation of space in mathematics education. Pythagoras, 59, 8-17.",
+        "link_label": "Open the article by DOI"
+      }
+    },
+    {
+      "id": "smart-1998-dimensions-sacred",
+      "title": "Dimensions of the Sacred: An Anatomy of the World's Beliefs",
+      "creators": [
+        "Ninian Smart"
+      ],
+      "year": 1998,
+      "source_type": "scholarly_book",
+      "publisher": "University of California Press",
+      "identifiers": {
+        "isbn": "9780520219601"
+      },
+      "url": "https://www.ucpress.edu/book/9780520219601/dimensions-of-the-sacred",
+      "alternate_urls": [],
+      "accessed_at": "2026-07-06",
+      "relevant_locators": [
+        "Chapters 1-7: doctrinal, ritual, mythic, experiential, ethical, social, and material dimensions"
+      ],
+      "used_in": [
+        {
+          "artifact": "docs/COSMOLOGY_PRIMITIVES.md",
+          "section": "Comparison with scholarly frameworks",
+          "purpose": "Boundary check against reducing religion or worldview to doctrine alone"
+        }
+      ],
+      "review": {
+        "status": "source_checked",
+        "notes": "Publisher description and contents checked; the ontology uses the framework as a scope warning, not a complete theory of religion."
+      },
+      "website": {
+        "display": true,
+        "citation": "Smart, N. (1998). Dimensions of the Sacred: An Anatomy of the World's Beliefs. University of California Press.",
+        "link_label": "View the publisher record"
+      }
+    },
+    {
+      "id": "cosmological-playground-repository",
+      "title": "Cosmological Playground source repository",
+      "creators": [
+        "Ana Bulovic"
+      ],
+      "year": 2026,
+      "source_type": "project_repository",
+      "publisher": "GitHub",
+      "url": "https://github.com/abulovic/cosmological-playground",
+      "alternate_urls": [],
+      "accessed_at": "2026-07-06",
+      "relevant_locators": [
+        "Repository root"
+      ],
+      "used_in": [
+        {
+          "artifact": "README.md",
+          "section": "Repository operating system",
+          "purpose": "Version history and public project provenance"
+        }
+      ],
+      "review": {
+        "status": "project_source",
+        "notes": "Project infrastructure source, not doctrinal evidence for a cosmology claim."
+      },
+      "website": {
+        "display": true,
+        "citation": "Bulovic, A. (2026). Cosmological Playground [Source code]. GitHub.",
+        "link_label": "View the source repository"
+      }
+    }
+  ]
+}

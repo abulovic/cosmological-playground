@@ -1,0 +1,39 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node and Next.js
+node_modules/
+.next/
+out/
+
+# Generated output and local data
+coverage/
+htmlcov/
+dist/
+build/
+*.log
+*.sqlite
+*.sqlite3
+knowledge/values/raw/
+data/private/
+uploads/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+*.swp

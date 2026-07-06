@@ -1,0 +1,517 @@
+{
+  "schema_version": 1,
+  "project": {
+    "name": "Cosmology Lens",
+    "goal": "Analyze the cosmological commitments represented in text, compare them with sourced cosmologies, expose implied values using MAI resources, and report calibrated uncertainty.",
+    "current_phase": "day_1_foundations",
+    "prototype_horizon_days": 7,
+    "updated_at": "2026-07-06T13:00:12+02:00"
+  },
+  "readiness": {
+    "research_framework": {
+      "level": 2,
+      "critical": true,
+      "evidence": [
+        "PROJECT_CHARTER.md",
+        "docs/COSMOLOGY_PRIMITIVES.md",
+        "tests/test_ontology_contract.py"
+      ]
+    },
+    "reference_knowledge_base": {
+      "level": 1,
+      "critical": true,
+      "evidence": [
+        "knowledge/cosmologies/card.schema.json"
+      ]
+    },
+    "ingestion_and_stance": {
+      "level": 1,
+      "critical": true,
+      "evidence": [
+        "ARCHITECTURE.md"
+      ]
+    },
+    "comparison_and_ranking": {
+      "level": 1,
+      "critical": true,
+      "evidence": [
+        "docs/CONFIDENCE_AND_RANKING.md"
+      ]
+    },
+    "values_integration": {
+      "level": 1,
+      "critical": true,
+      "evidence": [
+        "knowledge/values/README.md"
+      ]
+    },
+    "confidence_and_evaluation": {
+      "level": 1,
+      "critical": true,
+      "evidence": [
+        "docs/CONFIDENCE_AND_RANKING.md",
+        "evals/README.md"
+      ]
+    },
+    "web_experience": {
+      "level": 1,
+      "critical": true,
+      "evidence": [
+        "apps/web/package.json"
+      ]
+    },
+    "operations_and_safety": {
+      "level": 2,
+      "critical": true,
+      "evidence": [
+        "AGENTS.md",
+        "scripts/project.py",
+        "tests/test_project_framework.py"
+      ]
+    }
+  },
+  "tasks": [
+    {
+      "id": "OPS-001",
+      "day": 0,
+      "workstream": "operations_and_safety",
+      "title": "Create the project operating contract and state tracker",
+      "status": "done",
+      "priority": 0,
+      "depends_on": [],
+      "required_artifacts": [
+        "AGENTS.md",
+        ".agent/state.json",
+        ".agent/READINESS.md",
+        "scripts/project.py"
+      ],
+      "acceptance": [
+        "State validates",
+        "Status report can be generated",
+        "One-task concurrency is enforced",
+        "Anti-loop rules are explicit"
+      ],
+      "attempts": 1,
+      "completion_summary": "Repository-local operating contract, readiness rubric, task state, and control CLI created and verified.",
+      "completion_evidence": [
+        "tests/test_project_framework.py",
+        "reports/CURRENT_STATUS.md"
+      ],
+      "verified_at": "2026-07-06T00:00:00+02:00",
+      "blocker": null
+    },
+    {
+      "id": "OPS-002",
+      "day": 0,
+      "workstream": "operations_and_safety",
+      "title": "Persist source provenance and establish GitHub version control",
+      "status": "in_progress",
+      "priority": 5,
+      "depends_on": [
+        "OPS-001"
+      ],
+      "required_artifacts": [
+        ".gitignore",
+        "knowledge/sources.json",
+        "docs/SOURCE_PROVENANCE.md"
+      ],
+      "acceptance": [
+        "Scholarly and project sources are stored in a machine-readable website-ready registry",
+        "The citation contract preserves provenance, access dates, usage, and review status",
+        "Generated dependencies, local environments, and likely secrets are excluded from version control",
+        "The project is committed and pushed to abulovic/cosmological-playground"
+      ],
+      "attempts": 1,
+      "completion_summary": null,
+      "completion_evidence": [],
+      "verified_at": null,
+      "blocker": null,
+      "started_at": "2026-07-06T13:00:12+02:00"
+    },
+    {
+      "id": "D1-001",
+      "day": 1,
+      "workstream": "research_framework",
+      "title": "Review and freeze the cosmological primitive ontology",
+      "status": "done",
+      "priority": 10,
+      "depends_on": [
+        "OPS-001"
+      ],
+      "required_artifacts": [
+        "docs/COSMOLOGY_PRIMITIVES.md"
+      ],
+      "acceptance": [
+        "Every primitive has a definition, allowed evidence states, and counterexamples",
+        "At least two scholarly worldview frameworks are compared",
+        "Scope boundary between cosmology and values is explicit"
+      ],
+      "attempts": 1,
+      "completion_summary": "Frozen ontology v1 with twelve operationally bounded primitives, common evidence semantics, voice-aware exact-span rules, scholarly framework comparison, cosmology/value separation, difficult-case fixtures, and schema-alignment tests.",
+      "completion_evidence": [
+        "docs/COSMOLOGY_PRIMITIVES.md",
+        "DECISIONS.md",
+        "tests/test_ontology_contract.py"
+      ],
+      "verified_at": "2026-07-06T12:57:18+02:00",
+      "blocker": null,
+      "started_at": "2026-07-06T12:52:45+02:00"
+    },
+    {
+      "id": "D1-002",
+      "day": 1,
+      "workstream": "reference_knowledge_base",
+      "title": "Validate the cosmology-card schema with three contrasting cards",
+      "status": "queued",
+      "priority": 20,
+      "depends_on": [
+        "D1-001"
+      ],
+      "required_artifacts": [
+        "knowledge/cosmologies/card.schema.json",
+        "knowledge/cosmologies/cards/scientific-naturalism.json",
+        "knowledge/cosmologies/cards/christian-classical-theism.json",
+        "knowledge/cosmologies/cards/buddhist-madhyamaka.json"
+      ],
+      "acceptance": [
+        "Cards validate against schema",
+        "Claims have source provenance and scope notes",
+        "Contested and absent claims are representable"
+      ],
+      "attempts": 0,
+      "completion_summary": null,
+      "completion_evidence": [],
+      "verified_at": null,
+      "blocker": null
+    },
+    {
+      "id": "D1-003",
+      "day": 1,
+      "workstream": "confidence_and_evaluation",
+      "title": "Freeze confidence semantics and abstention policy",
+      "status": "ready",
+      "priority": 30,
+      "depends_on": [
+        "OPS-001"
+      ],
+      "required_artifacts": [
+        "docs/CONFIDENCE_AND_RANKING.md"
+      ],
+      "acceptance": [
+        "Coverage, fit, and calibrated confidence are distinct",
+        "Abstention triggers are testable",
+        "Unvalidated confidence is visibly provisional"
+      ],
+      "attempts": 0,
+      "completion_summary": null,
+      "completion_evidence": [],
+      "verified_at": null,
+      "blocker": null
+    },
+    {
+      "id": "D1-004",
+      "day": 1,
+      "workstream": "web_experience",
+      "title": "Verify web and API health-check scaffolds",
+      "status": "done",
+      "priority": 40,
+      "depends_on": [
+        "OPS-001"
+      ],
+      "required_artifacts": [
+        "apps/web/app/page.tsx",
+        "services/api/src/cosmology_api/main.py"
+      ],
+      "acceptance": [
+        "Web build succeeds",
+        "API health test passes",
+        "Environment contract is documented"
+      ],
+      "attempts": 1,
+      "completion_summary": "Pinned dependencies installed; Next.js production build and lint pass; FastAPI health contract passes in the local virtual environment.",
+      "completion_evidence": [
+        "package-lock.json",
+        "apps/web/app/page.tsx",
+        "services/api/tests/test_health.py"
+      ],
+      "verified_at": "2026-07-06T12:11:50+02:00",
+      "blocker": null,
+      "started_at": "2026-07-06T12:11:30+02:00"
+    },
+    {
+      "id": "D2-001",
+      "day": 2,
+      "workstream": "reference_knowledge_base",
+      "title": "Curate the first 24 scoped cosmology cards",
+      "status": "queued",
+      "priority": 50,
+      "depends_on": [
+        "D1-002"
+      ],
+      "required_artifacts": [
+        "knowledge/cosmologies/manifest.json"
+      ],
+      "acceptance": [
+        "At least 24 cards validate",
+        "Every card is historically scoped",
+        "Every substantive claim has scholarly or primary-source provenance",
+        "A review-needed flag identifies unreviewed claims"
+      ],
+      "attempts": 0,
+      "completion_summary": null,
+      "completion_evidence": [],
+      "verified_at": null,
+      "blocker": null
+    },
+    {
+      "id": "D2-002",
+      "day": 2,
+      "workstream": "values_integration",
+      "title": "Import and normalize available MAI value-card data",
+      "status": "queued",
+      "priority": 60,
+      "depends_on": [
+        "OPS-001"
+      ],
+      "required_artifacts": [
+        "knowledge/values/manifest.json",
+        "knowledge/values/normalized_values.jsonl"
+      ],
+      "acceptance": [
+        "Source version and license status are recorded",
+        "Value cards remain distinct from moral-graph edges",
+        "Normalization is reproducible"
+      ],
+      "attempts": 0,
+      "completion_summary": null,
+      "completion_evidence": [],
+      "verified_at": null,
+      "blocker": null
+    },
+    {
+      "id": "D2-003",
+      "day": 2,
+      "workstream": "reference_knowledge_base",
+      "title": "Build hybrid retrieval over cosmology claims and value cards",
+      "status": "queued",
+      "priority": 70,
+      "depends_on": [
+        "D2-001",
+        "D2-002"
+      ],
+      "required_artifacts": [
+        "services/api/src/cosmology_api/retrieval.py"
+      ],
+      "acceptance": [
+        "Keyword and embedding retrieval are combined",
+        "Retrieval returns provenance",
+        "A deterministic fallback works without embeddings"
+      ],
+      "attempts": 0,
+      "completion_summary": null,
+      "completion_evidence": [],
+      "verified_at": null,
+      "blocker": null
+    },
+    {
+      "id": "D3-001",
+      "day": 3,
+      "workstream": "ingestion_and_stance",
+      "title": "Implement bounded text, URL, PDF, and DOCX ingestion",
+      "status": "queued",
+      "priority": 80,
+      "depends_on": [
+        "D1-004"
+      ],
+      "required_artifacts": [
+        "services/api/src/cosmology_api/ingestion.py"
+      ],
+      "acceptance": [
+        "All four input types produce normalized segments",
+        "URL fetching blocks private-network targets and excessive payloads",
+        "Failures are explicit and recoverable"
+      ],
+      "attempts": 0,
+      "completion_summary": null,
+      "completion_evidence": [],
+      "verified_at": null,
+      "blocker": null
+    },
+    {
+      "id": "D3-002",
+      "day": 3,
+      "workstream": "ingestion_and_stance",
+      "title": "Implement voice, quotation, negation, and stance extraction",
+      "status": "queued",
+      "priority": 90,
+      "depends_on": [
+        "D3-001",
+        "D1-001"
+      ],
+      "required_artifacts": [
+        "services/api/src/cosmology_api/extraction.py"
+      ],
+      "acceptance": [
+        "Claims retain exact source spans",
+        "Endorsement is separated from quotation, criticism, reporting, and fiction",
+        "Sparse evidence remains unobserved rather than inferred"
+      ],
+      "attempts": 0,
+      "completion_summary": null,
+      "completion_evidence": [],
+      "verified_at": null,
+      "blocker": null
+    },
+    {
+      "id": "D4-001",
+      "day": 4,
+      "workstream": "comparison_and_ranking",
+      "title": "Implement primitive-level comparison and candidate ranking",
+      "status": "queued",
+      "priority": 100,
+      "depends_on": [
+        "D2-003",
+        "D3-002",
+        "D1-003"
+      ],
+      "required_artifacts": [
+        "services/api/src/cosmology_api/ranking.py"
+      ],
+      "acceptance": [
+        "Comparisons expose entailment through contradiction",
+        "Scores retain primitive-level evidence",
+        "Hybrid and no-good-match results are supported"
+      ],
+      "attempts": 0,
+      "completion_summary": null,
+      "completion_evidence": [],
+      "verified_at": null,
+      "blocker": null
+    },
+    {
+      "id": "D4-002",
+      "day": 4,
+      "workstream": "values_integration",
+      "title": "Implement verified MAI value-card matching",
+      "status": "queued",
+      "priority": 110,
+      "depends_on": [
+        "D2-002",
+        "D3-002"
+      ],
+      "required_artifacts": [
+        "services/api/src/cosmology_api/values.py"
+      ],
+      "acceptance": [
+        "Every match has a supporting passage",
+        "Card similarity and graph position are labeled separately",
+        "Low-confidence mappings abstain"
+      ],
+      "attempts": 0,
+      "completion_summary": null,
+      "completion_evidence": [],
+      "verified_at": null,
+      "blocker": null
+    },
+    {
+      "id": "D5-001",
+      "day": 5,
+      "workstream": "web_experience",
+      "title": "Build the evidence-bearing analysis interface",
+      "status": "queued",
+      "priority": 120,
+      "depends_on": [
+        "D4-001",
+        "D4-002"
+      ],
+      "required_artifacts": [
+        "apps/web/app/analyze/page.tsx"
+      ],
+      "acceptance": [
+        "Users can submit supported inputs",
+        "Rankings, primitive matrix, source spans, values, and uncertainty are visible",
+        "JSON and Markdown export work"
+      ],
+      "attempts": 0,
+      "completion_summary": null,
+      "completion_evidence": [],
+      "verified_at": null,
+      "blocker": null
+    },
+    {
+      "id": "D6-001",
+      "day": 6,
+      "workstream": "confidence_and_evaluation",
+      "title": "Create and human-review the evaluation set",
+      "status": "queued",
+      "priority": 130,
+      "depends_on": [
+        "D4-001"
+      ],
+      "required_artifacts": [
+        "evals/cases/reviewed.jsonl"
+      ],
+      "acceptance": [
+        "Canonical, mixed, sparse, quoted, negated, fictional, and out-of-distribution texts are represented",
+        "Labels record reviewer and rationale",
+        "Calibration split is held out"
+      ],
+      "attempts": 0,
+      "completion_summary": null,
+      "completion_evidence": [],
+      "verified_at": null,
+      "blocker": null
+    },
+    {
+      "id": "D6-002",
+      "day": 6,
+      "workstream": "confidence_and_evaluation",
+      "title": "Measure ranking quality and calibrate confidence",
+      "status": "queued",
+      "priority": 140,
+      "depends_on": [
+        "D6-001"
+      ],
+      "required_artifacts": [
+        "evals/results/latest.json",
+        "reports/EVALUATION.md"
+      ],
+      "acceptance": [
+        "Top-1, recall@3, Brier score, calibration error, and abstention metrics are reported",
+        "Calibration uses held-out labels",
+        "Weak results remain visibly provisional"
+      ],
+      "attempts": 0,
+      "completion_summary": null,
+      "completion_evidence": [],
+      "verified_at": null,
+      "blocker": null
+    },
+    {
+      "id": "D7-001",
+      "day": 7,
+      "workstream": "operations_and_safety",
+      "title": "Harden, document, and prepare a bounded pilot",
+      "status": "queued",
+      "priority": 150,
+      "depends_on": [
+        "D5-001",
+        "D6-002"
+      ],
+      "required_artifacts": [
+        "docs/PILOT_RUNBOOK.md",
+        "reports/PILOT_READINESS.md"
+      ],
+      "acceptance": [
+        "Privacy, cost, size, SSRF, timeout, and failure controls are tested",
+        "Methodology and limitations are user-visible",
+        "A pilot operator can reproduce setup and recovery"
+      ],
+      "attempts": 0,
+      "completion_summary": null,
+      "completion_evidence": [],
+      "verified_at": null,
+      "blocker": null
+    }
+  ]
+}
