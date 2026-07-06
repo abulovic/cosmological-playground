@@ -5,7 +5,7 @@
     "goal": "Analyze the cosmological commitments represented in text, compare them with sourced cosmologies, expose implied values using MAI resources, and report calibrated uncertainty.",
     "current_phase": "day_1_foundations",
     "prototype_horizon_days": 7,
-    "updated_at": "2026-07-06T13:06:11+02:00"
+    "updated_at": "2026-07-06T13:16:28+02:00"
   },
   "readiness": {
     "research_framework": {
@@ -105,7 +105,7 @@
       "day": 0,
       "workstream": "operations_and_safety",
       "title": "Persist source provenance and establish GitHub version control",
-      "status": "blocked",
+      "status": "done",
       "priority": 5,
       "depends_on": [
         "OPS-001"
@@ -121,13 +121,19 @@
         "Generated dependencies, local environments, and likely secrets are excluded from version control",
         "The project is committed and pushed to abulovic/cosmological-playground"
       ],
-      "attempts": 1,
-      "completion_summary": null,
-      "completion_evidence": [],
-      "verified_at": null,
-      "blocker": "Local repository and commit a93ac9e are ready, but GitHub push cannot authenticate: HTTPS reports no username/device credentials, gh is not installed, and SSH-over-443 reports Permission denied (publickey). Unblock by authenticating GitHub on this Mac with a credential helper/PAT or authorized SSH key, then run git push -u origin main.",
-      "started_at": "2026-07-06T13:00:12+02:00",
-      "blocked_at": "2026-07-06T13:06:11+02:00"
+      "attempts": 2,
+      "completion_summary": "Website-ready source provenance, citation rules, secret-safe ignores, and GitHub version control are established; registry tests pass and origin/main was verified at commit a97d34e.",
+      "completion_evidence": [
+        "knowledge/sources.json",
+        "docs/SOURCE_PROVENANCE.md",
+        "tests/test_source_registry.py",
+        ".gitignore"
+      ],
+      "verified_at": "2026-07-06T13:16:28+02:00",
+      "blocker": null,
+      "started_at": "2026-07-06T13:16:09+02:00",
+      "blocked_at": "2026-07-06T13:06:11+02:00",
+      "unblocked_at": "2026-07-06T13:16:08+02:00"
     },
     {
       "id": "D1-001",
