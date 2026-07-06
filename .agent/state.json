@@ -5,7 +5,7 @@
     "goal": "Analyze the cosmological commitments represented in text, compare them with sourced cosmologies, expose implied values using MAI resources, and report calibrated uncertainty.",
     "current_phase": "day_1_foundations",
     "prototype_horizon_days": 7,
-    "updated_at": "2026-07-06T13:00:12+02:00"
+    "updated_at": "2026-07-06T13:06:11+02:00"
   },
   "readiness": {
     "research_framework": {
@@ -105,7 +105,7 @@
       "day": 0,
       "workstream": "operations_and_safety",
       "title": "Persist source provenance and establish GitHub version control",
-      "status": "in_progress",
+      "status": "blocked",
       "priority": 5,
       "depends_on": [
         "OPS-001"
@@ -125,8 +125,9 @@
       "completion_summary": null,
       "completion_evidence": [],
       "verified_at": null,
-      "blocker": null,
-      "started_at": "2026-07-06T13:00:12+02:00"
+      "blocker": "Local repository and commit a93ac9e are ready, but GitHub push cannot authenticate: HTTPS reports no username/device credentials, gh is not installed, and SSH-over-443 reports Permission denied (publickey). Unblock by authenticating GitHub on this Mac with a credential helper/PAT or authorized SSH key, then run git push -u origin main.",
+      "started_at": "2026-07-06T13:00:12+02:00",
+      "blocked_at": "2026-07-06T13:06:11+02:00"
     },
     {
       "id": "D1-001",

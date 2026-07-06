@@ -1,16 +1,16 @@
 # Current project status
 
-_Generated from `.agent/state.json` at 2026-07-06T13:03:27+02:00._
+_Generated from `.agent/state.json` at 2026-07-06T13:06:49+02:00._
 
 **Overall readiness:** 1 — Defined
 **Current phase:** `day_1_foundations`
-**Tasks:** 3 done · 1 active · 4 ready · 9 waiting · 0 blocked
+**Tasks:** 3 done · 0 active · 4 ready · 9 waiting · 1 blocked
 
 Overall readiness is the lowest critical workstream level, not an average.
 
 ## Active and next work
 
-- Active: **OPS-002** — Persist source provenance and establish GitHub version control (attempt 1)
+- Active: none
 - Next: **D1-002** — Validate the cosmology-card schema with three contrasting cards
 - Next: **D1-003** — Freeze confidence semantics and abstention policy
 - Next: **D2-002** — Import and normalize available MAI value-card data
@@ -32,7 +32,7 @@ Overall readiness is the lowest critical workstream level, not an average.
 
 | Day | Done | Active | Ready | Waiting | Blocked |
 |---:|---:|---:|---:|---:|---:|
-| 0 | 1 | 1 | 0 | 0 | 0 |
+| 0 | 1 | 0 | 0 | 0 | 1 |
 | 1 | 2 | 0 | 2 | 0 | 0 |
 | 2 | 0 | 0 | 1 | 2 | 0 |
 | 3 | 0 | 0 | 1 | 1 | 0 |
@@ -43,7 +43,7 @@ Overall readiness is the lowest critical workstream level, not an average.
 
 ## Blockers
 
-No recorded blockers.
+- **OPS-002**: Local repository and commit a93ac9e are ready, but GitHub push cannot authenticate: HTTPS reports no username/device credentials, gh is not installed, and SSH-over-443 reports Permission denied (publickey). Unblock by authenticating GitHub on this Mac with a credential helper/PAT or authorized SSH key, then run git push -u origin main.
 
 ## Readiness interpretation
 
