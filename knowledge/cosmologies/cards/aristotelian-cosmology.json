@@ -1,0 +1,113 @@
+{
+  "id": "aristotelian-cosmology",
+  "label": "Aristotelian cosmology",
+  "version": "0.1.0",
+  "scope": {
+    "tradition": "Greek philosophy (Peripatetic)",
+    "school": "Aristotle's natural philosophy (Physics, De Caelo, Metaphysics 12, De Anima)",
+    "period": "4th century BCE (Aristotle, 384–322 BCE)",
+    "region": "Classical Greece (Athens)",
+    "limitations": [
+      "Draft awaiting human domain review (D2-001); review needed before any scholarly authority is claimed.",
+      "Scoped to Aristotle's own treatises as presented in the sources; later Peripatetic, Hellenistic, and medieval Aristotelianisms are out of scope.",
+      "No claims are recorded for fundamental_problem, transformation, or destiny: Aristotle's cosmology carries no soteriological narrative in the sources used. Absence means unspecified, not denial."
+    ]
+  },
+  "claims": [
+    {
+      "primitive": "ultimate_reality",
+      "claim": "The ultimate cause of cosmic motion is an unmoved mover: 'whatever is in motion must be moved by something else, and the first thing is not moved by something else, it is itself motionless' — a being that 'possesses nothing but actuality', an intellect that 'thinks itself' perpetually.",
+      "source_ids": ["iep-aristotle", "sep-aristotle-natphil"],
+      "contested": true,
+      "confidence": "high",
+      "notes": "The doctrine is textually secure, but the entry notes interpretive debate about how the Physics 8 unmoved mover relates to Metaphysics 12's first mover 'moving as an object of love and striving'."
+    },
+    {
+      "primitive": "constituents",
+      "claim": "Natural things are compounds of matter and form: 'matter provides the potentialities which are actualised by the form'.",
+      "source_ids": ["sep-aristotle-natphil", "iep-aristotle"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "origin",
+      "claim": "The cosmos and its motion are eternal, without beginning: 'motion and change in the universe can have no beginning, because the occurrence of change presupposes a previous process of change'.",
+      "source_ids": ["sep-aristotle-natphil"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "causality_and_agency",
+      "claim": "Nature is 'an inner principle of change and being at rest', explanation is fourfold and teleological — 'final causes account for processes and entities by being what these processes and entities are for' — and 'nature does nothing in vain'; moreover, 'for each motion, whether natural or contrary to nature, there needs to exist a mover'.",
+      "source_ids": ["sep-aristotle-natphil", "iep-aristotle"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "cosmic_structure",
+      "claim": "Eternal celestial bodies govern a dependent sublunary realm of generation and corruption: 'the Sun's course along the ecliptic is responsible for many sublunar changes, the cycle of the seasons being foremost among them'.",
+      "source_ids": ["sep-aristotle-natphil"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "time",
+      "claim": "Time is tied to eternal celestial motion: 'the motion of the eternal bodies is what makes time, so the life and being of sublunary things depends on them'.",
+      "source_ids": ["iep-aristotle"],
+      "contested": false,
+      "confidence": "medium"
+    },
+    {
+      "primitive": "self_and_consciousness",
+      "claim": "The soul is the form of a living body, not an independent substance: 'the psyche is defined by Aristotle as the first actuality of a living animal, which is the form of a natural body potentially having life'.",
+      "source_ids": ["iep-aristotle"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "human_place",
+      "claim": "Humans are distinguished within nature by rational activity: 'the human function must be an activity of the psyche not without reason'.",
+      "source_ids": ["iep-aristotle"],
+      "contested": false,
+      "confidence": "high"
+    }
+  ],
+  "distinguishing_claims": [
+    "The cosmos is eternal, with no creation and no end",
+    "An unmoved mover of pure actuality is the ultimate cause of motion",
+    "Explanation is teleological: natures act for ends, and 'nature does nothing in vain'",
+    "A divided cosmos: eternal celestial motions govern a sublunary realm of change"
+  ],
+  "common_confusions": [
+    "The unmoved mover is not a creator: the world is eternal and the mover causes motion, not existence from nothing.",
+    "Aristotelian teleology is immanent in natures, not the plan of a designing agent as in the Timaeus or classical theism.",
+    "The soul as form of the body is not the separable immortal soul of Platonism or Christianity."
+  ],
+  "related_cards": ["platonic-timaeus", "stoic-cosmology", "christian-classical-theism", "scientific-naturalism"],
+  "sources": [
+    {
+      "id": "sep-aristotle-natphil",
+      "title": "Aristotle's Natural Philosophy (Stanford Encyclopedia of Philosophy)",
+      "author": "Istvan Bodnar",
+      "url": "https://plato.stanford.edu/entries/aristotle-natphil/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "Nature, according to Aristotle, is an inner principle of change and being at rest (Physics 2.1, 192b20–23). [...] final causes account for processes and entities by being what these processes and entities are for. [...] Motion and change in the universe can have no beginning, because the occurrence of change presupposes a previous process of change. [...] For each motion, whether natural or contrary to nature, there needs to exist a mover. [...] The mover of these spheres possesses nothing but actuality. [...] the Sun's course along the ecliptic is responsible for many sublunar changes, the cycle of the seasons being foremost among them. (First published 2006-05-26; substantive revision 2023-04-24.)"
+    },
+    {
+      "id": "iep-aristotle",
+      "title": "Aristotle (Internet Encyclopedia of Philosophy)",
+      "author": null,
+      "url": "https://iep.utm.edu/aristotle/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "whatever is in motion must be moved by something else, and the first thing is not moved by something else, it is itself motionless (Met. 1073a25–34). [...] the primary being as an intellect or a kind of intellect that 'thinks itself' perpetually (Met. 1072b19–20). [...] the motion of the eternal bodies is what makes time, so the life and being of sublunary things depends on them. [...] nature does nothing in vain (GA 741b5). [...] The psyche is defined by Aristotle as the first actuality of a living animal, which is the form of a natural body potentially having life (DA 412a19–22). [...] the human function must be an activity of the psyche not without reason (EN 1097b24–1098a18). (Author byline not captured at access time — verify on review.)"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": "Drafted for D2-001 batch 2. Source URLs fetched and passages captured on 2026-07-06. Review needed: no human domain review yet. Open provenance item: the IEP 'Aristotle' author byline was not captured during fetch and must be added at review."
+  }
+}

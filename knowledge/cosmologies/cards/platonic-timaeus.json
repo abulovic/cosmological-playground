@@ -1,0 +1,122 @@
+{
+  "id": "platonic-timaeus",
+  "label": "Platonic cosmology (Timaeus)",
+  "version": "0.1.0",
+  "scope": {
+    "tradition": "Greek philosophy (Platonism)",
+    "school": "Plato's cosmology as presented in the Timaeus",
+    "period": "c. 360 BCE (composition of the Timaeus)",
+    "region": "Classical Athens, Greece",
+    "limitations": [
+      "Draft awaiting human domain review (D2-001); review needed before any scholarly authority is claimed.",
+      "Scoped to the Timaeus alone; Middle Platonist, Neoplatonist, and modern reconstructions of 'Platonism' are out of scope.",
+      "Whether the creation account is literal or metaphorical is a live scholarly dispute; claims below record the text's surface commitments and flag the dispute.",
+      "No claims are recorded for human_place, fundamental_problem, or destiny as separate primitives: the dialogue treats human purpose through the soul's alignment with cosmic order (see self_and_consciousness and transformation). Absence means unspecified, not denial."
+    ]
+  },
+  "claims": [
+    {
+      "primitive": "ultimate_reality",
+      "claim": "The universe is 'the product of rational, purposive, and beneficent agency', crafted by a divine Craftsman (Demiurge) 'imitating an unchanging and eternal model' — the intelligible Forms.",
+      "source_ids": ["sep-plato-timaeus"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "constituents",
+      "claim": "The perceptible world is built from four elemental corpuscles with geometrical structure — 'fire of tetrahedra, air of octahedra, water of icosahedra, and earth of cubes' — appearing within a receptacle, 'an enduring substratum, neutral in itself but temporarily taking on the various characterizations through traces of the four elements'.",
+      "source_ids": ["sep-plato-timaeus", "gutenberg-timaeus"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "origin",
+      "claim": "The cosmos exists because 'it is the handiwork of a supremely good, ungrudging Craftsman, who brought order to an initially disorderly state of affairs'; the creator 'was good, and therefore not jealous, and being free from jealousy he desired that all things should be like himself'.",
+      "source_ids": ["sep-plato-timaeus", "gutenberg-timaeus"],
+      "contested": true,
+      "confidence": "high",
+      "notes": "The textual claim is secure, but whether creation is meant literally or metaphorically 'remains an intriguing one that continues to interest (and divide) scholars to this day'; the metaphorical reading takes the account as 'a statement of the principles that underlie the universe at all times of its existence'."
+    },
+    {
+      "primitive": "causality_and_agency",
+      "claim": "Causation is teleological: 'the universe as a whole as well as its various parts are so arranged as to produce a vast array of good effects', with Intellect working through and 'persuading' Necessity as a contributing cause.",
+      "source_ids": ["sep-plato-timaeus"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "cosmic_structure",
+      "claim": "The cosmos is a single, intelligent living being with a soul: 'the world became a living soul through the providence of God', ensouled 'because it is better for it to possess intelligence than to lack it, and the acquisition of intelligence requires the acquisition of soul'.",
+      "source_ids": ["sep-plato-timaeus", "gutenberg-timaeus"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "time",
+      "claim": "Time is not eternal but 'came into being together with these celestial movements' as 'an image of eternity which is time, having an uniform motion according to number'.",
+      "source_ids": ["sep-plato-timaeus", "gutenberg-timaeus"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "self_and_consciousness",
+      "claim": "Humans are immortal rational souls embodied in mortal bodies; 'embodiment throws the previously regular motions of the soul into confusion', and 'only with appropriate nurture and education can its original motions be reestablished and proper cognitive functioning be restored'.",
+      "source_ids": ["sep-plato-timaeus"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "transformation",
+      "claim": "The human goal is cosmic attunement: 'it is through realigning the motions of our souls with those of the universe at large that we achieve our goal of living virtuously and happily'.",
+      "source_ids": ["sep-plato-timaeus"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "epistemic_access",
+      "claim": "Cosmology is only a 'likely account' (eikōs logos): 'what is spoken of the created image can only be probable... to probability we may attain but no further', and a definitive account 'is available only to a god'.",
+      "source_ids": ["sep-plato-timaeus", "gutenberg-timaeus"],
+      "contested": false,
+      "confidence": "high",
+      "notes": "The account is 'presented as reasonable, thus meriting our belief, but neither definitive nor complete, and thus open to possible revision'."
+    }
+  ],
+  "distinguishing_claims": [
+    "A divine Craftsman orders pre-existing material toward the good on an eternal Form-model",
+    "The cosmos is itself a living, intelligent, ensouled being",
+    "Time is created with the heavens as a 'moving image of eternity'",
+    "Cosmology is self-consciously only a 'likely account', not demonstrative knowledge"
+  ],
+  "common_confusions": [
+    "The Demiurge is a craftsman ordering pre-existing chaos, not an omnipotent creator ex nihilo as in classical theism.",
+    "Whether the temporal creation story is literal or a metaphor for timeless dependence is contested; the card does not settle it.",
+    "This card describes one Platonic dialogue, not 'Platonism' as a whole or its later Neoplatonic systematizations."
+  ],
+  "related_cards": ["christian-classical-theism", "stoic-cosmology", "epicurean-atomism", "scientific-naturalism"],
+  "sources": [
+    {
+      "id": "sep-plato-timaeus",
+      "title": "Plato's Timaeus (Stanford Encyclopedia of Philosophy)",
+      "author": "Donald Zeyl and Barbara Sattler",
+      "url": "https://plato.stanford.edu/entries/plato-timaeus/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "The universe, he proposes, is the product of rational, purposive, and beneficent agency... imitating an unchanging and eternal model. [...] He selects as the basic corpuscles... fire of tetrahedra, air of octahedra, water of icosahedra, and earth of cubes. [...] The universe exists and manifests goodness because it is the handiwork of a supremely good, ungrudging Craftsman, who brought order to an initially disorderly state of affairs. [...] Time itself came into being together with these celestial movements as an 'image of eternity.' [...] It is through realigning the motions of our souls with those of the universe at large that we achieve our goal of living virtuously and happily. [...] The question of how literally the creation story is to be interpreted remains an intriguing one that continues to interest (and divide) scholars to this day. (First published 2005-10-25; substantive revision 2022-05-13.)"
+    },
+    {
+      "id": "gutenberg-timaeus",
+      "title": "Timaeus, by Plato, translated by Benjamin Jowett (Project Gutenberg eBook #1572)",
+      "author": "Plato (trans. Benjamin Jowett)",
+      "url": "https://www.gutenberg.org/files/1572/1572-h/1572-h.htm",
+      "source_type": "primary_text",
+      "accessed_at": "2026-07-06",
+      "passage": "He was good, and therefore not jealous, and being free from jealousy he desired that all things should be like himself. [...] the world became a living soul through the providence of God. [...] an image of eternity which is time, having an uniform motion according to number. [...] the receptacle or nurse of generation... like a mother, the source or spring to a father. [...] what is spoken of the created image can only be probable... to probability we may attain but no further."
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": "Drafted for D2-001 batch 1. Source URLs fetched and passages captured on 2026-07-06. Review needed: no human domain review yet; no scholarly authority claimed."
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "id": "classical-samkhya",
+  "label": "Classical Sāṃkhya",
+  "version": "0.1.0",
+  "scope": {
+    "tradition": "Hinduism (orthodox darśana)",
+    "school": "Classical Sāṃkhya as codified in Īśvarakṛṣṇa's Sāṃkhyakārikā",
+    "period": "c. 350 CE (Sāṃkhyakārikā), with older roots in the epics and Upaniṣads",
+    "region": "South Asia",
+    "limitations": [
+      "Draft awaiting human domain review (D2-001); review needed before any scholarly authority is claimed.",
+      "Single-source draft: the SEP has no dedicated Sāṃkhya entry, so all claims currently rest on the IEP entry; a primary-text source (Sāṃkhyakārikā) should be added at review.",
+      "Proto-Sāṃkhya of the epics and the theistic Yoga school's adaptation are out of scope.",
+      "No claims are recorded for cosmic_structure, time, or human_place as separate primitives: the source treats these within the evolution of the tattvas. Absence means unspecified, not denial."
+    ]
+  },
+  "claims": [
+    {
+      "primitive": "ultimate_reality",
+      "claim": "Reality is an irreducible dualism: 'the two types of entities of Sāṅkhya are Prakṛti and puruṣa-s, namely Nature and persons' — unconscious productive nature and conscious, inactive selves.",
+      "source_ids": ["iep-samkhya"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "ultimate_reality",
+      "claim": "The classical system posits no God: 'it is a strong Indian example of metaphysical dualism, but unlike many Western counterparts it is atheistic'.",
+      "source_ids": ["iep-samkhya"],
+      "contested": true,
+      "confidence": "high",
+      "notes": "Atheism holds for the classical system but not the wider tradition: the allied Yoga school 'absorbs the basic dualism of Sāṅkhya, but is theistic, and thus regards one puruṣa as a special puruṣa, called the Lord (Īśvara)', while the later Sāṅkhya-Sūtra 'is markedly atheistic and makes arguments against the existence of God'."
+    },
+    {
+      "primitive": "constituents",
+      "claim": "Nature is composed of three strands: 'Prakṛti, or Nature, is comprised of three guṇa-s or qualities. The highest of the three is sattva (essence), the principle of light, goodness and intelligence'.",
+      "source_ids": ["iep-samkhya"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "origin",
+      "claim": "The manifest world evolves out of unmanifest nature: 'the actual order of evolution is as follows: from root-nature first appears intellect (buddhi); from it, ego (ahaṁkāra); from it the eleven powers'.",
+      "source_ids": ["iep-samkhya"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "causality_and_agency",
+      "claim": "Causation follows satkāryavāda: 'the effect already exists in its cause prior to its production... the theory states that there is nothing absolutely new in the product'.",
+      "source_ids": ["iep-samkhya"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "self_and_consciousness",
+      "claim": "Conscious selves are many and distinct: 'as puruṣa is essentially private for every sentient being, being their true self, there are many irreducibly distinct puruṣa-s'.",
+      "source_ids": ["iep-samkhya"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "fundamental_problem",
+      "claim": "Existence in nature is marked by pervasive suffering: 'the first premise of Sāṅkhya is the universal fact of suffering'.",
+      "source_ids": ["iep-samkhya"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "transformation",
+      "claim": "Release comes through discriminative knowledge: 'an escape from this endless circle is possible only through the realization of the fundamental difference between Nature and persons'.",
+      "source_ids": ["iep-samkhya"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "destiny",
+      "claim": "The goal is the isolation of consciousness from nature: 'liberation of puruṣa, in Sāṅkhya, normally called kaivalya (isolation)... comes about through loosening the bond between puruṣa and Prakṛti'.",
+      "source_ids": ["iep-samkhya"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "epistemic_access",
+      "claim": "Knowledge has exactly three sources: 'Sāṅkhya recognizes only three valid sources of information: perception, inference and reliable tradition'.",
+      "source_ids": ["iep-samkhya"],
+      "contested": false,
+      "confidence": "high"
+    }
+  ],
+  "distinguishing_claims": [
+    "A strict dualism of unconscious nature (prakṛti) and many conscious selves (puruṣa)",
+    "The world evolves from unmanifest nature; effects pre-exist in their causes (satkāryavāda)",
+    "The classical system is atheistic",
+    "Liberation is kaivalya — the isolation of consciousness from nature"
+  ],
+  "common_confusions": [
+    "Sāṃkhya dualism pairs consciousness with nature (including mind), not mind with body as in Cartesian dualism — intellect and ego belong to prakṛti, not puruṣa.",
+    "Unlike Advaita Vedānta, Sāṃkhya affirms many real selves and a real, independent nature.",
+    "Classical Sāṃkhya is atheistic, unlike the closely allied theistic Yoga school."
+  ],
+  "related_cards": ["advaita-vedanta", "buddhist-madhyamaka", "theravada-abhidhamma"],
+  "sources": [
+    {
+      "id": "iep-samkhya",
+      "title": "Sāṅkhya (Internet Encyclopedia of Philosophy)",
+      "author": "Ferenc Ruzsa",
+      "url": "https://iep.utm.edu/sankhya/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "The two types of entities of Sāṅkhya are Prakṛti and puruṣa-s, namely Nature and persons. [...] Prakṛti, or Nature, is comprised of three guṇa-s or qualities. The highest of the three is sattva (essence), the principle of light, goodness and intelligence. [...] The effect already exists in its cause prior to its production... the theory states that there is nothing absolutely new in the product. [...] The actual order of evolution is as follows: from root-nature first appears intellect (buddhi); from it, ego (ahaṁkāra); from it the eleven powers. [...] It is a strong Indian example of metaphysical dualism, but unlike many Western counterparts it is atheistic. [...] The most significant divergence is perhaps the development of a theistic school of Orthodox Hindu philosophy, called Yoga, which absorbs the basic dualism of Sāṅkhya, but is theistic, and thus regards one puruṣa as a special puruṣa, called the Lord (Īśvara). [...] The first premise of Sāṅkhya is the universal fact of suffering. [...] Sāṅkhya recognizes only three valid sources of information: perception, inference and reliable tradition. [...] (Sāṃkhyakārikā dated) ca. 350 C.E."
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": "Drafted for D2-001 batch 2. Source URL fetched and passages captured on 2026-07-06. Review needed: no human domain review yet; single-source card — add the Sāṃkhyakārikā as a primary source at review."
+  }
+}

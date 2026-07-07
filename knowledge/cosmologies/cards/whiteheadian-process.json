@@ -1,0 +1,120 @@
+{
+  "id": "whiteheadian-process",
+  "label": "Process cosmology (Whitehead)",
+  "version": "0.1.0",
+  "scope": {
+    "tradition": "Modern Western philosophy (process thought)",
+    "school": "Alfred North Whitehead's philosophy of organism, principally Process and Reality (1929)",
+    "period": "1920s–1930s (Whitehead's metaphysical period at Harvard)",
+    "region": "Britain and the United States",
+    "limitations": [
+      "Draft awaiting human domain review (D2-001); review needed before any scholarly authority is claimed.",
+      "Scoped to Whitehead's own system; Hartshorne's revisions and later process theology are out of scope.",
+      "No claims are recorded for origin, cosmic_structure, fundamental_problem, or epistemic_access as separate primitives: the sources used present the categoreal scheme rather than cosmography or soteriology. Absence means unspecified, not denial."
+    ]
+  },
+  "claims": [
+    {
+      "primitive": "constituents",
+      "claim": "The world's final constituents are momentary experiential events: 'actuality is made up of atomic or momentary events. These events, called actual entities or actual occasions, are “the final real things of which the world is made up”' — 'each actual entity is a throb of experience'.",
+      "source_ids": ["iep-process-philosophy", "sep-whitehead"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "ultimate_reality",
+      "claim": "Creativity, not substance, is ultimate: 'creativity is the universal of universals—that which is only actual in virtue of its accidents or instances'.",
+      "source_ids": ["iep-process-philosophy"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "ultimate_reality",
+      "claim": "God is dipolar: 'God, as well as being primordial, is also consequent … God is dipolar' — 'God's primordial nature is the permanent ground of value and determinacy and a storehouse for universals, or “envisaged potentialities”'.",
+      "source_ids": ["sep-whitehead", "iep-process-philosophy"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "time",
+      "claim": "Becoming is atomic rather than continuous: 'there is a becoming of continuity, but no continuity of becoming'.",
+      "source_ids": ["sep-whitehead"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "causality_and_agency",
+      "claim": "Each event integrates its whole past — 'the many become one, and are increased with one' — and divine agency works by lure, not force: 'God's power over the world is described as persuasive rather than coercive. God cannot override the self-directed integrations'; 'God is the poet of the world, with tender patience leading it by his vision'.",
+      "source_ids": ["sep-whitehead", "iep-process-philosophy"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "self_and_consciousness",
+      "claim": "Experience pervades nature: 'all individual actual entities—from electrons to human persons—are essentially self-determining and possess the ability to experience the world'.",
+      "source_ids": ["iep-process-philosophy"],
+      "contested": true,
+      "confidence": "medium",
+      "notes": "How literally experience extends to all actual entities (panexperientialism) is a persistently debated element of process metaphysics in the secondary literature; the gloss here follows the IEP entry."
+    },
+    {
+      "primitive": "human_place",
+      "claim": "Living things are constitutively relational and value-laden: 'organisms are interdependent, internally and externally related, value-laden, active, and intrinsically active'.",
+      "source_ids": ["iep-process-philosophy"],
+      "contested": false,
+      "confidence": "medium"
+    },
+    {
+      "primitive": "transformation",
+      "claim": "The cosmic aim is enrichment of experience: 'God's purpose in the creative advance is the evocation of intensities', with God as 'the organ of novelty'.",
+      "source_ids": ["sep-whitehead"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "destiny",
+      "claim": "What perishes is preserved in God's consequent nature: 'He saves the world as it passes into the immediacy of his own life'.",
+      "source_ids": ["sep-whitehead"],
+      "contested": false,
+      "confidence": "high"
+    }
+  ],
+  "distinguishing_claims": [
+    "Momentary experiential events, not enduring substances, are the final realities",
+    "Creativity is the ultimate category; even God is its foremost instance",
+    "God is dipolar and acts persuasively, never coercively",
+    "Perished occasions are everlastingly preserved in God's consequent nature"
+  ],
+  "common_confusions": [
+    "Process theism is not classical theism: God is neither omnipotent in the coercive sense nor immutable, which contradicts the classical-theist card.",
+    "Panexperientialism is not panpsychism about rocks and tables: aggregates differ from genuinely unified occasions of experience.",
+    "Whitehead's God is metaphysically required by the system, not an object of revealed religion."
+  ],
+  "related_cards": ["scientific-naturalism", "christian-classical-theism", "stoic-cosmology", "buddhist-madhyamaka"],
+  "sources": [
+    {
+      "id": "sep-whitehead",
+      "title": "Alfred North Whitehead (Stanford Encyclopedia of Philosophy)",
+      "author": null,
+      "url": "https://plato.stanford.edu/entries/whitehead/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "each actual entity is a throb of experience (1929c [1985: 190]). [...] there is a becoming of continuity, but no continuity of becoming (1929c [1985: 35]). [...] the many become one, and are increased with one (1929c [1985: 21]). [...] God is the poet of the world, with tender patience leading it by his vision (1929c [1985: 346]). [...] God, as well as being primordial, is also consequent … God is dipolar (1929c [1985: 345]). [...] God's purpose in the creative advance is the evocation of intensities (1929c [1985: 105]). [...] He saves the world as it passes into the immediacy of his own life (1929c [1985: 346]). (First published 1996-05-21; substantive revision 2022-11-10. Author byline not captured at access time — verify on review.)"
+    },
+    {
+      "id": "iep-process-philosophy",
+      "title": "Process Philosophy (Internet Encyclopedia of Philosophy)",
+      "author": "J. R. Hustwit",
+      "url": "https://iep.utm.edu/processp/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "actuality is made up of atomic or momentary events. These events, called actual entities or actual occasions, are 'the final real things of which the world is made up.' [...] Creativity is the universal of universals—that which is only actual in virtue of its accidents or instances. [...] God's power over the world is described as persuasive rather than coercive. God cannot override the self-directed integrations. [...] God's primordial nature is the permanent ground of value and determinacy and a storehouse for universals, or 'envisaged potentialities.' [...] all individual actual entities—from electrons to human persons—are essentially self-determining and possess the ability to experience the world. [...] organisms are interdependent, internally and externally related, value-laden, active, and intrinsically active."
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": "Drafted for D2-001 batch 5. Source URLs fetched and passages captured on 2026-07-06. Review needed: no human domain review yet. Open provenance item: the SEP 'Alfred North Whitehead' author byline was not captured during fetch and must be added at review."
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "id": "upanishadic-brahmanism",
+  "label": "Early Upaniṣadic Brahmanism",
+  "version": "0.1.0",
+  "scope": {
+    "tradition": "Vedic Brahmanism (early Upaniṣads)",
+    "school": null,
+    "period": "Principal Upaniṣads, first stage 'generally dated between 700 and 500 B.C.E.', later principal texts 'between 300-100 B.C.E.'",
+    "region": "North India (late Vedic culture)",
+    "limitations": [
+      "Draft awaiting human domain review (D2-001); review needed before any scholarly authority is claimed.",
+      "The Upaniṣads are composite texts spanning centuries and speak with plural voices; this card records shared early themes, not a school's system — for Śaṅkara's later systematization see advaita-vedanta.",
+      "Dating ranges differ across sources (IEP: 700–500 BCE first stage; WHE: c. 800–500 BCE for the first six).",
+      "No claims are recorded for constituents, origin, cosmic_structure, time, human_place, or destiny as separate primitives: the early Upaniṣads are oriented toward the self–reality relation rather than systematic cosmography. Absence means unspecified, not denial."
+    ]
+  },
+  "claims": [
+    {
+      "primitive": "ultimate_reality",
+      "claim": "Brahman is the ground of everything: the term 'comes to refer to the underlying reality or the ontological foundation', conceived as that 'who both created and is the universe'.",
+      "source_ids": ["iep-upanishads", "whe-upanishads"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "self_and_consciousness",
+      "claim": "The self is identified with that ground: 'Śāṇḍilya equates ātman with brahman (CU 3.14.4)', crystallized in 'Tat Tvam Asi – “Thou Art That” – one is already what one wants to become'.",
+      "source_ids": ["iep-upanishads", "whe-upanishads"],
+      "contested": true,
+      "confidence": "high",
+      "notes": "The ātman–brahman identity is one prominent Upaniṣadic teaching among plural voices, and later Vedāntic schools diverged sharply on how to construe it (nondual identity, qualified nondualism, dualism) — see advaita-vedanta."
+    },
+    {
+      "primitive": "causality_and_agency",
+      "claim": "Action shapes the agent across lives: 'a person becomes good by good action and bad by bad action (BU 3.2.13)', and 'the transmigration of souls (reincarnation) was considered a given in that, if a person failed to perform their dharma in one life, their karma (past actions) would require them to return to try again'.",
+      "source_ids": ["iep-upanishads", "whe-upanishads"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "fundamental_problem",
+      "claim": "Existence is bound to a repeating round of death and rebirth: 'this cycle of rebirth and death was known as samsara', within which ritual alone cannot secure final release.",
+      "source_ids": ["whe-upanishads", "iep-upanishads"],
+      "contested": false,
+      "confidence": "medium"
+    },
+    {
+      "primitive": "transformation",
+      "claim": "Liberation comes through knowledge of the self: 'knowledge of ātman can lead to some sort of liberation or ultimate freedom' — 'one found liberation (moksha) from samsara through the self-actualization which united the Atman with Brahman'.",
+      "source_ids": ["iep-upanishads", "whe-upanishads"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "epistemic_access",
+      "claim": "The Upaniṣads relocate religious knowledge from external rite to inner understanding: they 'are considered the “end of the Vedas” (Vedanta) in that they expand upon, explain, and develop the Vedic concepts', turning Vedic ritual categories toward the knowledge of self and reality.",
+      "source_ids": ["whe-upanishads", "iep-upanishads"],
+      "contested": false,
+      "confidence": "medium"
+    }
+  ],
+  "distinguishing_claims": [
+    "Brahman as the single underlying reality of the universe",
+    "The self (ātman) is continuous or identical with that reality — 'Tat Tvam Asi'",
+    "Karma and rebirth frame the human situation; knowledge, not ritual, liberates",
+    "The pivot from Vedic ritualism to introspective metaphysics"
+  ],
+  "common_confusions": [
+    "The Upaniṣads are plural teachings, not a single doctrine; later schools built rival systems (Advaita, Sāṃkhya's dualism, Buddhist rejection of ātman) on this shared vocabulary.",
+    "Karma here is a metaphysical principle of action's consequences, not fate or divine judgment.",
+    "Early Upaniṣadic thought precedes and differs from Śaṅkara's Advaita, which systematizes one reading of it."
+  ],
+  "related_cards": ["advaita-vedanta", "classical-samkhya", "buddhist-madhyamaka", "theravada-abhidhamma"],
+  "sources": [
+    {
+      "id": "iep-upanishads",
+      "title": "Upaniṣads (Internet Encyclopedia of Philosophy)",
+      "author": "Brian Black",
+      "url": "https://iep.utm.edu/upanisad/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "brahman retains this connection with speech, but also comes to refer to the underlying reality or the ontological foundation. [...] Śāṇḍilya equates ātman with brahman (CU 3.14.4), implying that if one understands brahman as the entire world... [...] a person becomes good by good action and bad by bad action (BU 3.2.13). [...] knowledge of ātman can lead to some sort of liberation or ultimate freedom. [...] (Principal Upaniṣads) generally dated between 700 and 500 B.C.E. (first stage); between 300-100 B.C.E. (second stage)."
+    },
+    {
+      "id": "whe-upanishads",
+      "title": "Upanishads (World History Encyclopedia)",
+      "author": "Joshua J. Mark",
+      "url": "https://www.worldhistory.org/Upanishads/",
+      "source_type": "other",
+      "accessed_at": "2026-07-06",
+      "passage": "Brahman (who both created and is the universe). [...] Tat Tvam Asi – 'Thou Art That' – one is already what one wants to become. [...] The transmigration of souls (reincarnation) was considered a given in that, if a person failed to perform their dharma in one life, their karma (past actions) would require them to return to try again. [...] This cycle of rebirth and death was known as samsara. [...] one found liberation (moksha) from samsara through the self-actualization which united the Atman with Brahman. [...] The Upanishads are considered the 'end of the Vedas' (Vedanta) in that they expand upon, explain, and develop the Vedic concepts. [...] composition is dated to between c. 800 - c. 500 BCE for the first six... with later dates for the last seven. (Published 2020-06-10.)"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": "Drafted for D2-001 batch 4. Source URLs fetched and passages captured on 2026-07-06. Review needed: no human domain review yet; add a primary-text translation (Bṛhadāraṇyaka or Chāndogya) at review — sacred-texts.com blocked fetching (403)."
+  }
+}

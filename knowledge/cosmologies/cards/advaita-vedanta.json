@@ -1,0 +1,122 @@
+{
+  "id": "advaita-vedanta",
+  "label": "Advaita Vedānta (Śaṅkara)",
+  "version": "0.1.0",
+  "scope": {
+    "tradition": "Hinduism (Vedānta)",
+    "school": "Advaita (non-dual) Vedānta as articulated by Śaṅkara (Ādi Śaṅkarācārya)",
+    "period": "c. 700–820 CE (Śaṅkara's dates are contested: 700–750 CE per Nakamura, 788–820 CE in earlier scholarship)",
+    "region": "South Asia",
+    "limitations": [
+      "Draft awaiting human domain review (D2-001); review needed before any scholarly authority is claimed.",
+      "Scoped to Śaṅkara's own position as reconstructed in the sources; later Advaita subschools and their technical theories of ignorance and māyā are out of scope, and reading those theories back into Śaṅkara is contested.",
+      "Rival Vedāntic schools (Viśiṣṭādvaita, Dvaita) reject core claims here; this card does not describe Vedānta or Hinduism as a whole.",
+      "No claims are recorded for cosmic_structure, time, or human_place as separate primitives: the inherited purāṇic cosmography and cycle of rebirth form the conventional background rather than distinctive Advaita doctrine in the sources used. Absence means unspecified, not denial."
+    ]
+  },
+  "claims": [
+    {
+      "primitive": "ultimate_reality",
+      "claim": "Brahman alone is ultimately real: 'Brahman is the nondual ground underlying all objects, the single foundation on which the entire universe depends', and 'existence is formless and nondual in reality'.",
+      "source_ids": ["sep-shankara", "iep-advaita"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "constituents",
+      "claim": "The world of plurality has a derivative, appearance-like status: 'the entire universe is not different from brahman, and its form is less real than brahman'; 'the world is neither totally real nor totally unreal. It is not totally unreal since it is experienced'.",
+      "source_ids": ["sep-shankara", "iep-advaita"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "origin",
+      "claim": "The world's appearance arises through Brahman's creative power: 'Brahman appears as the manifold objects of experience because of its creative power, māyā'.",
+      "source_ids": ["iep-advaita"],
+      "contested": true,
+      "confidence": "medium",
+      "notes": "Later Advaitins developed cosmogonic defenses of māyā, but 'whether or not we can accurately read such theories into Śaṅkara is contested by academic and traditional scholars'."
+    },
+    {
+      "primitive": "causality_and_agency",
+      "claim": "Brahman is the world's ground without really changing (vivarta): 'Brahman never undergoes genuine transformation into the world, just as a rope mistaken to be a snake does not actually transform into a snake'.",
+      "source_ids": ["sep-shankara"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "self_and_consciousness",
+      "claim": "The self is Brahman: 'the essential core of one's self (ātman) is brahman', and 'consciousness is self-evident. It cannot admit its own absence or antecedent negation'; 'the experiencing self (jīva) and the transcendental self of the Universe (ātman) are in reality identical'.",
+      "source_ids": ["sep-shankara", "iep-advaita"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "fundamental_problem",
+      "claim": "Ignorance is the root problem: 'avidyā is the root cause of all existential suffering' — through superimposition (adhyāsa), 'the apprehension of something as something else', 'we falsely identify with \"I\", construct the possessiveness of \"mine\", and then cling to them'.",
+      "source_ids": ["sep-shankara", "iep-advaita"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "transformation",
+      "claim": "Liberation is by knowledge alone: 'one becomes brahman simply by knowing brahman', and mokṣa is 'the immediate epistemic recognition of one's consciousness as numerically identical with this ground of nondual existence'.",
+      "source_ids": ["sep-shankara"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "destiny",
+      "claim": "The end of the human career is release from rebirth: 'knowledge of Brahman removes these errors and causes liberation from the cycle of transmigration'.",
+      "source_ids": ["iep-advaita"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "epistemic_access",
+      "claim": "Ultimate truth is known through scripture: Śaṅkara 'accepts nonduality based on the Upaniṣad's authority alone', and 'nonfoundational knowledge of Brahman cannot be had by any means but through Śruti'.",
+      "source_ids": ["sep-shankara", "iep-advaita"],
+      "contested": false,
+      "confidence": "high",
+      "notes": "Empirical knowledge retains provisional validity: 'the empirical order is a provisional ontology, whereas the ultimate reality is a final ontology'."
+    }
+  ],
+  "distinguishing_claims": [
+    "Nondual Brahman is the sole ultimate reality; the plural world is a less-real appearance",
+    "The self (ātman) is numerically identical with Brahman",
+    "The world appearance involves no real transformation of its ground (vivarta)",
+    "Liberation comes through knowledge alone, warranted by śruti"
+  ],
+  "common_confusions": [
+    "Advaita is not illusionism simpliciter: the world is experienced and provisionally valid, not a mere hallucination.",
+    "Advaita nonduality differs from Madhyamaka emptiness: Brahman is a positive nondual ground, whereas Madhyamaka denies any intrinsically existent ground.",
+    "This card describes Śaṅkara's school, not Vedānta or Hinduism as a whole; theistic Vedāntas explicitly reject these claims."
+  ],
+  "related_cards": ["buddhist-madhyamaka", "christian-classical-theism", "scientific-naturalism"],
+  "sources": [
+    {
+      "id": "sep-shankara",
+      "title": "Śaṅkara (Stanford Encyclopedia of Philosophy)",
+      "author": "Neil Dalal",
+      "url": "https://plato.stanford.edu/entries/shankara/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "Brahman is the nondual ground underlying all objects, the single foundation on which the entire universe depends. [...] The essential core of one's self (ātman) is brahman. [...] Brahman never undergoes genuine transformation into the world, just as a rope mistaken to be a snake does not actually transform into a snake. [...] Avidyā is the root cause of all existential suffering. [...] One becomes brahman simply by knowing brahman. [...] The immediate epistemic recognition of one's consciousness as numerically identical with this ground of nondual existence is mokṣa. [...] He accepts nonduality based on the Upaniṣad's authority alone. (First published 2021-10-04.)"
+    },
+    {
+      "id": "iep-advaita",
+      "title": "Advaita Vedānta (Internet Encyclopedia of Philosophy)",
+      "author": "Sangeetha Menon",
+      "url": "https://iep.utm.edu/advaita-vedanta/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "Brahman is alone True, and this world of plurality is an error; the individual self is not different from Brahman. [...] Brahman appears as the manifold objects of experience because of its creative power, māyā. [...] The experiencing self (jīva) and the transcendental self of the Universe (ātman) are in reality identical. [...] Adhyāsa, as he says in his preamble to the Brahma Sūtra, is the apprehension of something as something else. [...] The world is neither totally real nor totally unreal. It is not totally unreal since it is experienced. [...] Knowledge of Brahman removes these errors and causes liberation from the cycle of transmigration. [...] Nonfoundational knowledge of Brahman cannot be had by any means but through Śruti."
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": "Drafted for D2-001 batch 1. Source URLs fetched and passages captured on 2026-07-06. Review needed: no human domain review yet; Śaṅkara's dates and the attribution of māyā cosmogony are flagged as contested."
+  }
+}

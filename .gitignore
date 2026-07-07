@@ -29,6 +29,7 @@ build/
 *.sqlite
 *.sqlite3
 knowledge/values/raw/
+knowledge/values/normalized_*.jsonl
 data/private/
 uploads/
 

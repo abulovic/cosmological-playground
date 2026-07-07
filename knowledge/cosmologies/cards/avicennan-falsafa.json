@@ -1,0 +1,114 @@
+{
+  "id": "avicennan-falsafa",
+  "label": "Islamic falsafa (Avicenna)",
+  "version": "0.1.0",
+  "scope": {
+    "tradition": "Islam (falsafa — Arabic Aristotelian-Neoplatonic philosophy)",
+    "school": "Avicenna (Ibn Sīnā) and his philosophical system",
+    "period": "c. 980–1037 CE",
+    "region": "Persia and Central Asia (Bukhara to Isfahan)",
+    "limitations": [
+      "Draft awaiting human domain review (D2-001); review needed before any scholarly authority is claimed.",
+      "Scoped to Avicenna's own system; al-Fārābī, Averroes, and the later Avicennan tradition are out of scope.",
+      "Attribution of works to Avicenna is an area of ongoing scholarly authentication per the SEP entry.",
+      "No claims are recorded for time, human_place, fundamental_problem, or transformation as separate primitives: the sources used treat these within emanation and the soul's perfection. Absence means unspecified, not denial."
+    ]
+  },
+  "claims": [
+    {
+      "primitive": "ultimate_reality",
+      "claim": "God is the Necessary Existent in which all contingency terminates: 'contingent existence cannot arise unless it is made necessary by a cause', so 'the chain of contingent existents must culminate in and find its causal principle in a sole, self-subsistent existent that is Necessary'.",
+      "source_ids": ["iep-avicenna", "sep-ibn-sina"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "constituents",
+      "claim": "In everything other than God, essence and existence are distinct: 'Avicenna's famous distinction between existence and essence in contingents, between the fact that something exists and what it is' — 'essences are thus existentially neutral in themselves'.",
+      "source_ids": ["iep-avicenna"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "origin",
+      "claim": "The world flows from God eternally rather than beginning in time: 'from al-Farabi, Avicenna inherited the Neoplatonic emanationist scheme of existence', and 'the cosmos succeeds God merely in logical order and in existence'.",
+      "source_ids": ["iep-avicenna"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "cosmic_structure",
+      "claim": "Emanation descends through celestial intelligences: 'the intellects of the celestial spheres emanating from the First and ending with the active intellect (al-ʿaql al-faʿʿāl), the intellect of the terrestrial realm'.",
+      "source_ids": ["sep-ibn-sina"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "causality_and_agency",
+      "claim": "God's knowledge does not reach individuals as such: 'God only knows kinds of existents and not individuals' — providence works through universal order rather than particular intervention.",
+      "source_ids": ["iep-avicenna"],
+      "contested": true,
+      "confidence": "medium",
+      "notes": "This doctrine set falsafa against kalām: Ashʿarite theology asserted divine omnipotence and miracles 'against Avicennan necessity', and al-Ghazālī's Tahāfut attacked precisely this account of divine knowledge; its interpretation remains debated. See the asharite-kalam card."
+    },
+    {
+      "primitive": "self_and_consciousness",
+      "claim": "The rational soul is immaterial and survives the body: 'the rational soul... has to be freed of the body after death'; Avicenna's self-awareness argument 'in many ways prefigures by 600 years the Cartesian cogito'.",
+      "source_ids": ["sep-ibn-sina", "iep-avicenna"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "epistemic_access",
+      "claim": "Human knowledge comes by conjunction with the Active Intellect: 'this intellect, known as the Active Intellect, illuminates the human intellect through conjunction and bestows upon the human intellect true knowledge of things' — 'the active principle lets flow upon the [human rational] soul form after form in accordance with the demand by the soul'.",
+      "source_ids": ["iep-avicenna", "sep-ibn-sina"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "destiny",
+      "claim": "The soul's end is intellectual beatitude: 'real happiness is the perfection of the rational soul through knowledge', and a soul trained in philosophy 'can behold the intelligibles through their causes' once freed of the body.",
+      "source_ids": ["sep-ibn-sina"],
+      "contested": false,
+      "confidence": "high"
+    }
+  ],
+  "distinguishing_claims": [
+    "God is the Necessary Existent; everything else is contingent in itself, necessary through its cause",
+    "Essence and existence are distinct in all creatures",
+    "The cosmos emanates from God eternally; it succeeds God logically, not temporally",
+    "Human knowledge and post-mortem happiness come through the Active Intellect"
+  ],
+  "common_confusions": [
+    "Avicennan emanation is not temporal creation: the world has no beginning, which is what kalām theologians rejected.",
+    "The Necessary Existent argument is metaphysical, not a design argument from observed order.",
+    "Falsafa and kalām are both Islamic: this card and asharite-kalam represent rival cosmologies within one religion."
+  ],
+  "related_cards": ["aristotelian-cosmology", "plotinian-neoplatonism", "asharite-kalam", "maimonidean-judaism"],
+  "sources": [
+    {
+      "id": "sep-ibn-sina",
+      "title": "Ibn Sina [Avicenna] (Stanford Encyclopedia of Philosophy)",
+      "author": "Dimitri Gutas",
+      "url": "https://plato.stanford.edu/entries/ibn-sina/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "the intellects of the celestial spheres emanating from the First and ending with the active intellect (al-ʿaql al-faʿʿāl), the intellect of the terrestrial realm. [...] The active principle [i.e. the active intellect] lets flow upon the [human rational] soul form after form in accordance with the demand by the soul. [...] the rational soul... has to be freed of the body after death, and if, while still with the body, it has acquired the predisposition to perceive the intelligibles through philosophical training, then it can behold the intelligibles through their causes. [...] real happiness is the perfection of the rational soul through knowledge. (First published 2016-09-15; substantive revision 2025-10-31.)"
+    },
+    {
+      "id": "iep-avicenna",
+      "title": "Avicenna (Ibn Sina) (Internet Encyclopedia of Philosophy)",
+      "author": "Sajjad H. Rizvi",
+      "url": "https://iep.utm.edu/avicenna/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "Contingent existence cannot arise unless it is made necessary by a cause. [...] Therefore, the chain of contingent existents must culminate in and find its causal principle in a sole, self-subsistent existent that is Necessary. [...] An important corollary of this argument is Avicenna's famous distinction between existence and essence in contingents, between the fact that something exists and what it is. [...] Essences are thus existentially neutral in themselves. [...] The cosmos succeeds God merely in logical order and in existence. [...] God only knows kinds of existents and not individuals. [...] This intellect, known as the Active Intellect, illuminates the human intellect through conjunction and bestows upon the human intellect true knowledge of things. [...] This proof for the self in many ways prefigures by 600 years the Cartesian cogito."
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": "Drafted for D2-001 batch 3. Source URLs fetched and passages captured on 2026-07-06. Review needed: no human domain review yet."
+  }
+}

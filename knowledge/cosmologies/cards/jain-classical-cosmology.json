@@ -1,0 +1,114 @@
+{
+  "id": "jain-classical-cosmology",
+  "label": "Classical Jain cosmology",
+  "version": "0.1.0",
+  "scope": {
+    "tradition": "Jainism",
+    "school": "Shared classical doctrine (common to Digambara and Śvētāmbara)",
+    "period": "Mahāvīra traditionally dated c. 599–527 BCE (scholarly datings vary); classical philosophical systematization in the early centuries CE",
+    "region": "India",
+    "limitations": [
+      "Draft awaiting human domain review (D2-001); review needed before any scholarly authority is claimed.",
+      "Mahāvīra's traditional dates are used by the sources; much scholarship places him later (5th century BCE) — the period scoping needs review.",
+      "Sectarian differences (Digambara vs. Śvētāmbara) and the detailed loka cosmography with its ascending/descending time cycles are not covered by the fetched sources.",
+      "No claims are recorded for time or destiny as separate primitives beyond liberation. Absence means unspecified, not denial."
+    ]
+  },
+  "claims": [
+    {
+      "primitive": "origin",
+      "claim": "The universe is beginningless and uncreated: 'the universe is eternal, matter and souls being equally uncreated', and 'what is denied is a creator god above all' — Jainism admits 'higher beings (devas), which are mortal', but no creator.",
+      "source_ids": ["iep-jain", "whe-jainism"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "ultimate_reality",
+      "claim": "Reality divides into sentient and non-sentient substance: 'Jainism is dualistic—that is, matter and souls are thought to be entirely different types of substance'.",
+      "source_ids": ["iep-jain"],
+      "contested": true,
+      "confidence": "high",
+      "notes": "The two-substance gloss is a simplification: classical Jain ontology enumerates several non-sentient (ajīva) categories beyond matter — space, time, motion, and rest — so the dualism framing should be refined at review."
+    },
+    {
+      "primitive": "self_and_consciousness",
+      "claim": "Souls are many, immortal, and intrinsically capable of omniscience: 'all living things possess an immortal soul which has always and will always exist', and the perfected soul attains 'kevala, the state of omniscience'.",
+      "source_ids": ["whe-jainism", "iep-jain"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "causality_and_agency",
+      "claim": "Karma is literally material: 'by their actions, souls accumulate karma, which is understood to be a kind of matter' — and this 'karma as a material force distinguishes the Jain view from other Indian views'.",
+      "source_ids": ["iep-jain", "whe-jainism"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "cosmic_structure",
+      "claim": "The inhabited universe is bounded: 'a finite region of space... is the only region of space that can contain anything'.",
+      "source_ids": ["iep-jain"],
+      "contested": false,
+      "confidence": "medium"
+    },
+    {
+      "primitive": "fundamental_problem",
+      "claim": "The soul's entanglement with karmic matter is the root predicament: accumulated karma binds the naturally luminous soul to embodiment and rebirth, obscuring its intrinsic omniscience.",
+      "source_ids": ["iep-jain", "whe-jainism"],
+      "contested": false,
+      "confidence": "medium"
+    },
+    {
+      "primitive": "transformation",
+      "claim": "Liberation is achieved by shedding all karma through discipline: 'release is achieved by purging the soul of all karma, good and bad'; 'the cardinal rule of interaction with other jīvas is the rule of ahimsa', and 'it is up to each individual to attain salvation... by adhering to a strict spiritual and ethical code of behavior'.",
+      "source_ids": ["iep-jain", "whe-jainism"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "epistemic_access",
+      "claim": "Ordinary knowledge is perspectival: 'reality is multifaceted (anekanta, or “non-one-sided”), such that no one view can capture it in its entirety', so assertions carry qualification — 'each predication is preceded by a marker of uncertainty (syat)'.",
+      "source_ids": ["iep-jain"],
+      "contested": false,
+      "confidence": "high"
+    }
+  ],
+  "distinguishing_claims": [
+    "An eternal, uncreated universe with no creator god",
+    "Karma is a material substance that physically binds souls",
+    "Every soul is intrinsically omniscient and individually responsible for its liberation",
+    "Anekāntavāda: all ordinary claims about reality are perspective-qualified"
+  ],
+  "common_confusions": [
+    "Jain nontheism is not atheism about all higher beings — devas exist but are mortal and did not create the world.",
+    "Jain dualism multiplies souls (like Sāṃkhya) but makes karma material and liberation a physical purging, not mere discriminative insight.",
+    "Anekāntavāda is not relativism: reality is determinate but too many-sided for any single predication."
+  ],
+  "related_cards": ["classical-samkhya", "theravada-abhidhamma", "buddhist-madhyamaka", "epicurean-atomism"],
+  "sources": [
+    {
+      "id": "iep-jain",
+      "title": "Jain Philosophy (Internet Encyclopedia of Philosophy)",
+      "author": "Mark Owen Webb",
+      "url": "https://iep.utm.edu/jain/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "The universe is eternal, matter and souls being equally uncreated. [...] What is denied is a creator god above all. [...] Jainism is dualistic—that is, matter and souls are thought to be entirely different types of substance. [...] By their actions, souls accumulate karma, which is understood to be a kind of matter. [...] Release is achieved by purging the soul of all karma, good and bad. [...] The cardinal rule of interaction with other jīvas is the rule of ahimsa. [...] Reality is multifaceted (anekanta, or 'non-one-sided'), such that no one view can capture it in its entirety. [...] Each predication is preceded by a marker of uncertainty (syat), which I have rendered here as 'perhaps.' [...] kevala, the state of omniscience of a perfected soul. [...] A finite region of space... is the only region of space that can contain anything."
+    },
+    {
+      "id": "whe-jainism",
+      "title": "Jainism (World History Encyclopedia)",
+      "author": "Joshua J. Mark",
+      "url": "https://www.worldhistory.org/jainism/",
+      "source_type": "other",
+      "accessed_at": "2026-07-06",
+      "passage": "Jainism is a nontheistic religion in that it does not advocate a belief in a creator god but in higher beings (devas), which are mortal. [...] all living things possess an immortal soul which has always and will always exist. [...] karma as a material force distinguishes the Jain view from other Indian views. [...] Vardhamana (better known as Mahavira, l. c. 599-527 BCE), but he is actually only the 24th tirthankara. [...] In Jainism, it is up to each individual to attain salvation... by adhering to a strict spiritual and ethical code of behavior. (Published 2020-09-21.)"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": "Drafted for D2-001 batch 5. Source URLs fetched and passages captured on 2026-07-06. Review needed: no human domain review yet; refine the ajīva ontology and Mahāvīra dating, and add a primary text (Tattvārtha Sūtra) at review."
+  }
+}

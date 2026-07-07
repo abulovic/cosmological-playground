@@ -23,3 +23,15 @@ The canonical state permits one active task. Two consecutive check-only cycles f
 ## 2026-07-06 — Freeze cosmological primitive ontology version 1
 
 The prototype will compare text and reference cards through twelve stable primitive IDs defined in `docs/COSMOLOGY_PRIMITIVES.md`. All primitives use the same four text-evidence states and require voice-aware exact spans when observed. Cosmological description remains separate from value matching, and the freeze is an implementation contract rather than a claim of universal or human-reviewed validity.
+
+## 2026-07-06 — Freeze confidence semantics and abstention policy version 1
+
+`docs/CONFIDENCE_AND_RANKING.md` v1.0.0 freezes three never-merged outputs (evidence coverage, candidate fit, calibrated confidence), six abstention gate ids with strict boundary semantics and outcome precedence, and the rule that uncalibrated confidence is labeled "provisional — uncalibrated" and never rendered as a probability. Threshold values remain provisional configuration until D6-002 calibration. Evidence-side gates outrank match-side gates: if the text says too little, the verdict is `insufficient_evidence` regardless of fit.
+
+## 2026-07-06 — Insert read-only card explorer (D2-004) ahead of the D5 analysis interface
+
+User-approved scope addition: a read-only browser over `knowledge/cosmologies/cards/` to support human review of draft cards and D2-001 curation at 24-card scale. Strictly no editing and no analysis features; the evidence-bearing analysis interface remains D5-001, gated on the D4 pipeline. Rationale: card JSON is hard to review by eye, rendering exposes schema awkwardness while it is still cheap to fix, and card-display components carry forward into D5-001.
+
+## 2026-07-06 — Insert topic knowledge store with hybrid search (D2-005)
+
+User-approved scope addition: doctrine profiles, analysis findings, and reusable concepts ("cosmology-adjacent topics") produced by dry runs get a persistent, searchable home so they are not re-derived. Canonical content is git-tracked markdown with structured front matter in `knowledge/topics/`; the search index is a derived, gitignored SQLite database combining FTS5 keyword search with local static embeddings (model2vec `potion-base-8M`, fully local — no external embedding API, no text leaves the machine), and a deterministic keyword-only fallback when embeddings are unavailable. This intentionally prototypes the hybrid-retrieval architecture that D2-003 requires, so the design is reusable there. Topic documents are working notes, not reviewed scholarship: they carry `status: unreviewed` and never substitute for card provenance.

@@ -1,0 +1,130 @@
+{
+  "id": "buddhist-madhyamaka",
+  "label": "Buddhist Madhyamaka (Indian, Nāgārjunian)",
+  "version": "0.1.0",
+  "scope": {
+    "tradition": "Buddhism",
+    "school": "Madhyamaka (Middle Way school), founded on Nāgārjuna's Mūlamadhyamakakārikā",
+    "period": "c. 150–250 CE (Nāgārjuna), with later Indian commentarial development",
+    "region": "South Asia",
+    "limitations": [
+      "Draft authored for schema validation (D1-002); not yet domain-reviewed.",
+      "Later Tibetan and East Asian Madhyamaka interpretations (e.g., the Svātantrika–Prāsaṅgika distinction, Tsongkhapa's reading) are out of scope.",
+      "No claims are recorded for origin, cosmic_structure, time, human_place, or fundamental_problem: the pan-Buddhist cosmological background (realms, rebirth, saṃsāra as suffering) is inherited rather than argued in the Madhyamaka texts sourced here. Absence means unspecified, not denial."
+    ]
+  },
+  "claims": [
+    {
+      "primitive": "ultimate_reality",
+      "claim": "All phenomena are empty (śūnya) of svabhāva — intrinsic nature or independent essence; nothing exists ultimately in its own right.",
+      "source_ids": ["sep-nagarjuna", "iep-madhyamaka"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "ultimate_reality",
+      "claim": "Emptiness is itself empty: the Madhyamaka analysis applies to emptiness too, so emptiness is not a substantially existent absolute or metaphysical ground.",
+      "source_ids": ["iep-madhyamaka"],
+      "contested": true,
+      "confidence": "high",
+      "notes": "The claim is textually secure; its import is contested among modern interpreters — 'Although perhaps most frequently characterized by modern interpreters as a Buddhist version of skepticism, Madhyamaka arguably develops metaphysical concerns' (Arnold)."
+    },
+    {
+      "primitive": "constituents",
+      "claim": "No entity whatsoever is non-empty — 'there is no dharma whatsoever that is not empty' (MMK 24.19); entities exist conventionally, as dependent designations, not ultimately.",
+      "source_ids": ["iep-madhyamaka", "sep-twotruths-india"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "causality_and_agency",
+      "claim": "Whatever exists arises only in mutual dependence (pratītyasamutpāda) — 'there is no dharma whatsoever that is not dependently originated' — so there are no intrinsically existent causes, effects, or agents.",
+      "source_ids": ["iep-madhyamaka"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "self_and_consciousness",
+      "claim": "There is no independently existent self: the self depends on the five constituents (skandhas), 'which rules out the assumption that any independently existent substance could be regarded as a self'; persons are conventionally real.",
+      "source_ids": ["sep-nagarjuna"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "transformation",
+      "claim": "Liberation comes through understanding the ultimate by way of the conventional: 'without relying on the conventional truth, the meaning of the ultimate cannot be explained, and without understanding the meaning of the ultimate, nirvāṇa is not achieved' (MMK 24.10).",
+      "source_ids": ["sep-twotruths-india"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "destiny",
+      "claim": "Ultimately, saṃsāra and nirvāṇa are not different: 'There is, on the part of saṃsāra, no difference at all from nirvāṇa' (MMK 25.19).",
+      "source_ids": ["iep-madhyamaka"],
+      "contested": true,
+      "confidence": "high",
+      "notes": "The verse is explicit; what the non-difference amounts to is a long-standing locus of commentarial and scholarly dispute."
+    },
+    {
+      "primitive": "epistemic_access",
+      "claim": "Cosmological knowledge is structured by two truths — 'the Dharma taught by the buddhas is precisely based on the two truths' (MMK 24.8): conventional truth grounds ordinary epistemic practice, while knowledge of the ultimate 'takes our minds beyond the bounds of conceptual and linguistic conventions'.",
+      "source_ids": ["sep-twotruths-india"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "epistemic_access",
+      "claim": "Madhyamaka advances no philosophical thesis (pratijñā) of its own; its arguments function therapeutically, undermining conceptual proliferation rather than establishing doctrines.",
+      "source_ids": ["iep-madhyamaka"],
+      "contested": true,
+      "confidence": "medium",
+      "notes": "Whether the no-thesis stance is self-consistent, and whether Madhyamaka is best read as skepticism, semantics, or metaphysics, is contested among interpreters."
+    }
+  ],
+  "distinguishing_claims": [
+    "Emptiness of all phenomena, including emptiness itself",
+    "Two-truths epistemology (conventional and ultimate)",
+    "Ultimate non-difference of saṃsāra and nirvāṇa"
+  ],
+  "common_confusions": [
+    "Emptiness is not nihilism: conventional reality is affirmed, not denied.",
+    "'Empty' means empty of intrinsic nature (svabhāva), not nonexistent.",
+    "Madhyamaka is one Buddhist school among several; this card does not describe Buddhism as a whole."
+  ],
+  "related_cards": ["scientific-naturalism", "christian-classical-theism"],
+  "sources": [
+    {
+      "id": "sep-nagarjuna",
+      "title": "Nāgārjuna (Stanford Encyclopedia of Philosophy)",
+      "author": "Jan Christoph Westerhoff",
+      "url": "https://plato.stanford.edu/entries/nagarjuna/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "Emptiness is of course always the emptiness of something, and the something Nāgārjuna has in mind here is svabhāva. [...] The self is obviously seen as depending on the five constituents, which rules out the assumption that any independently existent substance could be regarded as a self. (First published 2010-02-10; substantive revision 2026-05-31.)"
+    },
+    {
+      "id": "sep-twotruths-india",
+      "title": "The Theory of Two Truths in India (Stanford Encyclopedia of Philosophy)",
+      "author": "Sonam Thakchoe",
+      "url": "https://plato.stanford.edu/entries/twotruths-india/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "the Dharma taught by the buddhas is precisely based on the two truths: a truth of mundane conventions and a truth of the ultimate (MMK 24:8). [...] without relying on the conventional truth, the meaning of the ultimate cannot be explained, and without understanding the meaning of the ultimate, nirvāṇa is not achieved (MMK 24.10). [...] Knowledge of the ultimate truth [...] takes our minds beyond the bounds of conceptual and linguistic conventions. (First published 2011-02-17; substantive revision 2022-05-16.)"
+    },
+    {
+      "id": "iep-madhyamaka",
+      "title": "Madhyamaka Buddhist Philosophy (Internet Encyclopedia of Philosophy)",
+      "author": "Dan Arnold",
+      "url": "https://iep.utm.edu/madhyamaka/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "Since there is no dharma whatsoever that is not dependently originated, therefore there is no dharma whatsoever that is not empty. (MMK 24.19) [...] 'emptiness' itself is empty — the Mādhyamika analysis is to be applied not only to all existents, but also to this analysis thereof. [...] There is, on the part of saṃsāra, no difference at all from nirvāṇa. (MMK 25.19) [...] Although perhaps most frequently characterized by modern interpreters as a Buddhist version of skepticism, Madhyamaka arguably develops metaphysical concerns."
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": "Drafted for schema validation (D1-002). All source URLs were fetched and passages captured on 2026-07-06. Awaiting human domain review before any scholarly authority is claimed."
+  }
+}

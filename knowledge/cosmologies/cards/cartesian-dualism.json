@@ -1,0 +1,116 @@
+{
+  "id": "cartesian-dualism",
+  "label": "Cartesian mechanism and dualism",
+  "version": "0.1.0",
+  "scope": {
+    "tradition": "Early modern European philosophy",
+    "school": "René Descartes (Meditations, Principles of Philosophy)",
+    "period": "17th century (Descartes, 1596–1650)",
+    "region": "France and the Dutch Republic",
+    "limitations": [
+      "Draft awaiting human domain review (D2-001); review needed before any scholarly authority is claimed.",
+      "Scoped to Descartes himself; occasionalist successors (Malebranche) and wider mechanical philosophy are out of scope.",
+      "Interpretive disputes flagged by the sources include the ontology of force, the Cartesian Circle, and the extent of animal sentience denial.",
+      "No claims are recorded for origin, time, fundamental_problem, transformation, or destiny as separate primitives: the sources used cover physics and metaphysics of mind, not cosmogony or soteriology. Absence means unspecified, not denial."
+    ]
+  },
+  "claims": [
+    {
+      "primitive": "ultimate_reality",
+      "claim": "Created reality divides into two kinds of substance: 'the essence of mind is thought' and 'the essence of matter is extension in length, breadth, and depth', with God as the infinite substance sustaining both.",
+      "source_ids": ["sep-descartes", "sep-descartes-physics"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "constituents",
+      "claim": "Body just is extension, and the world is a plenum: 'the extension in length, breadth, and depth which constitutes the space occupied by a body, is exactly the same as that which constitutes the body', and since 'all places are full of bodies…. it follows that no body can move except in a complete circle'.",
+      "source_ids": ["sep-descartes-physics"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "causality_and_agency",
+      "claim": "All natural phenomena are explained mechanically — by 'motion, size, shape, and the arrangement of their parts' — without substantial forms or goal-directed properties; teleology is excluded from physics.",
+      "source_ids": ["sep-descartes-physics"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "causality_and_agency",
+      "claim": "The laws of motion rest on God: 'each thing, as far as is in its power, always remains in the same state; and that consequently, when it is once moved, it always continues to move', because God 'conserves motion; not always contained in the same parts of matter, but transferred from some parts to others depending on the ways in which they come in contact'.",
+      "source_ids": ["sep-descartes-physics"],
+      "contested": true,
+      "confidence": "high",
+      "notes": "Whether force is a real property of bodies or shorthand for God's continuous action is a standing scholarly dispute (Garber vs. Gabbey, per the SEP entry), tied to debates over relational motion and the definition of body."
+    },
+    {
+      "primitive": "cosmic_structure",
+      "claim": "The heavens are fluid vortices: planetary orbits are explained by 'a large circling band of material particles', the planets being 'carried along by the heaven'.",
+      "source_ids": ["sep-descartes-physics"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "self_and_consciousness",
+      "claim": "The thinking self is really distinct from body and better known than it: 'I think, therefore I am'; 'I could pretend that I had no body... I could not... pretend that I did not exist' — though 'if mind is unextended and matter is extended, how do they interact?' remains the acknowledged difficulty.",
+      "source_ids": ["sep-descartes"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "human_place",
+      "claim": "Humans alone unite mind and mechanism: 'Descartes regarded nonhuman animals as machines, devoid of mind and consciousness, and hence lacking in sentience'.",
+      "source_ids": ["sep-descartes"],
+      "contested": true,
+      "confidence": "medium",
+      "notes": "Per the SEP entry, 'recent scholars question whether Descartes denied all feeling to animals'; the strength of the animal-machine doctrine is contested."
+    },
+    {
+      "primitive": "epistemic_access",
+      "claim": "Secure knowledge of nature is underwritten by a non-deceiving God: 'it is clear enough from this that he cannot be a deceiver, since it is manifest by the natural light that all fraud and deception depend on some defect'.",
+      "source_ids": ["sep-descartes"],
+      "contested": true,
+      "confidence": "high",
+      "notes": "The Cartesian Circle — whether clear and distinct perception can non-circularly certify God, who in turn certifies clear and distinct perception — is a classic contested point flagged by the entry."
+    }
+  ],
+  "distinguishing_claims": [
+    "Mind (thought) and body (extension) are really distinct substances",
+    "Nature is a plenum of matter in motion explained without final causes",
+    "The laws of motion derive from God's immutable conservation",
+    "Animals are machines; only humans join mind to mechanism"
+  ],
+  "common_confusions": [
+    "Cartesian dualism pairs mind with body, unlike Sāṃkhya's consciousness–nature dualism where intellect belongs to nature.",
+    "Descartes's mechanism retains God at its foundation: it is not scientific naturalism.",
+    "Excluding teleology from physics does not deny God's purposes — it denies their explanatory role in natural science."
+  ],
+  "related_cards": ["scientific-naturalism", "aristotelian-cosmology", "classical-samkhya", "christian-classical-theism"],
+  "sources": [
+    {
+      "id": "sep-descartes",
+      "title": "René Descartes (Stanford Encyclopedia of Philosophy)",
+      "author": null,
+      "url": "https://plato.stanford.edu/entries/descartes/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "the essence of mind is thought (and) the essence of matter is extension in length, breadth, and depth (Princ. I, II.3–4). [...] I think, therefore I am (7:140). [...] I could pretend that I had no body... I could not... pretend that I did not exist (Discourse, 6:32–3). [...] if mind is unextended and matter is extended, how do they interact? (3:694). [...] Descartes regarded nonhuman animals as machines, devoid of mind and consciousness, and hence lacking in sentience. [...] It is clear enough from this that he cannot be a deceiver, since it is manifest by the natural light that all fraud and deception depend on some defect (7:52). (First published 2008-12-03; substantive revision 2023-10-23. Author byline not captured at access time — verify on review.)"
+    },
+    {
+      "id": "sep-descartes-physics",
+      "title": "Descartes' Physics (Stanford Encyclopedia of Philosophy)",
+      "author": "Edward Slowik",
+      "url": "https://plato.stanford.edu/entries/descartes-physics/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "the extension in length, breadth, and depth which constitutes the space occupied by a body, is exactly the same as that which constitutes the body (Pr II 10). [...] all places are full of bodies…. From this it follows that no body can move except in a complete circle (Pr II 33). [...] motion, size, shape, and the arrangement of their parts (suffice to explain all natural phenomena) (AT XI 25–26). [...] each thing, as far as is in its power, always remains in the same state; and that consequently, when it is once moved, it always continues to move (Pr II 37). [...] He conserves motion; not always contained in the same parts of matter, but transferred from some parts to others depending on the ways in which they come in contact (Pr II 62). [...] a large circling band of material particles (explains planetary orbits) (Pr III 28, 48–54). (First published 2005-07-29; substantive revision 2025-10-20.)"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": "Drafted for D2-001 batch 5. Source URLs fetched and passages captured on 2026-07-06. Review needed: no human domain review yet. Open provenance item: the SEP 'René Descartes' author byline was not captured during fetch and must be added at review."
+  }
+}

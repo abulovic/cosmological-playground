@@ -5,7 +5,7 @@
     "goal": "Analyze the cosmological commitments represented in text, compare them with sourced cosmologies, expose implied values using MAI resources, and report calibrated uncertainty.",
     "current_phase": "day_1_foundations",
     "prototype_horizon_days": 7,
-    "updated_at": "2026-07-06T13:16:28+02:00"
+    "updated_at": "2026-07-07T13:45:26+02:00"
   },
   "readiness": {
     "research_framework": {
@@ -18,10 +18,15 @@
       ]
     },
     "reference_knowledge_base": {
-      "level": 1,
+      "level": 2,
       "critical": true,
       "evidence": [
-        "knowledge/cosmologies/card.schema.json"
+        "knowledge/cosmologies/card.schema.json",
+        "knowledge/cosmologies/cards/scientific-naturalism.json",
+        "knowledge/cosmologies/cards/christian-classical-theism.json",
+        "knowledge/cosmologies/cards/buddhist-madhyamaka.json",
+        "scripts/validate_cards.py",
+        "tests/test_cosmology_cards.py"
       ]
     },
     "ingestion_and_stance": {
@@ -46,10 +51,12 @@
       ]
     },
     "confidence_and_evaluation": {
-      "level": 1,
+      "level": 2,
       "critical": true,
       "evidence": [
         "docs/CONFIDENCE_AND_RANKING.md",
+        "services/api/src/cosmology_api/confidence.py",
+        "services/api/tests/test_confidence_policy.py",
         "evals/README.md"
       ]
     },
@@ -169,7 +176,7 @@
       "day": 1,
       "workstream": "reference_knowledge_base",
       "title": "Validate the cosmology-card schema with three contrasting cards",
-      "status": "queued",
+      "status": "done",
       "priority": 20,
       "depends_on": [
         "D1-001"
@@ -185,18 +192,25 @@
         "Claims have source provenance and scope notes",
         "Contested and absent claims are representable"
       ],
-      "attempts": 0,
-      "completion_summary": null,
-      "completion_evidence": [],
-      "verified_at": null,
-      "blocker": null
+      "attempts": 1,
+      "completion_summary": "Three contrasting cosmology cards (scientific-naturalism, christian-classical-theism, buddhist-madhyamaka) validate against card.schema.json via a new dependency-free validator (scripts/validate_cards.py). Every claim cites card-local sources whose URLs were fetched on 2026-07-06 with verbatim passages and access dates; scope blocks carry school/period/region and limitations. Contested claims are marked contested:true in every card (7 total); absent claims are represented by omission with limitations notes, and tests assert both representability properties plus negative fixtures that the validator rejects malformed cards. make check passes (39 project tests + 1 API test).",
+      "completion_evidence": [
+        "knowledge/cosmologies/cards/scientific-naturalism.json",
+        "knowledge/cosmologies/cards/christian-classical-theism.json",
+        "knowledge/cosmologies/cards/buddhist-madhyamaka.json",
+        "scripts/validate_cards.py",
+        "tests/test_cosmology_cards.py"
+      ],
+      "verified_at": "2026-07-06T13:35:21+02:00",
+      "blocker": null,
+      "started_at": "2026-07-06T13:21:28+02:00"
     },
     {
       "id": "D1-003",
       "day": 1,
       "workstream": "confidence_and_evaluation",
       "title": "Freeze confidence semantics and abstention policy",
-      "status": "ready",
+      "status": "done",
       "priority": 30,
       "depends_on": [
         "OPS-001"
@@ -209,11 +223,16 @@
         "Abstention triggers are testable",
         "Unvalidated confidence is visibly provisional"
       ],
-      "attempts": 0,
-      "completion_summary": null,
-      "completion_evidence": [],
-      "verified_at": null,
-      "blocker": null
+      "attempts": 1,
+      "completion_summary": "Confidence semantics and abstention policy frozen as docs/CONFIDENCE_AND_RANKING.md v1.0.0: evidence coverage, candidate fit, and calibrated confidence are defined as three never-merged outputs with fixed ranges; six abstention gates have frozen ids, strict boundary semantics, outcome mapping, and decision precedence, with threshold values explicitly provisional configuration until D6-002. Uncalibrated confidence must be labeled 'provisional — uncalibrated', never rendered as probability; only a qualitative heuristic band may be shown. A dependency-free reference implementation (cosmology_api/confidence.py) makes every gate testable; 20 tests cover gate boundaries, precedence, no-short-circuit evaluation, and doc-code consistency (gate ids, defaults, outcomes). make check green.",
+      "completion_evidence": [
+        "docs/CONFIDENCE_AND_RANKING.md",
+        "services/api/src/cosmology_api/confidence.py",
+        "services/api/tests/test_confidence_policy.py"
+      ],
+      "verified_at": "2026-07-06T13:46:20+02:00",
+      "blocker": null,
+      "started_at": "2026-07-06T13:41:31+02:00"
     },
     {
       "id": "D1-004",
@@ -246,11 +265,47 @@
       "started_at": "2026-07-06T12:11:30+02:00"
     },
     {
+      "id": "D2-005",
+      "day": 2,
+      "workstream": "reference_knowledge_base",
+      "title": "Create the topic knowledge store with hybrid keyword and embedding search",
+      "status": "done",
+      "priority": 45,
+      "depends_on": [
+        "D1-001"
+      ],
+      "required_artifacts": [
+        "knowledge/topics/README.md",
+        "knowledge/topics/moral-realism-doctrine-profile.md",
+        "scripts/topics.py",
+        "tests/test_topics_store.py"
+      ],
+      "acceptance": [
+        "Topic documents carry structured front matter with id, type, primitives, and source provenance",
+        "Keyword and embedding search are combined, with a deterministic keyword-only fallback",
+        "The search index is derived and rebuildable; canonical content is git-tracked markdown",
+        "Search results return provenance: topic id, section, and source report"
+      ],
+      "attempts": 1,
+      "completion_summary": "Topic knowledge store created: canonical git-tracked markdown topics with validated front matter in knowledge/topics/ (six seeds distilled from the two dry runs), a derived gitignored SQLite index (var/topics.sqlite3), and scripts/topics.py providing validate/index/search/list/show. Search fuses FTS5 keyword ranking with local model2vec potion-base-8M embeddings via reciprocal rank fusion, returns provenance (topic id, section, source report, review status, channels), and degrades deterministically to keyword-only when embeddings are unavailable. No external embedding API; no text leaves the machine. 8 new tests; make check green (47 project + 21 API). Architecture is the reusable reference for D2-003 hybrid retrieval.",
+      "completion_evidence": [
+        "knowledge/topics/README.md",
+        "knowledge/topics/moral-realism-doctrine-profile.md",
+        "knowledge/topics/making-beliefs-pay-rent-findings.md",
+        "scripts/topics.py",
+        "tests/test_topics_store.py",
+        "reports/runs/2026-07-06_1455_D2-005.md"
+      ],
+      "verified_at": "2026-07-06T14:46:44+02:00",
+      "blocker": null,
+      "started_at": "2026-07-06T14:41:06+02:00"
+    },
+    {
       "id": "D2-001",
       "day": 2,
       "workstream": "reference_knowledge_base",
       "title": "Curate the first 24 scoped cosmology cards",
-      "status": "queued",
+      "status": "done",
       "priority": 50,
       "depends_on": [
         "D1-002"
@@ -264,6 +319,37 @@
         "Every substantive claim has scholarly or primary-source provenance",
         "A review-needed flag identifies unreviewed claims"
       ],
+      "attempts": 1,
+      "completion_summary": "24 historically scoped cosmology cards validate against the schema, each claim carrying resolvable source_ids with verbatim passages and access dates from fetched scholarly/primary sources; manifest.json tracks the curated roster with machine-enforced review_needed flags on all unreviewed cards (validate_cards.py + ManifestTests); every card documents scope limitations and carries at least one contested-claim flag. Verified via scripts/validate_cards.py, tests/test_cosmology_cards.py (32 tests), and make check.",
+      "completion_evidence": [
+        "knowledge/cosmologies/manifest.json",
+        "knowledge/cosmologies/cards",
+        "scripts/validate_cards.py",
+        "tests/test_cosmology_cards.py"
+      ],
+      "verified_at": "2026-07-06T20:46:27+02:00",
+      "blocker": null,
+      "started_at": "2026-07-06T14:53:08+02:00"
+    },
+    {
+      "id": "D2-004",
+      "day": 2,
+      "workstream": "web_experience",
+      "title": "Build a read-only cosmology card explorer",
+      "status": "queued",
+      "priority": 55,
+      "depends_on": [
+        "D1-002",
+        "D1-004"
+      ],
+      "required_artifacts": [
+        "apps/web/app/cards/page.tsx"
+      ],
+      "acceptance": [
+        "Cards from knowledge/cosmologies/cards render with claims, sources, passages, and contested flags visible",
+        "Absent primitives are shown as unspecified, not hidden",
+        "Draft review status is visibly labeled; no editing or analysis features"
+      ],
       "attempts": 0,
       "completion_summary": null,
       "completion_evidence": [],
@@ -275,7 +361,7 @@
       "day": 2,
       "workstream": "values_integration",
       "title": "Import and normalize available MAI value-card data",
-      "status": "queued",
+      "status": "done",
       "priority": 60,
       "depends_on": [
         "OPS-001"
@@ -289,11 +375,17 @@
         "Value cards remain distinct from moral-graph edges",
         "Normalization is reproducible"
       ],
-      "attempts": 0,
-      "completion_summary": null,
-      "completion_evidence": [],
-      "verified_at": null,
-      "blocker": null
+      "attempts": 1,
+      "completion_summary": "Imported the MAI first moral graph (published dft export, not the elicitation tool): 59 value cards and 71 wiser-than edges normalized into two separate gitignored JSONL files, enforcing the card/edge firewall physically and in validate_store. Provenance manifest records source, sha256, unresolved license, row counts, and per-object schema. Normalization is deterministic and reproducible; MAI data is gitignored (internal-only until publishing is cleared with Joe Edelman). 16 new tests; 69/69 project tests pass.",
+      "completion_evidence": [
+        "knowledge/values/manifest.json",
+        "scripts/values.py",
+        "tests/test_values_store.py",
+        "reports/runs/2026-07-07_1344_D2-002.md"
+      ],
+      "verified_at": "2026-07-07T13:45:26+02:00",
+      "blocker": null,
+      "started_at": "2026-07-07T13:45:26+02:00"
     },
     {
       "id": "D2-003",

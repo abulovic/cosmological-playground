@@ -1,0 +1,128 @@
+{
+  "id": "epicurean-atomism",
+  "label": "Epicurean atomism",
+  "version": "0.1.0",
+  "scope": {
+    "tradition": "Greek philosophy (Epicureanism)",
+    "school": "The Garden of Epicurus, with the Latin exposition of Lucretius",
+    "period": "c. 307 BCE (founding of the Garden) to the 1st century BCE (Lucretius)",
+    "region": "Hellenistic Greece and Roman Italy",
+    "limitations": [
+      "Draft awaiting human domain review (D2-001); review needed before any scholarly authority is claimed.",
+      "Sourced from encyclopedic treatments of Epicurus; Lucretian elaborations and later Epicurean school history are only indirectly covered.",
+      "No claims are recorded for human_place or time as separate primitives: Epicurean texts treat humanity's standing through the mortality of the soul and the non-intervention of the gods, and time receives no distinct doctrinal treatment in the sources used. Absence means unspecified, not denial."
+    ]
+  },
+  "claims": [
+    {
+      "primitive": "ultimate_reality",
+      "claim": "Only atoms and void are fundamentally real: 'only bodies and void exist per se, that is, exist without depending for their existence on something else'.",
+      "source_ids": ["iep-epicurus", "sep-epicurus"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "constituents",
+      "claim": "The elementary constituents of nature are 'undifferentiated matter, in the form of discrete, solid and indivisible particles (\"atoms\") below the threshold of perception, plus empty space'; and 'things cannot arise out of nothing, since otherwise there would be no need of specific seeds for specific plants and animals'.",
+      "source_ids": ["sep-epicurus"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "cosmic_structure",
+      "claim": "The universe 'contains everything, and so there is nothing outside it by which to conceive an edge. Hence, it is infinite', with infinitely many atoms and worlds: 'our particular cosmos... is only a temporary agglomeration of atoms, and it is only one of an infinite number of such cosmoi'.",
+      "source_ids": ["sep-epicurus", "iep-epicurus"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "origin",
+      "claim": "Worlds and organisms arise from atomic motion without design: Epicurus 'tries to explain away this apparent purposiveness in nature in a proto-Darwinian way', and given infinite space 'we must expect there to be a plurality of worlds, some like ours, some — within limits — different'.",
+      "source_ids": ["iep-epicurus", "sep-epicurus"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "causality_and_agency",
+      "claim": "There is no divine governance — 'the gods... do not interest themselves in human affairs, since this would compromise their beatitude' — but atomic motion includes 'a certain randomness... that takes the form of a minute swerve in their forward course'.",
+      "source_ids": ["sep-epicurus", "iep-epicurus"],
+      "contested": true,
+      "confidence": "high",
+      "notes": "The swerve doctrine is well attested, but its mechanism and its relation to free action are disputed: 'it is not entirely clear how the swerve operates', and how it explains free will is the subject of extensive scholarly debate."
+    },
+    {
+      "primitive": "self_and_consciousness",
+      "claim": "The soul is itself atomic and mortal: 'the soul's texture is too delicate to exist independently of the body that contains it', so 'death is annihilation'.",
+      "source_ids": ["sep-epicurus", "iep-epicurus"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "destiny",
+      "claim": "There is no afterlife or posthumous judgment: 'there can be no punishment after death', and 'death, Epicurus insists, is nothing to us, since while we exist, our death is not'.",
+      "source_ids": ["sep-epicurus", "iep-epicurus"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "fundamental_problem",
+      "claim": "The core human problem is disturbance rooted in false fears of gods and death; 'if one can banish fear about the future... then one will attain tranquility (ataraxia), the most exalted state'.",
+      "source_ids": ["iep-epicurus", "sep-epicurus"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "transformation",
+      "claim": "The goal of life is 'happiness (eudaimonia)... freedom from bodily pain and mental disturbance', achieved through correct natural philosophy that removes groundless fears.",
+      "source_ids": ["sep-epicurus"],
+      "contested": true,
+      "confidence": "medium",
+      "notes": "The distinction between katastematic (state) and kinetic pleasure carries this doctrine, and 'the precise nature of this distinction is debated' among scholars."
+    },
+    {
+      "primitive": "epistemic_access",
+      "claim": "Knowledge of nature rests on the senses: 'sensations, together with the perception of pleasure and pain, are infallible criteria', and 'all of our knowledge ultimately comes from the senses... we can trust the senses, when properly used'.",
+      "source_ids": ["sep-epicurus", "iep-epicurus"],
+      "contested": false,
+      "confidence": "high"
+    }
+  ],
+  "distinguishing_claims": [
+    "Atoms and void are the only per se existents; nothing comes from nothing",
+    "Infinitely many worlds form and dissolve without design or providence",
+    "The soul is atomic and mortal; death is annihilation and 'nothing to us'",
+    "The random atomic swerve breaks strict determinism"
+  ],
+  "common_confusions": [
+    "Epicureanism is not atheism: gods exist but are blissfully indifferent and do not intervene.",
+    "'Pleasure' as the goal means absence of pain and disturbance (ataraxia), not sensual indulgence.",
+    "Unlike modern scientific naturalism, Epicurean atomism is an ethically motivated physics aimed at dispelling fear, not an experimental research program."
+  ],
+  "related_cards": ["scientific-naturalism", "stoic-cosmology", "platonic-timaeus"],
+  "sources": [
+    {
+      "id": "sep-epicurus",
+      "title": "Epicurus (Stanford Encyclopedia of Philosophy)",
+      "author": "David Konstan",
+      "url": "https://plato.stanford.edu/entries/epicurus/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "Epicurus held that the elementary constituents of nature are undifferentiated matter, in the form of discrete, solid and indivisible particles ('atoms') below the threshold of perception, plus empty space. [...] the universe — in Greek, the 'all' — contains everything, and so there is nothing outside it by which to conceive an edge. Hence, it is infinite. [...] a certain randomness in the motion of atoms, that takes the form of a minute swerve in their forward course. [...] the soul's texture is too delicate to exist independently of the body that contains it... From this it follows that there can be no punishment after death. [...] Death, Epicurus insists, is nothing to us, since while we exist, our death is not. [...] sensations, together with the perception of pleasure and pain, are infallible criteria. [...] the gods... do not interest themselves in human affairs, since this would compromise their beatitude. (First published 2005-01-10; substantive revision 2022-07-08.)"
+    },
+    {
+      "id": "iep-epicurus",
+      "title": "Epicurus (Internet Encyclopedia of Philosophy)",
+      "author": "Tim O'Keefe",
+      "url": "https://iep.utm.edu/epicur/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "Only bodies and void exist per se, that is, exist without depending for their existence on something else. [...] Our particular cosmos, however, is only a temporary agglomeration of atoms, and it is only one of an infinite number of such cosmoi. [...] Epicurus, however, following Empedocles, tries to explain away this apparent purposiveness in nature in a proto-Darwinian way. [...] One important result of Epicurus' philosophy of mind is that death is annihilation. [...] The gods have no concern for us. In fact, they are unaware of our existence, and live eternally in the intermundia. [...] If one can banish fear about the future... then one will attain tranquility (ataraxia), the most exalted state. [...] All of our knowledge ultimately comes from the senses, thinks Epicurus, and we can trust the senses, when properly used."
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": "Drafted for D2-001 batch 1. Source URLs fetched and passages captured on 2026-07-06. Review needed: no human domain review yet; no scholarly authority claimed."
+  }
+}

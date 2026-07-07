@@ -1,0 +1,84 @@
+{
+  "id": "babylonian-enuma-elish",
+  "label": "Babylonian cosmology (Enūma Eliš)",
+  "version": "0.1.0",
+  "scope": {
+    "tradition": "Ancient Mesopotamian religion (Babylonian)",
+    "school": null,
+    "period": "2nd millennium BCE composition (dating debated); surviving tablets from c. 1200 BCE",
+    "region": "Babylonia (southern Mesopotamia)",
+    "limitations": [
+      "Draft awaiting human domain review (D2-001); review needed before any scholarly authority is claimed.",
+      "Scoped to the Enūma Eliš itself; wider Mesopotamian traditions (Sumerian cosmogonies, Atrahasis) tell different stories.",
+      "Single-source draft: sacred-texts.com (L.W. King translation) blocked fetching and Project Gutenberg holds no edition, so claims rest on one World History Encyclopedia article that embeds translation excerpts; a primary-text translation must be added at review.",
+      "No claims are recorded for ultimate_reality, constituents, self_and_consciousness, fundamental_problem, transformation, or epistemic_access: the epic narrates origins and order, not doctrine on these heads. Absence means unspecified, not denial."
+    ]
+  },
+  "claims": [
+    {
+      "primitive": "origin",
+      "claim": "Before heaven and earth there were only mingled primordial waters: 'in the beginning, there was only undifferentiated water swirling in chaos', which 'divided into sweet, fresh water, known as the god Apsu, and salty bitter water, the goddess Tiamat' — the gods themselves are generated, not eternal.",
+      "source_ids": ["whe-enuma-elish"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "cosmic_structure",
+      "claim": "The ordered world is built from a slain god's body: 'Marduk defeats Quingu and kills Tiamat by shooting her with an arrow which splits her in two'; 'out of Tiamat's corpse, Marduk creates the heavens and the earth', and 'from her eyes flow the waters of the Tigris and Euphrates Rivers'.",
+      "source_ids": ["whe-enuma-elish"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "human_place",
+      "claim": "Humanity is created to relieve the gods of labor: 'from his blood, Ea creates Lullu, the first man, to be a helper to the gods in their eternal task', as the epic states — 'Ea created mankind / On whom he imposed the service of the gods, and set the gods free'.",
+      "source_ids": ["whe-enuma-elish"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "time",
+      "claim": "Calendar and celestial order are royal decrees of Marduk: 'he appointed the year, marked off divisions, And set up three stars each for the twelve months'.",
+      "source_ids": ["whe-enuma-elish"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "causality_and_agency",
+      "claim": "Cosmic order is monarchic — established and maintained through Marduk's kingship over the gods, a theology bound to politics: 'the rise of the cult of Marduk is closely connected with the political rise of Babylon from city-state to the capital of an empire'.",
+      "source_ids": ["whe-enuma-elish"],
+      "contested": true,
+      "confidence": "medium",
+      "notes": "The epic's date and setting are debated: the article both places composition 'long before the reign of Hammurabi of Babylon (1792–1750 BCE)' and notes the surviving tablets date to c. 1200 BCE; scholarly datings of the composition and of Marduk's elevation vary accordingly."
+    }
+  ],
+  "distinguishing_claims": [
+    "The cosmos begins as undifferentiated waters; even the gods are generated",
+    "Heaven and earth are made from the divided corpse of a defeated deity",
+    "Humans exist to carry the gods' workload",
+    "Cosmic order mirrors and legitimates monarchic political order"
+  ],
+  "common_confusions": [
+    "Creation here is combat and craftsmanship upon pre-existing divine matter — not creation from nothing.",
+    "The Enūma Eliš is a Babylonian composition exalting Marduk; it does not speak for all Mesopotamian cosmogony.",
+    "Human purpose (serving the gods) inverts traditions where the cosmos exists for humanity's sake."
+  ],
+  "related_cards": ["norse-eddic-cosmology", "aztec-mexica-cosmology", "platonic-timaeus", "christian-classical-theism"],
+  "sources": [
+    {
+      "id": "whe-enuma-elish",
+      "title": "Enuma Elish - The Babylonian Epic of Creation (World History Encyclopedia)",
+      "author": "Joshua J. Mark",
+      "url": "https://www.worldhistory.org/article/225/enuma-elish---the-babylonian-epic-of-creation---fu/",
+      "source_type": "other",
+      "accessed_at": "2026-07-06",
+      "passage": "In the beginning, there was only undifferentiated water swirling in chaos. [...] Out of this swirl, the waters divided into sweet, fresh water, known as the god Apsu, and salty bitter water, the goddess Tiamat. [...] Marduk defeats Quingu and kills Tiamat by shooting her with an arrow which splits her in two. [...] Out of Tiamat's corpse, Marduk creates the heavens and the earth. [...] From his blood, Ea creates Lullu, the first man, to be a helper to the gods in their eternal task. [...] Ea created mankind / On whom he imposed the service of the gods, and set the gods free. [...] He appointed the year, marked off divisions, And set up three stars each for the twelve months. [...] The rise of the cult of Marduk is closely connected with the political rise of Babylon from city-state to the capital of an empire. (Published 2018-05-04.)"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": "Drafted for D2-001 batch 4. Source URL fetched and passages captured on 2026-07-06. Review needed: no human domain review yet; single tertiary source — add a primary-text translation (e.g. L.W. King or Lambert) at review; sacred-texts.com blocked fetching (403)."
+  }
+}

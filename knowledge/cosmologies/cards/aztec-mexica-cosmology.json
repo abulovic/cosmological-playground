@@ -1,0 +1,107 @@
+{
+  "id": "aztec-mexica-cosmology",
+  "label": "Aztec (Mexica) cosmology",
+  "version": "0.1.0",
+  "scope": {
+    "tradition": "Mesoamerican religion (Aztec/Mexica)",
+    "school": null,
+    "period": "Late Postclassic Mesoamerica (c. 1345–1521 CE)",
+    "region": "Central Mexico (Basin of Mexico, Tenochtitlan)",
+    "limitations": [
+      "Draft awaiting human domain review (D2-001); review needed before any scholarly authority is claimed.",
+      "Knowledge of Mexica religion rests on post-conquest colonial-era records and archaeology; details vary across sources and reconstruction is interpretive.",
+      "This draft relies on two World History Encyclopedia articles (tertiary); scholarly monographs or the Florentine Codex should be added at review.",
+      "No claims are recorded for ultimate_reality, constituents, self_and_consciousness, fundamental_problem, transformation, or epistemic_access: the sources used present mythic narrative and ritual practice, not doctrinal system. Absence means unspecified, not denial."
+    ]
+  },
+  "claims": [
+    {
+      "primitive": "time",
+      "claim": "Cosmic history is a sequence of world ages: 'the Aztecs believed that the cosmos had already gone through four stages, each with its own sun and beings', and 'the present era for the Aztecs was that of the 5th and final sun, Tonatiuh'.",
+      "source_ids": ["whe-tonatiuh"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "origin",
+      "claim": "The present sun was born from divine self-sacrifice at Teotihuacan: 'the god had been born from the sacrifice of Nanahuatzin who threw himself into a fire at Teotihuacan and thus became the new sun', and 'the rest of the gods realised that only a sacrifice would set the sun in motion and so Quetzalcoatl removed their hearts for that purpose'.",
+      "source_ids": ["whe-tonatiuh"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "causality_and_agency",
+      "claim": "The cosmos runs on reciprocal sacrifice: 'it was thought that only the regular offering of hearts from sacrificial victims would nourish Tonatiuh so that he had the strength to reign supreme in the skies', and 'sacrifices ensured his successful return and victory each night against her and the forces of darkness'.",
+      "source_ids": ["whe-tonatiuh"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "human_place",
+      "claim": "Humans are participants in cosmic maintenance: through offerings and blood sacrifice they nourish the sun that sustains the world age, making ritual obligation a load-bearing part of the cosmos rather than mere worship.",
+      "source_ids": ["whe-tonatiuh"],
+      "contested": false,
+      "confidence": "medium"
+    },
+    {
+      "primitive": "cosmic_structure",
+      "claim": "Below the earth lies a layered underworld: 'souls would descend the nine layers of the underworld in an arduous four-year journey until eventually reaching extinction in the deepest part - Mictlan Opochcalocan'.",
+      "source_ids": ["whe-mictlantecuhtli"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "destiny",
+      "claim": "Afterlife destination is set by manner of death, not moral conduct: 'only those who suffered a violent death, women who died in childbirth or people killed by storms or floods avoided the underworld in the afterlife', and 'the Aztecs did not believe in a special paradise reserved only for the righteous but, rather, that all people shared the same destiny after death, regardless of the kind of life they had led'.",
+      "source_ids": ["whe-mictlantecuhtli"],
+      "contested": true,
+      "confidence": "medium",
+      "notes": "Sources differ on the afterlife's map: the same article both asserts a shared common destiny and lists exceptions (warriors' deaths, childbirth, water deaths), and other colonial-era accounts add destinations such as Tlalocan; the details are contested reconstruction."
+    },
+    {
+      "primitive": "destiny",
+      "claim": "The current world age will also end: the Sun Stone bears 'the symbol for earthquakes (ollin) which the Aztecs believed would be the source of the destruction of the 5th cosmos'.",
+      "source_ids": ["whe-tonatiuh"],
+      "contested": false,
+      "confidence": "high"
+    }
+  ],
+  "distinguishing_claims": [
+    "The cosmos has passed through successive suns/world ages, each destroyed",
+    "The present sun was created and is sustained by sacrifice — divine first, then human",
+    "Afterlife destination depends on how one dies, not on moral merit",
+    "The fifth sun is expected to end in earthquakes"
+  ],
+  "common_confusions": [
+    "Human sacrifice was cosmological maintenance — nourishing the sun — not punishment or mere political terror in the Mexica's own framing.",
+    "Aztec world ages are non-moral cycles of creation and destruction, unlike eschatologies where the end delivers judgment.",
+    "Mexica religion is one Late Postclassic tradition; 'Aztec' beliefs cannot be generalized to all Mesoamerican peoples or periods."
+  ],
+  "related_cards": ["norse-eddic-cosmology", "babylonian-enuma-elish"],
+  "sources": [
+    {
+      "id": "whe-tonatiuh",
+      "title": "Tonatiuh (World History Encyclopedia)",
+      "author": "Mark Cartwright",
+      "url": "https://www.worldhistory.org/Tonatiuh/",
+      "source_type": "other",
+      "accessed_at": "2026-07-06",
+      "passage": "The Aztecs believed that the cosmos had already gone through four stages, each with its own sun and beings. [...] The present era for the Aztecs was that of the 5th and final sun, Tonatiuh. [...] The god had been born from the sacrifice of Nanahuatzin who threw himself into a fire at Teotihuacan and thus became the new sun. [...] The rest of the gods realised that only a sacrifice would set the sun in motion and so Quetzalcoatl removed their hearts for that purpose. [...] It was thought that only the regular offering of hearts from sacrificial victims would nourish Tonatiuh so that he had the strength to reign supreme in the skies. [...] On the disk is the symbol for earthquakes (ollin) which the Aztecs believed would be the source of the destruction of the 5th cosmos. (Published 2017-03-30.)"
+    },
+    {
+      "id": "whe-mictlantecuhtli",
+      "title": "Mictlantecuhtli (World History Encyclopedia)",
+      "author": "Mark Cartwright",
+      "url": "https://www.worldhistory.org/Mictlan/",
+      "source_type": "other",
+      "accessed_at": "2026-07-06",
+      "passage": "Souls would descend the nine layers of the underworld in an arduous four-year journey until eventually reaching extinction in the deepest part - Mictlan Opochcalocan. [...] Only those who suffered a violent death, women who died in childbirth or people killed by storms or floods avoided the underworld in the afterlife. [...] The Aztecs did not believe in a special paradise reserved only for the righteous but, rather, that all people shared the same destiny after death, regardless of the kind of life they had led. (Published 2013-09-22.)"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": "Drafted for D2-001 batch 4. Source URLs fetched and passages captured on 2026-07-06. Review needed: no human domain review yet; both sources are tertiary encyclopedia articles — add scholarly and primary (Florentine Codex) sources at review. Britannica blocked fetching (403)."
+  }
+}

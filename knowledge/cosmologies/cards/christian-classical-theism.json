@@ -1,0 +1,171 @@
+{
+  "id": "christian-classical-theism",
+  "label": "Christian classical theism (patristic–scholastic)",
+  "version": "0.1.0",
+  "scope": {
+    "tradition": "Christianity",
+    "school": "Classical theism of the patristic and scholastic Latin tradition, exemplified by Augustine, Boethius, Anselm, and Aquinas",
+    "period": "4th–13th century CE formulations, as received in later classical theism",
+    "region": "Mediterranean and Latin West",
+    "limitations": [
+      "Draft authored for schema validation (D1-002); not yet domain-reviewed.",
+      "Not representative of all Christian theology: theistic personalism, open theism, and process theology reject several claims recorded here.",
+      "No claim is recorded for self_and_consciousness: the classical doctrine of the rational soul (e.g., Summa Theologiae I, qq. 75–76) has not yet been source-verified for this draft. Absence means unspecified, not that the tradition lacks a doctrine."
+    ]
+  },
+  "claims": [
+    {
+      "primitive": "ultimate_reality",
+      "claim": "God is metaphysically ultimate: absolutely simple, transcending every form of complexity and composition, lacking parts, and in some sense identical to each of his attributes.",
+      "source_ids": ["sep-divine-simplicity"],
+      "contested": true,
+      "confidence": "high",
+      "notes": "Core to classical theism, but contested in contemporary analytic philosophy of religion, where critics such as Plantinga argue the doctrine is incoherent."
+    },
+    {
+      "primitive": "constituents",
+      "claim": "Reality divides into the uncreated God and creation, which comprises 'all things visible and invisible'.",
+      "source_ids": ["nicene-creed"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "origin",
+      "claim": "All things other than God were created by God, the 'Maker of heaven and earth, and of all things visible and invisible'.",
+      "source_ids": ["nicene-creed"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "origin",
+      "claim": "That the created world had a temporal beginning is held by faith and cannot be demonstrated by reason.",
+      "source_ids": ["aquinas-summa-i-q46"],
+      "contested": true,
+      "confidence": "high",
+      "notes": "Aquinas's position, argued against contemporaries who held the world's beginning to be rationally demonstrable; marked contested to record this intra-school dispute."
+    },
+    {
+      "primitive": "causality_and_agency",
+      "claim": "There is a first efficient cause of the world, 'to which everyone gives the name of God'.",
+      "source_ids": ["aquinas-summa-i-q2"],
+      "contested": false,
+      "confidence": "high",
+      "notes": "The developed account of divine providence working through secondary causes (e.g., Summa Theologiae I, qq. 22, 103–105) is not yet source-verified on this draft."
+    },
+    {
+      "primitive": "cosmic_structure",
+      "claim": "The created order includes both visible (material) and invisible (spiritual) realms of being, with God transcending both.",
+      "source_ids": ["nicene-creed"],
+      "contested": false,
+      "confidence": "medium"
+    },
+    {
+      "primitive": "time",
+      "claim": "God is timelessly eternal — eternity being 'the whole, simultaneous, and perfect possession of boundless life' — while creatures exist in time.",
+      "source_ids": ["sep-eternity"],
+      "contested": true,
+      "confidence": "high",
+      "notes": "Standard in classical theism (the Boethian definition); contested in wider Christian thought by defenders of divine temporality."
+    },
+    {
+      "primitive": "human_place",
+      "claim": "Human beings are creatures of God and the objects of God's saving action, 'for us men for our salvation'.",
+      "source_ids": ["nicene-creed"],
+      "contested": false,
+      "confidence": "medium"
+    },
+    {
+      "primitive": "fundamental_problem",
+      "claim": "Humanity stands in need of salvation; apart from God's saving act the human condition is one of estrangement from God.",
+      "source_ids": ["nicene-creed"],
+      "contested": false,
+      "confidence": "medium",
+      "notes": "The creed presupposes rather than states the diagnosis; the developed doctrine of sin (e.g., Augustine) is not yet sourced on this card."
+    },
+    {
+      "primitive": "transformation",
+      "claim": "Salvation comes through the incarnation, crucifixion, and resurrection of Jesus Christ, who 'for us men for our salvation, came down from heaven'.",
+      "source_ids": ["nicene-creed"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "destiny",
+      "claim": "History ends in Christ's return 'with glory, to judge the quick and the dead', 'the resurrection of the dead, and the life of the world to come'.",
+      "source_ids": ["nicene-creed"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "epistemic_access",
+      "claim": "God can be known by natural reason arguing from created effects, and by revelation; some truths, such as the world's temporal beginning, are held by faith alone.",
+      "source_ids": ["aquinas-summa-i-q2", "aquinas-summa-i-q46"],
+      "contested": false,
+      "confidence": "high"
+    }
+  ],
+  "distinguishing_claims": [
+    "Divine simplicity: God without parts or composition",
+    "Creation of all things by a transcendent God",
+    "Dual epistemic route: natural reason and revelation"
+  ],
+  "common_confusions": [
+    "Classical theism is not generic belief in God: it is a specific metaphysical account (simplicity, timeless eternity) rejected by some other Christian theologies.",
+    "Aquinas's denial that the world's beginning is demonstrable is not a denial that the world began.",
+    "The creed's silence on the soul in this card reflects unsourced draft status, not doctrinal absence in the tradition."
+  ],
+  "related_cards": ["scientific-naturalism", "buddhist-madhyamaka"],
+  "sources": [
+    {
+      "id": "nicene-creed",
+      "title": "The Nicene Creed (Niceno-Constantinopolitan Creed), Christian Classics Ethereal Library",
+      "author": null,
+      "url": "https://www.ccel.org/creeds/nicene.creed.html",
+      "source_type": "primary_text",
+      "accessed_at": "2026-07-06",
+      "passage": "Maker of heaven and earth, and of all things visible and invisible. [...] Who, for us men for our salvation, came down from heaven, and was incarnate by the Holy Spirit of the virgin Mary, and was made man; and was crucified also for us under Pontius Pilate; He suffered and was buried; and the third day He rose again, according to the Scriptures [...] and He shall come again, with glory, to judge the quick and the dead. [...] I look for the resurrection of the dead, and the life of the world to come. Amen."
+    },
+    {
+      "id": "aquinas-summa-i-q2",
+      "title": "Summa Theologiae, First Part, Question 2: The existence of God (New Advent edition)",
+      "author": "Thomas Aquinas, trans. Fathers of the English Dominican Province",
+      "url": "https://www.newadvent.org/summa/1002.htm",
+      "source_type": "primary_text",
+      "accessed_at": "2026-07-06",
+      "passage": "Therefore it is necessary to admit a first efficient cause, to which everyone gives the name of God. (Article 3, the Second Way.)"
+    },
+    {
+      "id": "aquinas-summa-i-q46",
+      "title": "Summa Theologiae, First Part, Question 46: The beginning of the duration of creatures (New Advent edition)",
+      "author": "Thomas Aquinas, trans. Fathers of the English Dominican Province",
+      "url": "https://www.newadvent.org/summa/1046.htm",
+      "source_type": "primary_text",
+      "accessed_at": "2026-07-06",
+      "passage": "By faith alone do we hold, and by no demonstration can it be proved, that the world did not always exist. (Article 2.)"
+    },
+    {
+      "id": "sep-divine-simplicity",
+      "title": "Divine Simplicity (Stanford Encyclopedia of Philosophy)",
+      "author": "William F. Vallicella",
+      "url": "https://plato.stanford.edu/entries/divine-simplicity/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "God is simple in that God transcends every form of complexity and composition familiar to the discursive intellect. One consequence is that the simple God lacks parts. [...] God is thus in some sense identical to each of his attributes. (First published 2006-03-20; substantive revision 2023-10-20.)"
+    },
+    {
+      "id": "sep-eternity",
+      "title": "Eternity in Christian Thought (Stanford Encyclopedia of Philosophy)",
+      "author": "Natalja Deng",
+      "url": "https://plato.stanford.edu/entries/eternity/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "Eternity [...] is the whole, simultaneous, and perfect possession of boundless life (Boethius). Broadly speaking, there have been two rival views of what God's eternality consists in. On the first, God is timeless (divine timelessness); on the second, God is in time (divine temporality). (First published 2018-03-22; substantive revision 2023-08-24.)"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": "Drafted for schema validation (D1-002). All source URLs were fetched and passages captured on 2026-07-06. Awaiting human domain review before any scholarly authority is claimed."
+  }
+}

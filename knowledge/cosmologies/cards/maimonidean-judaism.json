@@ -1,0 +1,101 @@
+{
+  "id": "maimonidean-judaism",
+  "label": "Medieval Jewish philosophy (Maimonides)",
+  "version": "0.1.0",
+  "scope": {
+    "tradition": "Judaism (medieval rationalist philosophy)",
+    "school": "Maimonides (Moses ben Maimon), principally the Guide of the Perplexed",
+    "period": "12th century CE (1138–1204)",
+    "region": "al-Andalus, North Africa, and Egypt",
+    "limitations": [
+      "Draft awaiting human domain review (D2-001); review needed before any scholarly authority is claimed.",
+      "Scoped to Maimonides; rabbinic Judaism broadly, kabbalah, and later Jewish philosophy are out of scope.",
+      "The esoteric-reading question — 'whether to take Maimonides' words at face value or whether to take them as hints or clues pointing to a hidden or deeper meaning' — conditions several claims and is flagged below.",
+      "No claims are recorded for constituents, cosmic_structure, time, or self_and_consciousness as separate primitives: Maimonides largely adopts the Aristotelian natural framework (see aristotelian-cosmology). Absence means unspecified, not denial."
+    ]
+  },
+  "claims": [
+    {
+      "primitive": "ultimate_reality",
+      "claim": "God is absolutely one and incorporeal: 'there just is no monotheism apart from belief in one simplex Being, without complexity or multiplicity, one from every standpoint and perspective' — 'God's unity, the simplicity of the divine nature, is not a unity of parts, properties, or powers'.",
+      "source_ids": ["sep-maimonides", "iep-maimonides"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "origin",
+      "claim": "The world is freely created, not eternally necessitated: 'the world is the result of a free act of creation, rather than a necessary emanation'; among the alternatives, 'Maimonides prefers the theory of Moses but allows one to hold that of Plato as a reasonable alternative'.",
+      "source_ids": ["iep-maimonides", "sep-maimonides"],
+      "contested": true,
+      "confidence": "high",
+      "notes": "His true position is a classic locus of dispute: 'there has always been a school of thought that maintains that he is secretly committed to the view of Aristotle' (Harvey 1981), others read a Platonic preference (Davidson 1979) or a combination (Ivry 2016); of late the esotericist reading 'appears less favored among scholars'."
+    },
+    {
+      "primitive": "causality_and_agency",
+      "claim": "Creation stands under divine governance: 'the created order is under divine governance. That means that there is what we might call “ultimate” or “cosmic” justice'.",
+      "source_ids": ["iep-maimonides"],
+      "contested": false,
+      "confidence": "medium"
+    },
+    {
+      "primitive": "epistemic_access",
+      "claim": "God is known chiefly by negation: 'the more you can prove inapplicable to God, the better: and the more you affirm of Him, the more you anthropomorphize', for 'every attribute that is found in the books of the deity… is therefore an attribute of His action and not an attribute of His essence' — 'ultimately any kind of verbal expression fails us'.",
+      "source_ids": ["sep-maimonides", "iep-maimonides"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "transformation",
+      "claim": "The human end is intellectual perfection: 'the highest perfection is intellectual and consists in know[ing] everything that our human natures allow', and 'the more knowledge the soul acquires, the more it is able to fulfill the commandment to love God'.",
+      "source_ids": ["sep-maimonides", "iep-maimonides"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "destiny",
+      "claim": "Immortality tracks actualized intellect: 'a person is immortal, capable of surviving bodily death, to the extent that one's intellect is actualized', and 'his conception of the afterlife is purely intellectual', though the Treatise on Resurrection defends the possibility of bodily resurrection.",
+      "source_ids": ["iep-maimonides", "sep-maimonides"],
+      "contested": true,
+      "confidence": "medium",
+      "notes": "The tension between the purely intellectual afterlife of the Guide and the bodily resurrection of the Treatise (1191) is part of the esoteric-reading debate."
+    }
+  ],
+  "distinguishing_claims": [
+    "God's absolute simplicity: no attributes can be predicated of the divine essence",
+    "Negative theology as the primary route to knowledge of God",
+    "Free creation defended against Aristotelian eternity, with the true view famously disputed",
+    "Immortality proportioned to intellectual perfection"
+  ],
+  "common_confusions": [
+    "Maimonides accepts Aristotelian science of the sublunary world while rejecting the eternity thesis — the cards overlap but split on origin.",
+    "Negative theology is not agnosticism: God's existence is demonstrable; only positive essential attributes are denied.",
+    "The 'world to come' is not a place but a state of actualized intellect on his reading."
+  ],
+  "related_cards": ["aristotelian-cosmology", "avicennan-falsafa", "asharite-kalam", "christian-classical-theism"],
+  "sources": [
+    {
+      "id": "sep-maimonides",
+      "title": "Maimonides (Stanford Encyclopedia of Philosophy)",
+      "author": "Kenneth Seeskin",
+      "url": "https://plato.stanford.edu/entries/maimonides/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "There just is no monotheism apart from belief in one simplex Being, without complexity or multiplicity, one from every standpoint and perspective (Guide 1.51). [...] The more you can prove inapplicable to God, the better: and the more you affirm of Him, the more you anthropomorphize (Guide 1.59). [...] Maimonides prefers the theory of Moses but allows one to hold that of Plato as a reasonable alternative. [...] There has always been a school of thought that maintains that he is secretly committed to the view of Aristotle. [...] The highest perfection is intellectual and consists in know[ing] everything that our human natures allow (Guide 3.27). [...] his conception of the afterlife is purely intellectual. (First published 2006-01-24; substantive revision 2024-11-18.)"
+    },
+    {
+      "id": "iep-maimonides",
+      "title": "Maimonides (Internet Encyclopedia of Philosophy)",
+      "author": null,
+      "url": "https://iep.utm.edu/maimonid/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "God's unity, the simplicity of the divine nature, is not a unity of parts, properties, or powers. [...] Every attribute that is found in the books of the deity… is therefore an attribute of His action and not an attribute of His essence. [...] The world is the result of a free act of creation, rather than a necessary emanation. [...] The created order is under divine governance. That means that there is what we might call 'ultimate' or 'cosmic' justice. [...] His ultimate perfection is to become rational in actu, I mean to have an intellect in actu. [...] A person is immortal, capable of surviving bodily death, to the extent that one's intellect is actualized. (Author byline not captured at access time — verify on review.)"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": "Drafted for D2-001 batch 3. Source URLs fetched and passages captured on 2026-07-06. Review needed: no human domain review yet. Open provenance item: the IEP 'Maimonides' author byline was not captured during fetch and must be added at review."
+  }
+}

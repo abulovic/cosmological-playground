@@ -1,0 +1,100 @@
+{
+  "id": "asharite-kalam",
+  "label": "Ashʿarite kalām occasionalism",
+  "version": "0.1.0",
+  "scope": {
+    "tradition": "Islam (Sunnī kalām theology)",
+    "school": "The Ashʿarite school, with al-Ghazālī's defense in the Tahāfut al-falāsifa",
+    "period": "10th–12th centuries CE (al-Ashʿarī d. 936 to al-Ghazālī, 1058–1111)",
+    "region": "Islamic Near East (Iraq, Persia)",
+    "limitations": [
+      "Draft awaiting human domain review (D2-001); review needed before any scholarly authority is claimed.",
+      "Scoped to Ashʿarite occasionalist cosmology as presented through al-Ghazālī; Muʿtazilite kalām, Māturīdism, and later Ashʿarism are out of scope.",
+      "Whether al-Ghazālī himself was a thoroughgoing occasionalist is a live scholarly dispute, flagged below.",
+      "No claims are recorded for cosmic_structure, human_place, self_and_consciousness, fundamental_problem, transformation, or destiny: the sources used focus on causation and creation; the school's wider theology is not summarized here. Absence means unspecified, not denial."
+    ]
+  },
+  "claims": [
+    {
+      "primitive": "ultimate_reality",
+      "claim": "God is the sole real agent: 'God creates and determines everything, including the actions of humans. God is the only “agent” or the only “efficient cause” (fāʿil) in the world'.",
+      "source_ids": ["sep-al-ghazali", "sep-occasionalism"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "constituents",
+      "claim": "The world consists of atoms and accidents with no persisting natures of their own: 'in every moment, God re-arranges all the atoms of this world anew and He creates new accidents—thus creating a new world every moment'.",
+      "source_ids": ["sep-al-ghazali"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "time",
+      "claim": "Cosmic history is continuous re-creation: existence is sustained moment by moment by God's creative act, who creates 'a new world every moment'.",
+      "source_ids": ["sep-al-ghazali", "sep-occasionalism"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "causality_and_agency",
+      "claim": "There is no necessary connection between created events: 'the connection (iqtirān) between what is habitually believed to be a cause and what is habitually believed to be an effect is not necessary (ḍarūrī), according to us' — pairs like 'burning and contact with fire, light and the appearance of the sun, death and decapitation' are conjoined only by 'the prior decree of God, who creates them side by side, not to its being necessary in itself'.",
+      "source_ids": ["sep-al-ghazali", "sep-occasionalism"],
+      "contested": true,
+      "confidence": "high",
+      "notes": "Whether al-Ghazālī endorsed strict occasionalism or allowed secondary causes is disputed: 'more recent literature assumes that al-Ghazālī considered occasionalism and secondary causality as cum-possible explanations of God's creative activity' — 'both these two views are possible for us (kilāhumā mumkinān ʿindanā)'."
+    },
+    {
+      "primitive": "causality_and_agency",
+      "claim": "Divine will determines all outcomes: 'there is no single event in this world that is not determined by God's will', and miracles are 'merely extraordinary occurrences that take place within the system of the strictly habitual operation of God's actions'.",
+      "source_ids": ["sep-al-ghazali"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "epistemic_access",
+      "claim": "Observation cannot establish causal necessity: 'observation (mushāhada) points towards a concomitant occurrence (al-husûl ʿindahu) but not to a combined occurrence (al-huṣūl bihī)'.",
+      "source_ids": ["sep-al-ghazali"],
+      "contested": false,
+      "confidence": "high"
+    }
+  ],
+  "distinguishing_claims": [
+    "God is the only true cause; created things have no causal efficacy of their own",
+    "The world is atoms and accidents re-created by God at every moment",
+    "Observed regularities reflect God's habit, not natural necessity",
+    "Miracles are re-arrangements within God's habitual action, not violations of nature"
+  ],
+  "common_confusions": [
+    "Occasionalism is not skepticism about regularity: the world is orderly because God's habit is stable.",
+    "Ashʿarite atomism serves divine omnipotence, unlike Epicurean atomism, which excludes divine governance.",
+    "This school directly opposes Avicennan falsafa on causal necessity and the world's eternity, though both are Islamic cosmologies."
+  ],
+  "related_cards": ["avicennan-falsafa", "christian-classical-theism", "maimonidean-judaism", "epicurean-atomism"],
+  "sources": [
+    {
+      "id": "sep-al-ghazali",
+      "title": "al-Ghazali (Stanford Encyclopedia of Philosophy)",
+      "author": "Frank Griffel",
+      "url": "https://plato.stanford.edu/entries/al-ghazali/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "God creates and determines everything, including the actions of humans. God is the only 'agent' or the only 'efficient cause' (fāʿil) in the world. [...] There is no single event in this world that is not determined by God's will. [...] In every moment, God re-arranges all the atoms of this world anew and He creates new accidents—thus creating a new world every moment. [...] The connection (iqtirān) between what is habitually believed to be a cause and what is habitually believed to be an effect is not necessary (ḍarūrī), according to us. [...] Observation (mushāhada) points towards a concomitant occurrence (al-husûl ʿindahu) but not to a combined occurrence (al-huṣūl bihī). [...] Prophetical miracles are merely extraordinary occurrences that take place within the system of the strictly habitual operation of God's actions. [...] Both these two views are possible for us (kilāhumā mumkinān ʿindanā). (First published 2007-08-14; substantive revision 2026-01-15.)"
+    },
+    {
+      "id": "sep-occasionalism",
+      "title": "Occasionalism (Stanford Encyclopedia of Philosophy)",
+      "author": null,
+      "url": "https://plato.stanford.edu/entries/occasionalism/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "Islamic occasionalism seems to have emerged when the theologians of the Ash'arite school of kalām began to consider the implications of the systematic reinterpretation of Aristotelianism. [...] burning and contact with fire, light and the appearance of the sun, death and decapitation (listed among cases whose connection) is due to the prior decree of God, who creates them side by side, not to its being necessary in itself. (First published 2008-10-20; substantive revision 2019-10-17. Author byline not captured at access time — verify on review.)"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": "Drafted for D2-001 batch 3. Source URLs fetched and passages captured on 2026-07-06. Review needed: no human domain review yet. Open provenance item: the SEP 'Occasionalism' author byline was not captured during fetch and must be added at review."
+  }
+}

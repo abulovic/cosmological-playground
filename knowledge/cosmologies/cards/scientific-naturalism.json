@@ -1,0 +1,123 @@
+{
+  "id": "scientific-naturalism",
+  "label": "Scientific naturalism (contemporary philosophical)",
+  "version": "0.1.0",
+  "scope": {
+    "tradition": "Scientific naturalism",
+    "school": "Contemporary ontological and methodological naturalism, including physicalism",
+    "period": "late 20th to early 21st century CE",
+    "region": "primarily Anglophone academic philosophy",
+    "limitations": [
+      "Draft authored for schema validation (D1-002); sourced to encyclopedic surveys rather than primary works, and not yet domain-reviewed.",
+      "Naturalism is a family of positions, not a creed; this card records widely shared commitments, not the view of every self-described naturalist.",
+      "No claims are recorded for time, fundamental_problem, transformation, or destiny: the tradition carries no canonical doctrine on these primitives. Absence means unspecified, not denial."
+    ]
+  },
+  "claims": [
+    {
+      "primitive": "ultimate_reality",
+      "claim": "Reality is exhausted by nature and contains nothing supernatural; in slogan form, everything is physical.",
+      "source_ids": ["sep-naturalism", "sep-physicalism"],
+      "contested": false,
+      "confidence": "high",
+      "notes": "What counts as 'physical' is itself debated within the school, but the grounding claim is shared across ontological naturalists."
+    },
+    {
+      "primitive": "constituents",
+      "claim": "There are no supernatural beings; all spatiotemporal entities are identical to or metaphysically constituted by physical entities.",
+      "source_ids": ["sep-naturalism", "sep-physicalism"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "origin",
+      "claim": "The origins of the cosmos, life, and humanity involve no supernatural creation; whatever the detailed account, it is a matter for natural science.",
+      "source_ids": ["sep-naturalism"],
+      "contested": false,
+      "confidence": "medium",
+      "notes": "Inferred from the ontological thesis plus methodological naturalism; the cited survey does not state a specific cosmogony, so confidence is medium."
+    },
+    {
+      "primitive": "causality_and_agency",
+      "claim": "The physical realm is causally closed: every event that has a cause has a physical cause; no non-physical agency intervenes in nature.",
+      "source_ids": ["sep-physicalism"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "cosmic_structure",
+      "claim": "There is a single natural world, with no supernatural realms or ontologically distinct sacred domains.",
+      "source_ids": ["sep-naturalism"],
+      "contested": false,
+      "confidence": "medium"
+    },
+    {
+      "primitive": "human_place",
+      "claim": "Human beings are natural, physically constituted organisms continuous with the rest of nature.",
+      "source_ids": ["sep-naturalism", "sep-physicalism"],
+      "contested": false,
+      "confidence": "medium"
+    },
+    {
+      "primitive": "self_and_consciousness",
+      "claim": "Mental life supervenes on the physical and there is no immaterial soul; how consciousness is to be explained physically remains an open dispute within the school.",
+      "source_ids": ["sep-physicalism", "sep-consciousness"],
+      "contested": true,
+      "confidence": "high",
+      "notes": "Contested aspect: whether and how consciousness reduces to or is realized by physical processes; there is no agreed-upon theory of consciousness (Van Gulick). The denial of an immaterial soul is not contested within the school."
+    },
+    {
+      "primitive": "epistemic_access",
+      "claim": "The scientific method is the authoritative route to knowledge of reality and should be used to investigate all areas of it.",
+      "source_ids": ["sep-naturalism"],
+      "contested": false,
+      "confidence": "high"
+    }
+  ],
+  "distinguishing_claims": [
+    "Causal closure of the physical",
+    "No supernatural entities of any kind",
+    "Scientific method as the universal epistemic authority"
+  ],
+  "common_confusions": [
+    "Naturalism is not merely atheism: it is an ontological and methodological package, not only a denial of gods.",
+    "Methodological naturalism in scientific practice does not by itself entail ontological naturalism.",
+    "The absence of doctrines about transformation or destiny is not a doctrine of meaninglessness."
+  ],
+  "related_cards": ["christian-classical-theism", "buddhist-madhyamaka"],
+  "sources": [
+    {
+      "id": "sep-naturalism",
+      "title": "Naturalism (Stanford Encyclopedia of Philosophy)",
+      "author": "David Papineau",
+      "url": "https://plato.stanford.edu/entries/naturalism/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "reality is exhausted by nature, containing nothing 'supernatural' [...] all spatiotemporal entities must be identical to or metaphysically constituted by physical entities [...] the scientific method should be used to investigate all areas of reality. (First published 2007-02-22; substantive revision 2020-03-31.)"
+    },
+    {
+      "id": "sep-physicalism",
+      "title": "Physicalism (Stanford Encyclopedia of Philosophy)",
+      "author": "Daniel Stoljar",
+      "url": "https://plato.stanford.edu/entries/physicalism/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "Physicalism is, in slogan form, the thesis that everything is physical. [...] no two possible worlds can be identical in their physical properties but differ, somewhere, in their mental, social or biological properties. Causal closure (sec. 6): every event possessing a cause has a physical cause. (First published 2001-02-13; substantive revision 2021-05-25.)"
+    },
+    {
+      "id": "sep-consciousness",
+      "title": "Consciousness (Stanford Encyclopedia of Philosophy)",
+      "author": "Robert Van Gulick",
+      "url": "https://plato.stanford.edu/entries/consciousness/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "Despite the lack of any agreed upon theory of consciousness, there is a widespread, if less than universal, consensus that an adequate account of mind requires a clear understanding of it. (First published 2004-06-18; substantive revision 2014-01-14.)"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": "Drafted for schema validation (D1-002). All source URLs were fetched and passages captured on 2026-07-06. Awaiting human domain review before any scholarly authority is claimed."
+  }
+}

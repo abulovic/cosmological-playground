@@ -1,0 +1,108 @@
+{
+  "id": "classical-daoism",
+  "label": "Classical Daoism (Laozi and Zhuangzi)",
+  "version": "0.1.0",
+  "scope": {
+    "tradition": "Chinese philosophy (Daoism)",
+    "school": "The classical texts Laozi (Daodejing) and Zhuangzi",
+    "period": "Warring States period; Laozi sayings 'committed to writing probably from the second half of the fifth century B.C.E.' and stable 'by the middle of the third century B.C.E.'",
+    "region": "China",
+    "limitations": [
+      "Draft awaiting human domain review (D2-001); review needed before any scholarly authority is claimed.",
+      "Both texts are composite: the Laozi's single authorship 'seems unlikely', and the received Zhuangzi was compiled by Guo Xiang (d. 312 CE), who 'compressed that prior collection of writings from fifty-two chapters to thirty-three', with only the Inner Chapters attributed to Zhuangzi's period.",
+      "Religious Daoism (Daojiao) and later Daoist cosmological systems are out of scope.",
+      "No claims are recorded for cosmic_structure, time, self_and_consciousness, fundamental_problem, or destiny as separate primitives: the sources used do not present systematic doctrines under these headings. Absence means unspecified, not denial."
+    ]
+  },
+  "claims": [
+    {
+      "primitive": "ultimate_reality",
+      "claim": "The Dao is the ineffable ground of all: 'the “constant” Dao cannot be defined or described; it is “nameless”'.",
+      "source_ids": ["sep-laozi"],
+      "contested": true,
+      "confidence": "high",
+      "notes": "How to read the Dao — as metaphysical entity, ethical way, or both — is contested; the entry holds that 'the Laozi could be seen as encompassing all of the above—such categories as the metaphysical, ethical, political, mystical, and religious form a unified whole in Daoist thinking'."
+    },
+    {
+      "primitive": "origin",
+      "claim": "All things issue from the Dao: 'Dao gives birth to One; One gives birth to Two; Two gives birth to Three; Three gives birth to the ten thousand things' — the concept of Dao 'points to the “beginning” of the “ten thousand things”'.",
+      "source_ids": ["sep-laozi"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "causality_and_agency",
+      "claim": "Things arise and order themselves spontaneously (ziran): the Dao 'is not derived from or “modeled” after anything', and nature 'provides us with many ways to behave, but does not judge or care which choices we make among those naturally possible'.",
+      "source_ids": ["sep-laozi", "sep-zhuangzi"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "constituents",
+      "claim": "Each thing has its share of the Dao's potency: 'de is thus what one has “obtained” from (the) Dao, a “latent power” by “virtue” of which any being becomes what it is'.",
+      "source_ids": ["sep-laozi"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "human_place",
+      "claim": "Humans flourish by finding their own way among nature's viable paths: the Zhuangzi's 'mildly qualified advice is to let each thing work out for itself, 自然 (zìrán self-real-ize), how to find, choose and exploit opportunities'.",
+      "source_ids": ["sep-zhuangzi"],
+      "contested": false,
+      "confidence": "medium"
+    },
+    {
+      "primitive": "transformation",
+      "claim": "The ideal is effortless alignment rather than striving: 'nonaction thus entails at the personal level simplicity and quietude, which naturally follow from having few desires', and 'the ideal sage-ruler is someone who understands and follows ziran'.",
+      "source_ids": ["sep-laozi"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "epistemic_access",
+      "claim": "Fixed, perspective-free knowledge of the world is unavailable: 'dàos are made by walking them; thing-kinds are made rán (so) by being called “so”', and 'we cannot finally settle skeptical doubts by winning disputes, particularly not by appeal to a judge or authority'.",
+      "source_ids": ["sep-zhuangzi"],
+      "contested": false,
+      "confidence": "medium",
+      "notes": "The SEP Zhuangzi entry develops a perspectival, language-focused reading; other interpretive lines (mystical, primitivist) exist in the literature."
+    }
+  ],
+  "distinguishing_claims": [
+    "An ineffable, nameless Dao is the source of the ten thousand things",
+    "Spontaneity (ziran) rather than design or command orders the world",
+    "Nonaction (wuwei) aligns the person with the Dao",
+    "The Zhuangzi turns cosmology into perspectivism about knowledge and value"
+  ],
+  "common_confusions": [
+    "The Dao is not a creator deity: generation is spontaneous issuance, not purposive making.",
+    "Wuwei is not passivity but uncontrived, unforced action.",
+    "Classical Daoist philosophy is distinct from later religious Daoism with its gods, liturgies, and immortality practices."
+  ],
+  "related_cards": ["stoic-cosmology", "buddhist-madhyamaka", "platonic-timaeus"],
+  "sources": [
+    {
+      "id": "sep-laozi",
+      "title": "Laozi (Stanford Encyclopedia of Philosophy)",
+      "author": null,
+      "url": "https://plato.stanford.edu/entries/laozi/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "The 'constant' Dao cannot be defined or described; it is 'nameless.' [...] Dao gives birth to One; One gives birth to Two; Two gives birth to Three; Three gives birth to the ten thousand things. [...] Ziran gives no specific information, except to say that Dao is not derived from or 'modeled' after anything. [...] De is thus what one has 'obtained' from (the) Dao, a 'latent power' by 'virtue' of which any being becomes what it is. [...] Nonaction thus entails at the personal level simplicity and quietude, which naturally follow from having few desires. [...] The ideal sage-ruler is someone who understands and follows ziran. (First published 2001-12-15; substantive revision 2025-10-22. Author byline not captured at access time — verify on review.)"
+    },
+    {
+      "id": "sep-zhuangzi",
+      "title": "Zhuangzi (Stanford Encyclopedia of Philosophy)",
+      "author": null,
+      "url": "https://plato.stanford.edu/entries/zhuangzi/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "Dàos are made by walking them; thing-kinds are made rán (然 so) by being called 'so'. [...] His mildly qualified advice is to let each thing work out for itself, 自然 (zìrán self-real-ize), how to find, choose and exploit opportunities. [...] We cannot finally settle skeptical doubts by winning disputes, particularly not by appeal to a judge or authority. [...] Nature provides us with many ways to behave, but does not judge or care which choices we make among those naturally possible. [...] Guo Xiang (d. 312 CE) compressed that prior collection of writings from fifty-two chapters to thirty-three. (First published 2014-12-17; substantive revision 2024-03-24. Author byline not captured at access time — verify on review.)"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": "Drafted for D2-001 batch 2. Source URLs fetched and passages captured on 2026-07-06. Review needed: no human domain review yet. Open provenance items: SEP 'Laozi' and 'Zhuangzi' author bylines were not captured during fetch and must be added at review."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "version": "0.1.0",
+  "updated_at": "2026-07-07",
+  "source": {
+    "name": "Meaning Alignment Institute — Moral Graph (the first moral graph)",
+    "project": "Democratic Fine-Tuning (DFT)",
+    "study": "Moral Graph Elicitation with a representative sample of ~500 US participants on 3 deliberately divisive prompts (abortion, parenting, diverse viewpoints).",
+    "citation": "Klingefjord, Lowe & Edelman, \"What are human values, and how do we align AI to them?\", arXiv:2404.10636 (2024)."
+  },
+  "access": {
+    "export_url": "https://dft.meaningalignment.org/data/edges.json",
+    "explorer_url": "https://dft.meaningalignment.org/data/edges",
+    "data_repository": "https://github.com/meaningalignment/dft (archived)",
+    "tool_repository": "https://github.com/meaningalignment/moral-graph-elicitation (generator tool; not used for this import)"
+  },
+  "revision": {
+    "note": "The export is a static JSON endpoint with no version-control revision; the download is anchored by sha256 and date.",
+    "downloaded_at": "2026-07-07",
+    "sha256": "69d3fc5a6c464697b7fb0818b409d202f623d72ef5d76e881c82c3e9d83c5874",
+    "bytes": 69289
+  },
+  "license": {
+    "status": "unresolved",
+    "detail": "No LICENSE file in either MAI repository (GitHub `license: null`); the data is published openly but states no reuse terms (not MIT, CC-BY, or similar)."
+  },
+  "usage": {
+    "scope": "internal use only",
+    "publication": "Do not publish MAI-derived data until cleared with Joe Edelman (MAI). Raw and normalized data are gitignored; only this manifest and scripts/values.py are committed."
+  },
+  "row_count": {
+    "values": 59,
+    "edges": 71
+  },
+  "objects": {
+    "value_cards": {
+      "description": "Attention policies. May be retrieved by semantic relevance.",
+      "raw_fields": ["id", "title", "instructionsShort", "instructionsDetailed", "evaluationCriteria", "createdAt", "updatedAt"],
+      "normalized_fields": ["id", "title", "summary", "detail", "attention_policies", "source"],
+      "file": "knowledge/values/normalized_values.jsonl (gitignored)"
+    },
+    "moral_graph_edges": {
+      "description": "Contextual, human-voted 'wiser than' judgments. Looked up only by value id; never inferred from card similarity.",
+      "raw_fields": ["sourceValueId", "wiserValueId", "contexts", "counts", "summary"],
+      "normalized_fields": ["source_value_id", "wiser_value_id", "contexts", "counts", "wiser_likelihood", "entropy", "source"],
+      "file": "knowledge/values/normalized_edges.jsonl (gitignored)"
+    }
+  },
+  "firewall": "Value cards and moral-graph edges are stored in separate files. The application must not infer edges from card similarity. See knowledge/values/README.md.",
+  "raw_file": "knowledge/values/raw/moral-graph-edges.json (gitignored)",
+  "normalizer": "scripts/values.py"
+}

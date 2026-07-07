@@ -1,0 +1,100 @@
+{
+  "id": "norse-eddic-cosmology",
+  "label": "Norse cosmology (Eddic)",
+  "version": "0.1.0",
+  "scope": {
+    "tradition": "Norse (pre-Christian Scandinavian religion)",
+    "school": null,
+    "period": "Viking Age oral tradition (c. 8th–11th centuries CE), recorded in 13th-century Iceland (Poetic Edda; Snorri Sturluson's Prose Edda)",
+    "region": "Scandinavia and Iceland",
+    "limitations": [
+      "Draft awaiting human domain review (D2-001); review needed before any scholarly authority is claimed.",
+      "The mythology survives mainly through Christian-era Icelandic texts: Snorri's work 'is the main reason we have an inkling of Norse mythology and myths as a whole, but should also be read critically, as he wrote from a Christian context'.",
+      "Coverage is fragmentary: 'we only have the “tips of the narrative icebergs”' (Schjødt, quoted in the WHE article) — regional and temporal variation in actual belief is largely unrecoverable.",
+      "No claims are recorded for ultimate_reality, constituents, self_and_consciousness, fundamental_problem, transformation, or epistemic_access: the Eddic sources present narrative myth, not doctrinal system. Absence means unspecified, not denial."
+    ]
+  },
+  "claims": [
+    {
+      "primitive": "origin",
+      "claim": "The world begins from a primordial void and the body of the proto-giant Ymir: 'It was Time's morning, / When there nothing was; / Nor sand, nor sea, / Nor cooling billows', after which the gods fashioned 'the earth from his flesh, the sky from his skull, mountains from his bones and the sea from his blood'.",
+      "source_ids": ["gutenberg-younger-edda", "whe-norse-mythology"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "cosmic_structure",
+      "claim": "A world tree binds the realms together: 'The World Tree Yggdrasil, the axis of time and space, stands in the gods' home realm of Asgard while its roots encompass all the other realms, including Midgard, where the humans reside, and the giants' abode Jotunheim' — 'this ash is the best and greatest of all trees; its branches spread over all the world, and reach up above heaven'.",
+      "source_ids": ["whe-norse-mythology", "gutenberg-younger-edda"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "causality_and_agency",
+      "claim": "Fate stands above gods and humans alike: 'three maids, whose names are Urd, Verdande and Skuld. These maids shape the lives of men, and we call them norns' — 'the three fates (known as Norns) spin the fates of human lives at the tree's base', and even the gods move toward their appointed doom.",
+      "source_ids": ["gutenberg-younger-edda", "whe-norse-mythology"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "human_place",
+      "claim": "Humanity is crafted from trees: 'the first human couple, Ask and Embla, were fashioned out of two trees or pieces of wood', dwelling in Midgard within the tree-bound cosmos.",
+      "source_ids": ["whe-norse-mythology"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "destiny",
+      "claim": "The cosmos ends in Ragnarök, 'the “final destiny of the gods”': 'the earth sinks into the sea, the wolf Fenrir... breaks loose and devours the sun'; 'the wolf swallows Odin, but Vidar... rends him till he dies... the end has come. This is Ragnarok'.",
+      "source_ids": ["whe-norse-mythology", "gutenberg-younger-edda"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "time",
+      "claim": "Destruction is not final — the world is reborn: 'following a cyclical concept of the world, a new world rises – not from the ashes, but from the sea', as 'the earth, completely green, rises again from the sea... rich fields... wave their golden harvests'.",
+      "source_ids": ["whe-norse-mythology", "gutenberg-younger-edda"],
+      "contested": true,
+      "confidence": "medium",
+      "notes": "The rebirth motif survives in texts recorded after Christianization; because Snorri 'wrote from a Christian context' and must 'be read critically', how far the cyclical renewal reflects pre-Christian belief versus Christian influence is uncertain."
+    }
+  ],
+  "distinguishing_claims": [
+    "The world is made from the dismembered body of a primordial giant",
+    "A world tree (Yggdrasil) structures the cosmos of nine realms",
+    "The gods are mortal and subject to fate, ending in Ragnarök",
+    "After the doom of gods and world, a new earth rises from the sea"
+  ],
+  "common_confusions": [
+    "The Norse gods are not omnipotent or eternal: they are born, constrained by fate, and die at Ragnarök.",
+    "The Eddas are 13th-century Christian-era literary recordings, not direct scripture of Viking Age practice.",
+    "Ragnarök plus rebirth differs from the Stoic conflagration: renewal comes through mythic battle and loss, not rational providence."
+  ],
+  "related_cards": ["aztec-mexica-cosmology", "babylonian-enuma-elish", "stoic-cosmology"],
+  "sources": [
+    {
+      "id": "whe-norse-mythology",
+      "title": "Norse Mythology (World History Encyclopedia)",
+      "author": "Emma Groeneveld",
+      "url": "https://www.worldhistory.org/Norse_Mythology/",
+      "source_type": "other",
+      "accessed_at": "2026-07-06",
+      "passage": "the earth from his flesh, the sky from his skull, mountains from his bones and the sea from his blood. [...] The World Tree Yggdrasil, the axis of time and space, stands in the gods' home realm of Asgard while its roots encompass all the other realms, including Midgard, where the humans reside, and the giants' abode Jotunheim. [...] the three fates (known as Norns) spin the fates of human lives at the tree's base. [...] The first human couple, Ask and Embla, were fashioned out of two trees or pieces of wood. [...] the earth sinks into the sea, the wolf Fenrir (often referred to as the Fenris-wolf) breaks loose and devours the sun. [...] phoenix-style, the destruction is not the end. Following a cyclical concept of the world, a new world rises – not from the ashes, but from the sea. [...] Snorri's work is the main reason we have an inkling of Norse mythology and myths as a whole, but should also be read critically, as he wrote from a Christian context. (Published 2017-11-02; last modified 2025-02-04.)"
+    },
+    {
+      "id": "gutenberg-younger-edda",
+      "title": "The Younger Edda (Prose Edda) of Snorre Sturleson, translated by Rasmus B. Anderson (Project Gutenberg eBook #18947)",
+      "author": "Snorri Sturluson (trans. Rasmus B. Anderson, 1901)",
+      "url": "https://www.gutenberg.org/files/18947/18947-h/18947-h.htm",
+      "source_type": "primary_text",
+      "accessed_at": "2026-07-06",
+      "passage": "It was Time's morning, / When there nothing was; / Nor sand, nor sea, / Nor cooling billows. [...] Of his flesh the earth was made, / And of his sweat the seas; / Rocks of his bones. [...] This ash is the best and greatest of all trees; its branches spread over all the world, and reach up above heaven. [...] Three maids, whose names are Urd, Verdande and Skuld. These maids shape the lives of men, and we call them norns. [...] The wolf swallows Odin, but Vidar... rends him till he dies... the end has come. This is Ragnarok. [...] The earth, completely green, rises again from the sea... rich fields... wave their golden harvests."
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": "Drafted for D2-001 batch 4. Source URLs fetched and passages captured on 2026-07-06. Review needed: no human domain review yet; the WHE article is a tertiary source — replace or supplement with peer-reviewed scholarship (e.g. Schjødt, Lindow) at review. sacred-texts.com (Poetic Edda) blocked fetching (403), so the Prose Edda serves as the primary text."
+  }
+}

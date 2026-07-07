@@ -21,6 +21,9 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["pytest==9.1.1"]
+# Local static embeddings for hybrid retrieval (scripts/topics.py now, D2-003 later).
+# Optional: everything degrades to deterministic keyword-only search without it.
+retrieval = ["model2vec==0.8.2"]
 
 [tool.setuptools]
 package-dir = {"" = "src"}

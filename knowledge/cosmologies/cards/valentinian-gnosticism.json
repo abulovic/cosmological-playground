@@ -1,0 +1,107 @@
+{
+  "id": "valentinian-gnosticism",
+  "label": "Valentinian Gnosticism",
+  "version": "0.1.0",
+  "scope": {
+    "tradition": "Gnostic Christianity",
+    "school": "Valentinus and the Valentinian school (including Ptolemy's system)",
+    "period": "2nd century CE — 'Valentinus (ca. 100–175 CE) spent his formative years in Alexandria... Valentinus later went to Rome, where he began his public teaching career'",
+    "region": "Roman Egypt and Rome",
+    "limitations": [
+      "Draft awaiting human domain review (D2-001); review needed before any scholarly authority is claimed.",
+      "Reconstruction depends heavily on hostile heresiological reports (Irenaeus, Hippolytus, and others) alongside the Nag Hammadi texts; the IEP entry notes these Church Fathers 'have preserved for us accounts and occasionally some original documents', writing 'almost always in conflict with' the Gnostics.",
+      "The very category 'Gnosticism' is contested: Michael Allen Williams's Rethinking 'Gnosticism' argues 'the extreme diversity underlying the texts... casts doubt on the existence of anything like a Gnostic religion'.",
+      "Single-encyclopedia draft: claims rest on the IEP Gnosticism entry; the dedicated IEP Valentinus page was unavailable (404) at access time.",
+      "No claims are recorded for constituents, time, or epistemic_access as separate primitives beyond the gnosis doctrine. Absence means unspecified, not denial."
+    ]
+  },
+  "claims": [
+    {
+      "primitive": "ultimate_reality",
+      "claim": "Beyond the cosmos stands 'the supreme God, the One beyond Being' at the apex of 'the Plêrôma or “Fullness”' of divine aeons.",
+      "source_ids": ["iep-gnosticism"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "origin",
+      "claim": "The material world originates in a divine fault: 'the material cosmos is the result of a primordial error on the part of a supra-cosmic, supremely divine being' — Sophia's 'reckless desire to know the transcendent God' which 'leads to the hypostatization of her desire in the form of a semi-divine and essentially ignorant creature known as the Demiurge'.",
+      "source_ids": ["iep-gnosticism"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "causality_and_agency",
+      "claim": "The world's maker is not the true God: 'the Demiurge (Greek: dêmiourgos, “craftsman”), or Ialdabaoth, who is responsible for the formation of the material cosmos... hubristically declares himself the only existing God'.",
+      "source_ids": ["iep-gnosticism"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "fundamental_problem",
+      "claim": "Divine fragments are trapped in matter: 'the human “sparks” (which fell from Sophia)' await release from a cosmos built on error and ruled by an ignorant power.",
+      "source_ids": ["iep-gnosticism"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "human_place",
+      "claim": "Humanity is stratified by nature in Ptolemy's Valentinian system: 'three classes of human beings come into existence... the “material” (hulikos), the “animate” (psukhikos), and the “spiritual” (pneumatikos)'.",
+      "source_ids": ["iep-gnosticism"],
+      "contested": true,
+      "confidence": "medium",
+      "notes": "The tripartition is reported through heresiological sources whose hostile framing the entry itself acknowledges; how deterministic the classes were is debated, and the category 'Gnosticism' itself is contested (Williams 1996)."
+    },
+    {
+      "primitive": "transformation",
+      "claim": "Salvation comes through knowledge rather than faith alone: 'the “spiritual” humans, the Gnostics, who need no faith, since they have actual knowledge (gnôsis) of intellectual reality'.",
+      "source_ids": ["iep-gnosticism"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "destiny",
+      "claim": "The end is restoration to the Fullness: Christ 'descends to the material realm for the purpose of negating all passion, and raising the innocent human “sparks” back up to the Pleroma'.",
+      "source_ids": ["iep-gnosticism"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "self_and_consciousness",
+      "claim": "The true self is the divine spark, not the material person; the spiritual element in humans derives from Sophia and belongs ultimately to the Pleroma, as with 'the human “sparks” (which fell from Sophia)'.",
+      "source_ids": ["iep-gnosticism"],
+      "contested": false,
+      "confidence": "medium"
+    }
+  ],
+  "distinguishing_claims": [
+    "The material cosmos results from a pre-cosmic divine error (Sophia's fall)",
+    "The world's creator (Demiurge) is ignorant and distinct from the true transcendent God",
+    "Humans contain divine sparks whose salvation is release from matter",
+    "Salvation comes through gnosis — knowledge, not faith or works alone"
+  ],
+  "common_confusions": [
+    "The Gnostic Demiurge is a devalued inversion of the Timaeus craftsman: ignorant and hubristic rather than good and rational.",
+    "Valentinianism is anti-cosmic where classical theism affirms creation's goodness; the two cards contradict on the value of the material world.",
+    "Valentinus 'was certainly the most overtly Christian of the Gnostic philosophers of his era' — Valentinianism is a Christian movement, not a separate Eastern religion.",
+    "'Gnosticism' as a unified category is a modern construct under scholarly challenge."
+  ],
+  "related_cards": ["platonic-timaeus", "christian-classical-theism", "plotinian-neoplatonism"],
+  "sources": [
+    {
+      "id": "iep-gnosticism",
+      "title": "Gnosticism (Internet Encyclopedia of Philosophy)",
+      "author": "Edward Moore",
+      "url": "https://iep.utm.edu/gnostic/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "the supreme God, the One beyond Being (at the apex of) the Plêrôma or 'Fullness.' [...] a reckless desire to know the transcendent God, leads to the hypostatization of her desire in the form of a semi-divine and essentially ignorant creature known as the Demiurge. [...] The Demiurge (Greek: dêmiourgos, 'craftsman'), or Ialdabaoth, who is responsible for the formation of the material cosmos... hubristically declares himself the only existing God. [...] Three classes of human beings come into existence... the 'material' (hulikos), the 'animate' (psukhikos), and the 'spiritual' (pneumatikos). [...] [Christ] descends to the material realm for the purpose of negating all passion, and raising the innocent human 'sparks' back up to the Pleroma. [...] Valentinus was certainly the most overtly Christian of the Gnostic philosophers of his era. [...] The great Christian teacher and philosopher Valentinus (ca. 100–175 CE) spent his formative years in Alexandria... Valentinus later went to Rome, where he began his public teaching career. [...] Michael Allen Williams, in 1996, published a book entitled Rethinking 'Gnosticism': An Argument For Dismantling A Dubious Category. [...] the extreme diversity underlying the texts that many scholars have lumped together under the catch-all phrase of 'Gnosticism,' casts doubt on the existence of anything like a Gnostic religion."
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": "Drafted for D2-001 batch 3. Source URL fetched and passages captured on 2026-07-06. Review needed: no human domain review yet; single-source card — the dedicated IEP Valentinus page returned 404; add a Nag Hammadi primary text (e.g. Gospel of Truth) or a second scholarly source at review."
+  }
+}

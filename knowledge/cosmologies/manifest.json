@@ -1,0 +1,152 @@
+{
+  "version": "0.1.0",
+  "updated_at": "2026-07-06",
+  "target_count": 24,
+  "cards": [
+    {
+      "id": "advaita-vedanta",
+      "label": "Advaita Vedānta (Śaṅkara)",
+      "review_status": "draft",
+      "review_needed": true
+    },
+    {
+      "id": "asharite-kalam",
+      "label": "Ashʿarite kalām occasionalism",
+      "review_status": "draft",
+      "review_needed": true
+    },
+    {
+      "id": "avicennan-falsafa",
+      "label": "Islamic falsafa (Avicenna)",
+      "review_status": "draft",
+      "review_needed": true
+    },
+    {
+      "id": "aristotelian-cosmology",
+      "label": "Aristotelian cosmology",
+      "review_status": "draft",
+      "review_needed": true
+    },
+    {
+      "id": "aztec-mexica-cosmology",
+      "label": "Aztec (Mexica) cosmology",
+      "review_status": "draft",
+      "review_needed": true
+    },
+    {
+      "id": "babylonian-enuma-elish",
+      "label": "Babylonian cosmology (Enūma Eliš)",
+      "review_status": "draft",
+      "review_needed": true
+    },
+    {
+      "id": "buddhist-madhyamaka",
+      "label": "Buddhist Madhyamaka (Indian, Nāgārjunian)",
+      "review_status": "draft",
+      "review_needed": true
+    },
+    {
+      "id": "cartesian-dualism",
+      "label": "Cartesian mechanism and dualism",
+      "review_status": "draft",
+      "review_needed": true
+    },
+    {
+      "id": "christian-classical-theism",
+      "label": "Christian classical theism (patristic–scholastic)",
+      "review_status": "draft",
+      "review_needed": true
+    },
+    {
+      "id": "classical-daoism",
+      "label": "Classical Daoism (Laozi and Zhuangzi)",
+      "review_status": "draft",
+      "review_needed": true
+    },
+    {
+      "id": "classical-samkhya",
+      "label": "Classical Sāṃkhya",
+      "review_status": "draft",
+      "review_needed": true
+    },
+    {
+      "id": "epicurean-atomism",
+      "label": "Epicurean atomism",
+      "review_status": "draft",
+      "review_needed": true
+    },
+    {
+      "id": "jain-classical-cosmology",
+      "label": "Classical Jain cosmology",
+      "review_status": "draft",
+      "review_needed": true
+    },
+    {
+      "id": "maimonidean-judaism",
+      "label": "Medieval Jewish philosophy (Maimonides)",
+      "review_status": "draft",
+      "review_needed": true
+    },
+    {
+      "id": "norse-eddic-cosmology",
+      "label": "Norse cosmology (Eddic)",
+      "review_status": "draft",
+      "review_needed": true
+    },
+    {
+      "id": "platonic-timaeus",
+      "label": "Platonic cosmology (Timaeus)",
+      "review_status": "draft",
+      "review_needed": true
+    },
+    {
+      "id": "plotinian-neoplatonism",
+      "label": "Neoplatonism (Plotinus)",
+      "review_status": "draft",
+      "review_needed": true
+    },
+    {
+      "id": "scientific-naturalism",
+      "label": "Scientific naturalism (contemporary philosophical)",
+      "review_status": "draft",
+      "review_needed": true
+    },
+    {
+      "id": "song-neo-confucianism",
+      "label": "Neo-Confucianism (Zhu Xi, Song dynasty)",
+      "review_status": "draft",
+      "review_needed": true
+    },
+    {
+      "id": "stoic-cosmology",
+      "label": "Stoic cosmology (Hellenistic Stoa)",
+      "review_status": "draft",
+      "review_needed": true
+    },
+    {
+      "id": "theravada-abhidhamma",
+      "label": "Theravāda Buddhism (Abhidhamma)",
+      "review_status": "draft",
+      "review_needed": true
+    },
+    {
+      "id": "upanishadic-brahmanism",
+      "label": "Early Upaniṣadic Brahmanism",
+      "review_status": "draft",
+      "review_needed": true
+    },
+    {
+      "id": "valentinian-gnosticism",
+      "label": "Valentinian Gnosticism",
+      "review_status": "draft",
+      "review_needed": true
+    },
+    {
+      "id": "whiteheadian-process",
+      "label": "Process cosmology (Whitehead)",
+      "review_status": "draft",
+      "review_needed": true
+    }
+  ],
+  "planned": []
+}

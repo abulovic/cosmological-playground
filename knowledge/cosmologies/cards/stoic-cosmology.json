@@ -1,0 +1,122 @@
+{
+  "id": "stoic-cosmology",
+  "label": "Stoic cosmology (Hellenistic Stoa)",
+  "version": "0.1.0",
+  "scope": {
+    "tradition": "Greek philosophy (Stoicism)",
+    "school": "The Hellenistic Stoa (Zeno of Citium, Cleanthes, Chrysippus), as reconstructed from later reports",
+    "period": "c. 300 BCE to the 2nd century CE",
+    "region": "Hellenistic Mediterranean (Athens, later Rome)",
+    "limitations": [
+      "Draft awaiting human domain review (D2-001); review needed before any scholarly authority is claimed.",
+      "Stoic physics survives mostly in later doxographic reports; reconstruction is interpretive throughout.",
+      "Roman Stoic ethics (Seneca, Epictetus, Marcus Aurelius) is out of scope except where it preserves earlier physics.",
+      "No claims are recorded for origin, fundamental_problem, or destiny as separate primitives: the conflagration cycle covers cosmic beginnings and endings under time, and the Stoic diagnosis of human failing is ethical rather than cosmological in the sources used. Absence means unspecified, not denial."
+    ]
+  },
+  "claims": [
+    {
+      "primitive": "ultimate_reality",
+      "claim": "Reality is corporeal: 'only bodies exist, because only bodies have the capacity to act or be acted upon', and 'the active and passive principles together make up the world and everything in it' — God as active reason (logos) structuring passive matter.",
+      "source_ids": ["sep-stoicism", "iep-stoicism"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "constituents",
+      "claim": "A divine breath pervades and qualifies all things: 'pneuma passes through all (other) bodies; in its outward motion it gives them the qualities that they have'.",
+      "source_ids": ["sep-stoicism"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "cosmic_structure",
+      "claim": "The cosmos is itself a living, rational, divine being: 'the entire cosmos is a living thing, and God stands to the cosmos as an animal's life force stands to the animal's body'; its rational principle is 'identified with the creative cosmic Fire'.",
+      "source_ids": ["sep-stoicism", "iep-stoicism"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "causality_and_agency",
+      "claim": "Causal determinism governs everything — 'every event that occurs in the world is the result of a cause or chain of causes' — and this causal order is providential: 'God and divine actions... are orderly, rational, and providential'.",
+      "source_ids": ["sep-stoicism", "iep-stoicism"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "time",
+      "claim": "Cosmic history is cyclical: 'the cosmos goes through a cycle of endless recurrence with periods of conflagration, a state in which all is fire', after which 'the creative Fire is \"a sort of seed\"' for the next identical world-order.",
+      "source_ids": ["sep-stoicism", "iep-stoicism"],
+      "contested": true,
+      "confidence": "high",
+      "notes": "The conflagration doctrine is well attested for the early Stoa, but the nature of time and the choice between circular and linear cosmology is highlighted as unresolved among scholars, and some later Stoics rejected or modified the doctrine."
+    },
+    {
+      "primitive": "self_and_consciousness",
+      "claim": "The soul is a body: 'the soul is corporeal, i.e. a body of a certain kind, since it is causally efficacious' — a portion of the same pneuma that pervades the cosmos.",
+      "source_ids": ["sep-stoicism", "iep-stoicism"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "human_place",
+      "claim": "Humans are rational parts of a rational whole, so that 'living in agreement with nature comes to be the end... in accordance with the nature of oneself and that of the whole'.",
+      "source_ids": ["sep-stoicism", "iep-stoicism"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "transformation",
+      "claim": "The human good is achieved by conforming one's reason and assent to the rational-providential order of the cosmos — the Stoa's 'famous motto in ethics was \"follow nature\"'.",
+      "source_ids": ["iep-stoicism"],
+      "contested": false,
+      "confidence": "medium"
+    },
+    {
+      "primitive": "epistemic_access",
+      "claim": "Secure knowledge of the world is possible through cognitive (kataleptic) impressions: 'a cognitive impression is one which: arises from what is, and is stamped and impressed exactly in accordance with what is'.",
+      "source_ids": ["sep-stoicism"],
+      "contested": true,
+      "confidence": "high",
+      "notes": "The doctrine is central and well attested, but the exact definition remains 'highly controversial' among interpreters, and it was the focus of the ancient debate with Academic skeptics."
+    }
+  ],
+  "distinguishing_claims": [
+    "Only bodies exist; God is a corporeal active principle immanent in matter",
+    "The cosmos is a single living, rational, providentially ordered being",
+    "Everything happens by fate through an unbroken chain of causes",
+    "The world periodically returns to fire (ekpyrosis) and recurs"
+  ],
+  "common_confusions": [
+    "Stoic 'God' is immanent and corporeal, not a transcendent creator distinct from the world as in classical theism.",
+    "Stoic determinism is providential and rational, not blind chance — the direct opposite of the Epicurean swerve.",
+    "Modern colloquial 'stoicism' (unemotional endurance) is not the ancient school's physics or ethics."
+  ],
+  "related_cards": ["epicurean-atomism", "platonic-timaeus", "christian-classical-theism", "scientific-naturalism"],
+  "sources": [
+    {
+      "id": "sep-stoicism",
+      "title": "Stoicism (Stanford Encyclopedia of Philosophy)",
+      "author": null,
+      "url": "https://plato.stanford.edu/entries/stoicism/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "only bodies exist, because only bodies have the capacity to act or be acted upon. [...] The active and passive principles together make up the world and everything in it. [...] The entire cosmos is a living thing, and God stands to the cosmos as an animal's life force stands to the animal's body. [...] Pneuma passes through all (other) bodies; in its outward motion it gives them the qualities that they have. [...] every event that occurs in the world is the result of a cause or chain of causes. [...] the cosmos goes through a cycle of endless recurrence with periods of conflagration, a state in which all is fire. [...] a cognitive impression is one which: arises from what is, and is stamped and impressed exactly in accordance with what is. (First published 2023-01-20; author byline not captured at access time — verify on review.)"
+    },
+    {
+      "id": "iep-stoicism",
+      "title": "Stoicism (Internet Encyclopedia of Philosophy)",
+      "author": "Massimo Pigliucci",
+      "url": "https://iep.utm.edu/stoicism/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "Stoics thought that everything real, that is, everything that exists, is corporeal—including God and soul. [...] God is immanent in the universe, and it is in fact identified with the creative cosmic Fire. [...] The cosmos itself is a living being, and its rational principle (Logos) is identified with aether, or the Stoic Fire. [...] The Stoics were determinists... it is impossible, when all the circumstances surrounding both the cause and that of which it is a cause are the same, that things should not turn out a certain way. [...] Cosmic conflagrations... repeat themselves in exact manner... during the phase of cosmic conflagration, the creative Fire is 'a sort of seed.' [...] The early Stoa's famous motto in ethics was 'follow nature'... both the rational-providential aspect of the cosmos... and more specifically human nature."
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": "Drafted for D2-001 batch 1. Source URLs fetched and passages captured on 2026-07-06. Review needed: no human domain review yet. Open provenance item: the SEP 'Stoicism' author byline was not captured during fetch and must be added at review."
+  }
+}

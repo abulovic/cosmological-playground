@@ -1,0 +1,107 @@
+{
+  "id": "theravada-abhidhamma",
+  "label": "Theravāda Buddhism (Abhidhamma)",
+  "version": "0.1.0",
+  "scope": {
+    "tradition": "Buddhism (Theravāda)",
+    "school": "The canonical Abhidhamma Piṭaka and its Theravāda scholastic tradition",
+    "period": "Final centuries BCE onward — the Abhidhamma entered the Pali Canon relatively late, with long commentarial development",
+    "region": "South and Southeast Asia (especially Sri Lanka and Myanmar)",
+    "limitations": [
+      "Draft awaiting human domain review (D2-001); review needed before any scholarly authority is claimed.",
+      "The SEP entry covers the broader Abhidharma movement and 'extensively distinguishes' Theravāda from Sarvāstivāda; claims here are restricted to positions the sources attribute to the shared or Theravāda analysis.",
+      "The Abhidhamma's prominence 'varies considerably across regional and cultural boundaries' within Theravāda.",
+      "No claims are recorded for origin, cosmic_structure, human_place, or fundamental_problem as separate primitives: the pan-Buddhist background (saṃsāra, dukkha, the path) is inherited rather than argued in the Abhidhamma sources used. Absence means unspecified, not denial."
+    ]
+  },
+  "claims": [
+    {
+      "primitive": "ultimate_reality",
+      "claim": "Reality resolves into momentary events called dhammas: 'ultimately, dharmas are all that there is: all experiential events are understood as arising from the interaction of dharmas'.",
+      "source_ids": ["sep-abhidharma", "ati-abhidhamma"],
+      "contested": true,
+      "confidence": "high",
+      "notes": "The doctrine is central, but scholars contest 'the nature of dharmas as substances vs. dynamic properties', and dharma taxonomies differ between Theravāda and Sarvāstivāda."
+    },
+    {
+      "primitive": "constituents",
+      "claim": "The familiar world is 'distilled to its essence: an intricate web of impersonal phenomena and processes unfolding at an inconceivably rapid pace from moment to moment, according to precisely defined natural laws' — enumerated in the canon as 89 possible cittas (states of consciousness), 52 cetasikas (mental factors), and 4 primary physical elements with 23 derived phenomena.",
+      "source_ids": ["ati-abhidhamma"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "time",
+      "claim": "Existence is momentary: 'all physical and mental phenomena are momentary', with 'the duration of mental events as the briefest conceivable entities'.",
+      "source_ids": ["sep-abhidharma"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "causality_and_agency",
+      "claim": "Everything conditioned arises dependently: 'all physical and mental phenomena are in a constant process of conditioned construction and are interconnected, being dependently originated'; karma shapes experience, since 'the experience of the sense data presented to one's mind is determined by one's previous actions and is beyond one's immediate control'.",
+      "source_ids": ["sep-abhidharma"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "self_and_consciousness",
+      "claim": "No enduring self exists over and above the dhamma-stream: beyond the analyzed phenomena 'there is nothing else, whether a being, or an entity, or a man or a person'.",
+      "source_ids": ["sep-abhidharma"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "destiny",
+      "claim": "Nirvana stands apart as the sole unconditioned reality in the Theravāda taxonomy: 'the single occurrence in this fourth category is nirvana (Pali, nibbāna)'.",
+      "source_ids": ["sep-abhidharma"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "epistemic_access",
+      "claim": "Systematic analysis is itself the way of knowing reality: the Abhidhamma Piṭaka offers 'an extraordinarily detailed analysis of the basic natural principles that govern mental and physical processes', resolving experience into dharmas as 'distinct (but interrelated) functions, energies, or causally significant aspects... of consciousness moments'.",
+      "source_ids": ["ati-abhidhamma", "sep-abhidharma"],
+      "contested": false,
+      "confidence": "high"
+    }
+  ],
+  "distinguishing_claims": [
+    "Reality is exhaustively analyzed into momentary, impersonal dhammas",
+    "Persons are conventional designations for dhamma-streams; no self exists",
+    "A complete taxonomy of mental and physical events with defined causal laws",
+    "Nirvana is the single unconditioned dhamma"
+  ],
+  "common_confusions": [
+    "Abhidhamma realism about dhammas is precisely what Madhyamaka later rejects: the two Buddhist cards contradict on whether anything bears intrinsic nature.",
+    "Momentariness is not nihilism: causal continuity across moments grounds karma and persons as conventional realities.",
+    "This card covers the Theravāda scholastic analysis, not Theravāda practice or Buddhism as a whole."
+  ],
+  "related_cards": ["buddhist-madhyamaka", "classical-samkhya", "epicurean-atomism"],
+  "sources": [
+    {
+      "id": "sep-abhidharma",
+      "title": "Abhidharma (Stanford Encyclopedia of Philosophy)",
+      "author": "Noa Ronkin",
+      "url": "https://plato.stanford.edu/entries/abhidharma/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "Ultimately, dharmas are all that there is: all experiential events are understood as arising from the interaction of dharmas. [...] There is nothing else, whether a being, or an entity, or a man or a person. [...] All physical and mental phenomena are momentary... the duration of mental events as the briefest conceivable entities. [...] All physical and mental phenomena are in a constant process of conditioned construction and are interconnected, being dependently originated. [...] The experience of the sense data presented to one's mind is determined by one's previous actions and is beyond one's immediate control. [...] The single occurrence in this fourth category is nirvana (Pali, nibbāna). (First published 2010-08-16; substantive revision 2026-03-31.)"
+    },
+    {
+      "id": "ati-abhidhamma",
+      "title": "Abhidhamma Pitaka: The Basket of Abhidhamma (Access to Insight)",
+      "author": "Access to Insight (editor)",
+      "url": "https://www.accesstoinsight.org/tipitaka/abhi/index.html",
+      "source_type": "other",
+      "accessed_at": "2026-07-06",
+      "passage": "The seven books of the Abhidhamma Pitaka, the third division of the Tipitaka, offer an extraordinarily detailed analysis of the basic natural principles that govern mental and physical processes. [...] In Abhidhamma philosophy the familiar psycho-physical universe (our world of 'trees' and 'rocks,' 'I' and 'you') is distilled to its essence: an intricate web of impersonal phenomena and processes unfolding at an inconceivably rapid pace from moment to moment, according to precisely defined natural laws. [...] Despite its relatively late entrance into the Canon, the Abhidhamma stands as an essential pillar of classical Theravada Buddhist thought. (©2005 Access to Insight; CC BY 4.0.)"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": "Drafted for D2-001 batch 2. Source URLs fetched and passages captured on 2026-07-06. Review needed: no human domain review yet; the period scoping should be tightened with a dated scholarly source at review."
+  }
+}

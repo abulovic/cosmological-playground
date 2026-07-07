@@ -1,0 +1,121 @@
+{
+  "id": "plotinian-neoplatonism",
+  "label": "Neoplatonism (Plotinus)",
+  "version": "0.1.0",
+  "scope": {
+    "tradition": "Greek philosophy (Neoplatonism)",
+    "school": "Plotinus's system as presented in the Enneads (arranged by Porphyry)",
+    "period": "3rd century CE (Plotinus, 204/5–270 CE)",
+    "region": "Roman Empire (Alexandria and Rome)",
+    "limitations": [
+      "Draft awaiting human domain review (D2-001); review needed before any scholarly authority is claimed.",
+      "Scoped to Plotinus; later Neoplatonists (Porphyry, Iamblichus, Proclus) and Christian receptions are out of scope.",
+      "Porphyry's arrangement of the Enneads 'has been repeatedly criticized in the past as utterly artificial and arbitrary'; citations follow that arrangement.",
+      "No claims are recorded for time or human_place as separate primitives: the sources used treat these within the hypostasis structure and the soul's descent. Absence means unspecified, not denial."
+    ]
+  },
+  "claims": [
+    {
+      "primitive": "ultimate_reality",
+      "claim": "The first principle is the One beyond being: 'the One, which is neither being nor essence, but the source, or rather, the possibility of all existence'; 'no predicate can be accurately attributed to it, insofar as it transcends everything'.",
+      "source_ids": ["iep-plotinus", "sep-plotinus"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "origin",
+      "claim": "All things derive from the One by necessary emanation rather than deliberate creation: 'the first principle has such unlimited power that it would be impossible for it... to not “express” itself as some kind of “outflow”'; the One 'effortlessly “overflows” and its excess begets an other than itself'.",
+      "source_ids": ["sep-plotinus", "iep-plotinus"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "cosmic_structure",
+      "claim": "Reality descends through three hypostases — 'the One, the Intelligence, and the Soul — that is the expression of his cosmological theory' — and the sensible world is 'a separate, material cosmos that is the living image of the spiritual or noetic Cosmos', 'constituted into a unitary universe, which is held together by internal necessity and harmony'.",
+      "source_ids": ["iep-plotinus", "sep-plotinus"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "constituents",
+      "claim": "At the lowest limit of derivation, matter is 'an eternally receptive substratum', wholly without form of its own.",
+      "source_ids": ["iep-plotinus", "sep-plotinus"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "fundamental_problem",
+      "claim": "Evil is privation rooted in matter: 'matter is the primary cause for the existence of evil in the world, precisely because its nature consists in a complete privation of any eidetic characteristic', and embodied souls labor under 'the illusions engendered in it by matter'.",
+      "source_ids": ["sep-plotinus"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "self_and_consciousness",
+      "claim": "The soul is never wholly immersed in body: 'the souls remain “undescended” and untouched by corporeality, supervising... functions “from above”', so that the soul 'does not directly partake of the affections... but simply possesses the ability to become aware of these affections'.",
+      "source_ids": ["sep-plotinus"],
+      "contested": true,
+      "confidence": "high",
+      "notes": "The undescended-soul doctrine and the individuation of souls are interpretively difficult; the entry notes the question 'preoccupied Plotinus in various phases of his career' with 'ultimate' rather than definitive solutions offered."
+    },
+    {
+      "primitive": "transformation",
+      "claim": "The soul returns to its source by stages: 'the drama of return consists of three distinct steps: the cultivation of Virtue... the practice of Dialectic... and finally, Contemplation'; 'love constitutes the main motive for the re-ascent to the Good through “reversion”'.",
+      "source_ids": ["iep-plotinus", "sep-plotinus"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "destiny",
+      "claim": "The ascent culminates in mystical union: 'the unmediated vision of the “generative power” of the One', which 'results in an ecstatic dance of inspiration'.",
+      "source_ids": ["iep-plotinus"],
+      "contested": false,
+      "confidence": "medium"
+    },
+    {
+      "primitive": "epistemic_access",
+      "claim": "The One exceeds discursive knowledge: 'direct intellective apprehension of the first principle is impossible, reason is in a position to devise techniques through which it can manage to approach... its unfathomable nature'; 'through philosophy, the soul is released from the illusions engendered in it by matter'.",
+      "source_ids": ["sep-plotinus"],
+      "contested": false,
+      "confidence": "high"
+    }
+  ],
+  "distinguishing_claims": [
+    "A single ineffable One beyond being is the source of all reality",
+    "The world emanates necessarily from its source; it is not deliberately created",
+    "Three hypostases (One, Intellect, Soul) structure all reality",
+    "Part of every soul remains undescended in the intelligible realm"
+  ],
+  "common_confusions": [
+    "Emanation is not creation: the One does not choose to make a world, and the process is eternal.",
+    "Plotinus's One is beyond being and thought, unlike the classical-theist God who knows and wills.",
+    "Matter as privation-evil concerns metaphysical deficiency, not a rival evil power as in dualist cosmologies."
+  ],
+  "related_cards": ["platonic-timaeus", "christian-classical-theism", "advaita-vedanta", "stoic-cosmology"],
+  "sources": [
+    {
+      "id": "sep-plotinus",
+      "title": "Plotinus (Stanford Encyclopedia of Philosophy)",
+      "author": "Paul Kalligas",
+      "url": "https://plato.stanford.edu/entries/plotinus/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "No predicate can be accurately attributed to it, insofar as it transcends everything. [...] The first principle has such unlimited power that it would be impossible for it... to not 'express' itself as some kind of 'outflow' (V 2.1.7–9). [...] The entirety of the sensible world is constituted into a unitary universe, which is held together by internal necessity and harmony (II 2.1.1–19). [...] Matter is the primary cause for the existence of evil in the world, precisely because its nature consists in a complete privation of any eidetic characteristic (I 8.11.1–4). [...] The souls remain 'undescended' and untouched by corporeality, supervising... functions 'from above' (IV 3.12.1–8). [...] Love constitutes the main motive for the re-ascent to the Good through 'reversion' (III 5.4.18–25). [...] Through philosophy, the soul is released from the illusions engendered in it by matter (III 6.2.22–41). (First published 2024-09-25.)"
+    },
+    {
+      "id": "iep-plotinus",
+      "title": "Plotinus (Internet Encyclopedia of Philosophy)",
+      "author": "Edward Moore",
+      "url": "https://iep.utm.edu/plotinus/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "the One, which is neither being nor essence, but the source, or rather, the possibility of all existence. [...] the One effortlessly 'overflows' and its excess begets an other than itself. [...] the One, the Intelligence, and the Soul — that is the expression of his cosmological theory. [...] Matter, for Plotinus, may be understood as an eternally receptive substratum. [...] a separate, material cosmos that is the living image of the spiritual or noetic Cosmos. [...] the drama of return consists of three distinct steps: the cultivation of Virtue... the practice of Dialectic... and finally, Contemplation. [...] the unmediated vision of the 'generative power' of the One... results in an ecstatic dance of inspiration."
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": "Drafted for D2-001 batch 2. Source URLs fetched and passages captured on 2026-07-06. Review needed: no human domain review yet."
+  }
+}

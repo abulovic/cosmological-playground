@@ -1,0 +1,114 @@
+{
+  "id": "song-neo-confucianism",
+  "label": "Neo-Confucianism (Zhu Xi, Song dynasty)",
+  "version": "0.1.0",
+  "scope": {
+    "tradition": "Confucianism (Neo-Confucian daoxue)",
+    "school": "Zhu Xi's synthesis of the Cheng–Zhu school of Song-dynasty daoxue",
+    "period": "12th century CE (Zhu Xi, 1130–1200)",
+    "region": "Song-dynasty China",
+    "limitations": [
+      "Draft awaiting human domain review (D2-001); review needed before any scholarly authority is claimed.",
+      "Scoped to Zhu Xi's synthesis; classical Confucianism, rival Song–Ming schools (Lu Xiangshan, Wang Yangming), and Korean/Japanese receptions are out of scope.",
+      "Key interpretive questions — li as 'pattern', 'principle', 'form', or 'ordering tendency', and whether the li–qi pair is a dualism or a holism — are contested among scholars and flagged below.",
+      "No claims are recorded for time, self_and_consciousness, or destiny as separate primitives: the sources used treat these within moral psychology and cultivation. Absence means unspecified, not denial."
+    ]
+  },
+  "claims": [
+    {
+      "primitive": "ultimate_reality",
+      "claim": "Reality is structured by the polarity of li (pattern/principle) and qi (vital stuff), crowned by the Great Ultimate: 'signifying the most basic complementarity, namely, that between yin and yang, taiji is the most primitive and original form of li'.",
+      "source_ids": ["sep-zhu-xi", "iep-zhu-xi"],
+      "contested": true,
+      "confidence": "high",
+      "notes": "Whether li and qi constitute a 'dualism' or a complementary 'holism', and how to translate li ('pattern', 'principle', 'form', 'ordering tendency'), are contested among scholars per the SEP entry."
+    },
+    {
+      "primitive": "constituents",
+      "claim": "All things are qi organized by li: Zhu conceived 'the Cheng brothers' concept of li (pattern, principle) and Zhang Zai's notion of qi (cosmic vapor) as organically integrated in a holistic system', while insisting 'on the priority of “pattern” over qi, (roughly, form over matter)'.",
+      "source_ids": ["iep-zhu-xi", "sep-zhu-xi"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "origin",
+      "claim": "The world condenses out of primal vital stuff: Zhu's cosmology sees 'the cosmos as emerging from incipient yin-yang interaction in the initially formless primal qi (yuanqi)'.",
+      "source_ids": ["sep-zhu-xi"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "causality_and_agency",
+      "claim": "The cosmic order is normative, not merely mechanical: 'in classical Confucianism, heaven was deemed a moral force', a conception Zhu's daoxue inherits and systematizes through li.",
+      "source_ids": ["sep-zhu-xi"],
+      "contested": false,
+      "confidence": "medium"
+    },
+    {
+      "primitive": "human_place",
+      "claim": "Human nature is originally good: following Mencius, 'people are fundamentally good (that is, originally sensitive and well-disposed)'.",
+      "source_ids": ["iep-zhu-xi", "sep-zhu-xi"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "fundamental_problem",
+      "claim": "The good nature is unevenly expressed because of one's endowment of vital stuff: 'how one manifests this original nature will be conditioned by one's specific qi endowment (one's native talents and gifts)'.",
+      "source_ids": ["iep-zhu-xi", "sep-zhu-xi"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "transformation",
+      "claim": "Sagehood is attainable through cultivation: Zhu's 'two-pronged approach to cultivation... involved nurturing one's feeling of reverence (jing) while investigating things to discern their defining patterns (li)', and 'anyone who was sincerely committed to moral self-cultivation... would surely make progress in achieving moral realization if not sagehood'.",
+      "source_ids": ["iep-zhu-xi", "sep-zhu-xi"],
+      "contested": false,
+      "confidence": "high"
+    },
+    {
+      "primitive": "epistemic_access",
+      "claim": "Knowledge of the world's patterns comes from disciplined inquiry into things: 'investigating things to extend knowledge' is 'the surest way to deepen and broaden one's discernment of the patterns that constitute the lived-world'.",
+      "source_ids": ["sep-zhu-xi", "iep-zhu-xi"],
+      "contested": false,
+      "confidence": "high"
+    }
+  ],
+  "distinguishing_claims": [
+    "All things are vital stuff (qi) ordered by pattern/principle (li), unified in the Great Ultimate (taiji)",
+    "The cosmos is normatively ordered; moral pattern is built into reality",
+    "Human nature is originally good but variably manifested through one's qi endowment",
+    "Investigation of things is the royal road to both knowledge and sagehood"
+  ],
+  "common_confusions": [
+    "Li is not a transcendent Platonic Form: pattern exists only as instantiated in qi (though Zhu asserts its logical priority).",
+    "Taiji is not a creator deity; it is the totality or root form of pattern.",
+    "Neo-Confucian cultivation aims at sagehood within family and state, not liberation from the world as in Buddhist or Daoist soteriology."
+  ],
+  "related_cards": ["classical-daoism", "aristotelian-cosmology", "stoic-cosmology", "theravada-abhidhamma"],
+  "sources": [
+    {
+      "id": "sep-zhu-xi",
+      "title": "Zhu Xi (Stanford Encyclopedia of Philosophy)",
+      "author": null,
+      "url": "https://plato.stanford.edu/entries/zhu-xi/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "Signifying the most basic complementarity, namely, that between yin and yang, taiji is the most primitive and original form of li. [...] Li and qi, as the references of taiji and yin-yang, respectively, too had to be complements. [...] the cosmos as emerging from incipient yin-yang interaction in the initially formless primal qi (yuanqi). [...] 'investigating things to extend knowledge' as the surest way to deepen and broaden one's discernment of the patterns that constitute the lived-world. [...] anyone who was sincerely committed to moral self-cultivation and was fervent in their moral practice would surely make progress in achieving moral realization if not sagehood. [...] In classical Confucianism, heaven was deemed a moral force. (First published 2015-09-03; substantive revision 2025-01-25. Author byline not captured at access time — verify on review.)"
+    },
+    {
+      "id": "iep-zhu-xi",
+      "title": "Zhu Xi (Internet Encyclopedia of Philosophy)",
+      "author": "Kirill O. Thompson",
+      "url": "https://iep.utm.edu/zhu-xi/",
+      "source_type": "scholarly_reference",
+      "accessed_at": "2026-07-06",
+      "passage": "Zhu advanced Zhou Dunyi's dynamic conception of reality as shown in the 'Diagram of the Supreme Polarity' (Taiji tu), in order to conceive the Cheng brothers' concept of li (pattern, principle) and Zhang Zai's notion of qi (cosmic vapor) as organically integrated in a holistic system. [...] Whereas Zhu had insisted on the priority of 'pattern' over qi, (roughly, form over matter), Wang and Dai followed the Northern Song thinker Zhang Zai in affirming the priority of qi. [...] While (following Mencius, 372–289 BCE) people are fundamentally good (that is, originally sensitive and well-disposed), how one manifests this original nature will be conditioned by one's specific qi endowment (one's native talents and gifts). [...] Zhu Xi's ingenious solution was a two-pronged approach to cultivation that involved nurturing one's feeling of reverence (jing) while investigating things to discern their defining patterns (li)."
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": "Drafted for D2-001 batch 3. Source URLs fetched and passages captured on 2026-07-06. Review needed: no human domain review yet. Open provenance item: the SEP 'Zhu Xi' author byline was not captured during fetch and must be added at review."
+  }
+}
